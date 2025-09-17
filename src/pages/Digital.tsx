@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin, ExternalLink, Code, Database, Brain, Cloud, Users, Award } from "lucide-react";
+import ExpertiseGraph from "@/Component/ExpertiseGraph";
 
 const Digital = () => {
   const { t } = useTranslation();
@@ -10,175 +11,96 @@ const Digital = () => {
   
   return (
     <section>
-      {/* Hero Section - Digital & Technologies */}
-      <div className="max-w-7xl mx-auto py-8 md:py-12 lg:py-16 px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-8 text-center md:text-left px-4 md:px-6">
-            <h1 className="text-3xl md:text-5xl font-MN font-semibold leading-tight">
-              <span className="text-red-700">DIGITAL</span> TRANSFORMATION
-              <br />
-              <span className="text-2xl md:text-3xl">& Technology Solutions</span>
+      {/* Modern Responsive Hero Section with ExpertiseGraph */}
+      <div className="w-full min-h-[60vh] flex items-center justify-center px-4 md:px-0 pt-16 md:pt-24">
+        <div className="max-w-7xl w-full flex flex-col md:flex-row items-start justify-center gap-8">
+          {/* Left Column: Text */}
+          <div className="flex-1 flex flex-col items-start justify-center px-2 md:px-8">
+            <h1 className="font-MN font-extrabold mb-4 text-left">
+              <span className="block text-red-700 drop-shadow-lg text-[4rem] md:text-[6rem] font-bold mb-2 leading-none">{"digital"}</span>
+              <span className="block text-gray-900 text-[2.5rem] md:text-[4rem] font-semibold tracking-tight -mt-4 ml-8">& technology</span>
             </h1>
-
-            <p className="text-xl font-MN font-bold text-gray-700 leading-tight">
-              We leverage cutting-edge technologies and digitalization strategies to drive business transformation and innovation.
+            <p className="text-base md:text-xl font-MN font-light text-gray-700 leading-relaxed max-w-xl mt-6 ml-20">
+              We combine advanced technology with digital transformation to accelerate growth and innovation.
             </p>
-
-            <button
-              className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-full font-MN font-semibold text-xl transition-all duration-300 min-w-[200px]"
-              onClick={() => navigate("/chi-siamo")}
-            >
-              LEARN MORE
-            </button>
-          </div>
-
-          <div className="relative items-center">
-            <div className="bg-gradient-to-br from-red-50 to-gray-100 rounded-lg p-8">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
-                  <Code className="w-8 h-8 text-red-700" />
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
-                  <Database className="w-8 h-8 text-red-700" />
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
-                  <Brain className="w-8 h-8 text-red-700" />
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
-                  <Cloud className="w-8 h-8 text-red-700" />
-                </div>
+            <div className="flex gap-6 pt-10 md:py-10 md:ml-32">
+              <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
+                <Code className="w-10 h-10 text-red-700" />
               </div>
+              <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
+                <Database className="w-10 h-10 text-red-700" />
+              </div>
+              <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
+                <Brain className="w-10 h-10 text-red-700" />
+              </div>
+              <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
+                <Cloud className="w-10 h-10 text-red-700" />
+              </div>
+            </div>
+          </div>
+          {/* Right Column: ExpertiseGraph */}
+          <div className="flex-1 w-full md:w-auto flex items-center justify-center md:items-start md:justify-end md:-mt-32">
+            <div className="w-full md:w-[600px]">
+              <ExpertiseGraph />
             </div>
           </div>
         </div>
       </div>
-
-      {/* Our Expertise Section */}
-      <div className="py-16">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-6">
-              Our <span className="text-red-700">Expertise</span>
+            {/* Current Project Focus */}
+      <div className="bg-gray-50 md:py-8">
+        <div className="w-full px-0 md:px-0">
+          <div className="text-center mb-4 ">
+            <h2 className="text-4xl md:text-5xl font-Archivo font-regular text-gray-900 tracking-tight">
+              <span className="text-red-700">Innovation</span>
             </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              We combine cutting-edge technologies with proven methodologies to deliver exceptional digital solutions
-            </p>
           </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Full-Stack Engineering */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Code className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">Full-Stack Engineering</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['React', 'Next.js', 'TypeScript', 'Nx', 'Vite', 'Webpack'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
+          <div className="w-full max-w-7xl mx-auto px-4 md:px-6">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 ">
+              <div className="flex-1 md:px-8 pb-4 md:py-12 md:py-0 order-2 md:order-1">
+             <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight">
+              Latest projects
+            </h3>
+                <span className="inline-block text-base md:text-lg text-white font-bold bg-red-700 px-4 py-2 rounded-full mb-8 shadow">
+                  June 2025 – Present
+                </span>
+                <div className="space-y-6">
+                  <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    We are pioneering <span className="font-bold text-red-700">agentic AI frameworks for construction industry automation</span>, revolutionizing how construction companies approach their finance budget planning, construction site and resource management.
+                  </p>
+                </div>
+                <div className="mt-8">
+                  <h4 className="font-Archivo font-bold text-gray-900 mb-4 text-xl">Core Technologies</h4>
+                  <div className="flex flex-wrap gap-3">
+                    {['Python', 'FastAPI', 'LLM Integrations', 'LangChain', 'React', 'AWS', 'AI/ML Frameworks'].map((tech) => (
+                      <span key={tech} className="px-4 py-2 bg-red-100 text-red-700 rounded-full text-base font-semibold shadow">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-
-            {/* Backend & Infrastructure */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Database className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">Backend & Infrastructure</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['Python', 'FastAPI', 'Node.js', 'Kubernetes', 'AWS', 'Terraform', 'PostgreSQL'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* AI & Machine Learning */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Brain className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">AI & Machine Learning</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['RAG', 'LangChain', 'BERT', 'Sentence Transformers', 'Pinecone', 'Chroma DB'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* DevOps & Observability */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Cloud className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">DevOps & Observability</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['GitLab CI/CD', 'Prometheus', 'Grafana', 'Sentry', 'Opsgenie', 'Helm'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Leadership & Management */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Users className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">Leadership & Management</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['Architectural Planning', 'Cross-team Alignment', 'Agile Coaching'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Testing & Quality */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
-              <div className="flex items-center mb-4">
-                <Award className="w-8 h-8 text-red-700 mr-3" />
-                <h3 className="text-xl font-MN font-semibold text-gray-900">Testing & Quality</h3>
-              </div>
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-2">
-                  {['Playwright', 'Jest', 'DAST', 'TDD', 'WebdriverIO', 'SAST'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
+              <div className="flex-1 md-px-8 py-12 md:py-0 order-1 md:order-2 flex items-center justify-center">
+                <div className="space-y-6 w-full">
+                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
+                    Our digital solutions automate complex processes including bill-of-quantities planning, quotation generation, and project optimization using advanced AI algorithms and machine learning models.
+                  </p>
+                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
+                    This innovative approach combines deep industry knowledge with state-of-the-art technology to deliver measurable improvements in project planning and efficiency, and cost reduction for construction projects of all scales.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+          <div className="w-full bg-[#071330] py-10">
+            <h2 className="text-3xl md:text-4xl font-MN font-regular text-white text-center mb-4">
+              Your Vision with Our <span className="text-red-700">Expertise</span>
+            </h2>
+          </div>
       {/* Team Member - Sintija Birgele */}
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-50 md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-4">
-              Meet Our <span className="text-red-700">Digital Expert</span>
-            </h2>
-          </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -196,103 +118,36 @@ const Digital = () => {
                   Sintija Birgele
                 </h3>
                 <p className="text-xl text-red-700 font-MN font-medium mt-2">
-                  Software Architect · Founder of Co-Fun
+                  Software Architect
                 </p>
               </div>
               
-              <p className="text-lg text-gray-700 leading-relaxed font-MN">
-                Innovator in full-stack engineering and applied AI with 8+ years of enterprise experience. 
-                Founder of Co-Fun and driving force behind agentic AI solutions for construction and energy sectors.
+              <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN">
+                Software Architect specialized in applied sciences of web software and Artificial Intelligence with 8+ years experience in software engineering for enterprises. 
+                Driving force behind managing technical team and building agentic AI frameworks with <a className="underline" href="https://cofun.digital">CO-FUN</a> in construction, insurance, automotive and energy sectors.
               </p>
-              
-              <div className="space-y-4">
-                <p className="text-gray-700 leading-relaxed">
-                  Sintija brings over eight years of expertise in web software engineering and AI-driven product development. 
-                  She leads cross-functional teams to deliver scalable full-stack applications across industries such as 
-                  insurance, energy, and automotive.
-                </p>
-                
-                <p className="text-gray-700 leading-relaxed">
-                  Her work focuses on agentic AI frameworks—notably automating bill-of-quantities planning and quotation 
-                  processes for construction software. Sintija is also a conference speaker (JSNation 2024) and dedicated 
-                  mentor, teaching full-stack development for nine years at ReDI School of Digital Integration.
-                </p>
-              </div>
-              
               <div className="flex space-x-4 pt-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/sintijab" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <Github className="w-5 h-5" />
                   <span>GitHub</span>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://de.linkedin.com/in/sintija-birgele" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
                   <span>LinkedIn</span>
                 </a>
                 <a 
-                  href="#" 
+                  href="https://gitnation.com/contents/internationalization-i18n-with-ai-powered-language-model" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <ExternalLink className="w-5 h-5" />
-                  <span>Conference Talk</span>
+                  <span>Conferences</span>
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Current Project Focus */}
-      <div className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-6">
-              Current <span className="text-red-700">Innovation</span>
-            </h2>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-700">
-              <div className="flex justify-between items-start mb-6">
-                <h3 className="text-2xl font-MN font-semibold text-gray-900">
-                  European Management – Software Engineering & Consulting
-                </h3>
-                <span className="text-sm text-gray-500 font-medium bg-red-100 px-3 py-1 rounded-full">
-                  June 2025 – Present
-                </span>
-              </div>
-              
-              <div className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Currently pioneering <strong>agentic AI frameworks for construction industry automation</strong>, 
-                  revolutionizing how construction companies approach project planning and resource management.
-                </p>
-                
-                <p className="text-gray-700 leading-relaxed">
-                  Our cutting-edge solutions automate complex processes including bill-of-quantities planning, 
-                  quotation generation, and project optimization using advanced AI algorithms and machine learning models.
-                </p>
-                
-                <p className="text-gray-700 leading-relaxed">
-                  This innovative approach combines deep industry knowledge with state-of-the-art technology to deliver 
-                  measurable improvements in efficiency, accuracy, and cost reduction for construction projects of all scales.
-                </p>
-              </div>
-              
-              <div className="mt-6">
-                <h4 className="font-MN font-semibold text-gray-900 mb-3">Core Technologies:</h4>
-                <div className="flex flex-wrap gap-2">
-                  {['Python', 'FastAPI', 'LLM Integrations', 'LangChain', 'React', 'AWS', 'AI/ML Frameworks'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-medium">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
