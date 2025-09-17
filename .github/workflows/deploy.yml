@@ -24,13 +24,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22.17.1'
-          cache: 'yarn'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: yarn build && cp dist/index.html dist/404.html
+        run: pnpm build && cp dist/index.html dist/404.html
 
       # - name: Add CNAME file
       #   run: echo "europeanmanagement.eu" > dist/CNAME
