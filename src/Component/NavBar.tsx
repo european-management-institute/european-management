@@ -150,11 +150,11 @@ const NavBar = () => {
             <MobileNavLink path="/management">
               {t("navigation.management")}
             </MobileNavLink>
-            <MobileNavLink path="/marketing">
-              {t("navigation.marketing")}
-            </MobileNavLink>
             <MobileNavLink path="/digital">
               {t("navigation.digital")}
+            </MobileNavLink>
+            <MobileNavLink path="/marketing">
+              {t("navigation.marketing")}
             </MobileNavLink>
             <MobileNavLink path="/e-learning">
               {t("navigation.institute")}
