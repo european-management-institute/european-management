@@ -61,7 +61,7 @@ const ServicesLayout = () => {
   );
 };
 
-const ServiceItem = ({ title, description, link }) => {
+const ServiceItem = ({ title, description, link, icon }) => {
   const navigate = useNavigate();
   return (
     <div

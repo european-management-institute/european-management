@@ -1,119 +1,330 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import lucaImg from "../assets/IMG_7691 2.webp";
-import srcc from "../assets/12.png";
-import bt from "../assets/9.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import emiLogo from "../assets/ombrato_reduced.png";
-import ServicesAndClients from "../Component/ServicesAndClients";
-import ImageGrid from "../Component/ImageGrid";
 import { useNavigate } from "react-router-dom";
+import { Github, Linkedin, ExternalLink, Code, Database, Brain, Cloud, Users, Award } from "lucide-react";
 
 const Digital = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  
   return (
     <section>
+      {/* Hero Section - Digital & Technologies */}
       <div className="max-w-7xl mx-auto py-8 md:py-12 lg:py-16 px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8 text-center md:text-left px-4 md:px-6">
-            <h2 className="text-3xl md:text-5xl font-MN font-semibold leading-tight">
-              {t("digital.title.part1")}
-              <span className="text-red-700">{t("digital.title.part2")}</span>
-              {t("digital.title.part3")}
+            <h1 className="text-3xl md:text-5xl font-MN font-semibold leading-tight">
+              <span className="text-red-700">DIGITAL</span> TRANSFORMATION
               <br />
-              {t("digital.title.subtitle")}
-            </h2>
+              <span className="text-2xl md:text-3xl">& Technology Solutions</span>
+            </h1>
 
             <p className="text-xl font-MN font-bold text-gray-700 leading-tight">
-              {t("digital.description")}
+              We leverage cutting-edge technologies and digitalization strategies to drive business transformation and innovation.
             </p>
 
             <button
-              className="bg-cover bg-center text-white px-8 py-3 rounded-full font-MN
-             font-semibold text-xl hover:opacity-90 
-             transition-all duration-300 min-w-[200px]"
-              style={{
-                backgroundImage: `url(${bt})`,
-                backgroundSize: "120% 140%",
-              }}
+              className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-full font-MN font-semibold text-xl transition-all duration-300 min-w-[200px]"
               onClick={() => navigate("/chi-siamo")}
             >
-              {t("digital.button")}
+              LEARN MORE
             </button>
           </div>
 
-          <div className="relative -mb-24 items-center">
-            <LazyLoadImage
-              src={lucaImg}
-              alt="Isabel"
-              effect="blur"
-              className="w-5/6 h-2/6 mx-auto object-cover rounded-sm shadow-xl transition-all duration-300 group-hover:scale-105"
-            />
-          </div>
-        </div>
-      </div>
-
-      <footer className="bg-[black] relative overflow-hidden min-w-full">
-        <div className="max-w-7xl mx-auto">
-          <div className="py-6 flex justify-end">
-            <div className="max-w-2xl space-y-8 text-white">
-              <p className="text-lg md:text-xl lg:text-2xl font-MN font-medium leading-tight text-center md:text-left p-4 max-w-lg md:mr-16">
-                {t("digital.quote")}
-              </p>
-              <div className="flex justify-center">
-                <img
-                  src={srcc}
-                  alt="Luca Bazzanella signature"
-                  className="h-20 object-contain"
-                />
+          <div className="relative items-center">
+            <div className="bg-gradient-to-br from-red-50 to-gray-100 rounded-lg p-8">
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
+                  <Code className="w-8 h-8 text-red-700" />
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
+                  <Database className="w-8 h-8 text-red-700" />
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
+                  <Brain className="w-8 h-8 text-red-700" />
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm flex items-center justify-center">
+                  <Cloud className="w-8 h-8 text-red-700" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
 
-      <ServicesAndClients />
-      <ImageGrid />
+      {/* Team Member - Sintija Birgele */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-4">
+              Meet Our <span className="text-red-700">Digital Expert</span>
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <LazyLoadImage
+                src="/sintija.jpg"
+                alt="Sintija Birgele"
+                effect="blur"
+                className="w-full max-w-md mx-auto object-cover rounded-lg shadow-xl"
+              />
+            </div>
+            
+            <div className="order-1 md:order-2 space-y-6">
+              <div>
+                <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
+                  Sintija Birgele
+                </h3>
+                <p className="text-xl text-red-700 font-MN font-medium mt-2">
+                  Software Architect · Founder of Co-Fun
+                </p>
+              </div>
+              
+              <p className="text-lg text-gray-700 leading-relaxed font-MN">
+                Innovator in full-stack engineering and applied AI with 8+ years of enterprise experience. 
+                Founder of Co-Fun and driving force behind agentic AI solutions for construction and energy sectors.
+              </p>
+              
+              <div className="space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Sintija brings over eight years of expertise in web software engineering and AI-driven product development. 
+                  She leads cross-functional teams to deliver scalable full-stack applications across industries such as 
+                  insurance, energy, and automotive.
+                </p>
+                
+                <p className="text-gray-700 leading-relaxed">
+                  Her work focuses on agentic AI frameworks—notably automating bill-of-quantities planning and quotation 
+                  processes for construction software. Sintija is also a conference speaker (JSNation 2024) and dedicated 
+                  mentor, teaching full-stack development for nine years at ReDI School of Digital Integration.
+                </p>
+              </div>
+              
+              <div className="flex space-x-4 pt-4">
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                  <span>GitHub</span>
+                </a>
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                  <span>LinkedIn</span>
+                </a>
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                  <span>Conference Talk</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      {/* Our Expertise Section */}
+      <div className="py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-6">
+              Our <span className="text-red-700">Expertise</span>
+            </h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              We combine cutting-edge technologies with proven methodologies to deliver exceptional digital solutions
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Full-Stack Engineering */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Code className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">Full-Stack Engineering</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['React', 'Next.js', 'TypeScript', 'Nx', 'Vite', 'Webpack'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Backend & Infrastructure */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Database className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">Backend & Infrastructure</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['Python', 'FastAPI', 'Node.js', 'Kubernetes', 'AWS', 'Terraform', 'PostgreSQL'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* AI & Machine Learning */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Brain className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">AI & Machine Learning</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['RAG', 'LangChain', 'BERT', 'Sentence Transformers', 'Pinecone', 'Chroma DB'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* DevOps & Observability */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Cloud className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">DevOps & Observability</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['GitLab CI/CD', 'Prometheus', 'Grafana', 'Sentry', 'Opsgenie', 'Helm'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Leadership & Management */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Users className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">Leadership & Management</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['Architectural Planning', 'Cross-team Alignment', 'Agile Coaching'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Testing & Quality */}
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-100">
+              <div className="flex items-center mb-4">
+                <Award className="w-8 h-8 text-red-700 mr-3" />
+                <h3 className="text-xl font-MN font-semibold text-gray-900">Testing & Quality</h3>
+              </div>
+              <div className="space-y-2">
+                <div className="flex flex-wrap gap-2">
+                  {['Playwright', 'Jest', 'DAST', 'TDD', 'WebdriverIO', 'SAST'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Experience Timeline */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-6">
+              Experience <span className="text-red-700">Timeline</span>
+            </h2>
+          </div>
+          
+          <div className="space-y-8">
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-700">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-xl font-MN font-semibold text-gray-900">European Management – Software Engineering & Consulting</h3>
+                <span className="text-sm text-gray-500 font-medium">June 2025 – Present</span>
+              </div>
+              <p className="text-gray-700 mb-3">Building agentic AI frameworks for construction industry automation.</p>
+              <div className="flex flex-wrap gap-2">
+                {['Python', 'FastAPI', 'LLM integrations', 'LangChain', 'React', 'AWS'].map((tech) => (
+                  <span key={tech} className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-sm">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-xl font-MN font-semibold text-gray-900">FRIDAY Insurance S.A. – Senior Software Engineer Level 2</h3>
+                <span className="text-sm text-gray-500 font-medium">Mar 2020 – Feb 2025</span>
+              </div>
+              <p className="text-gray-700">Scaled five insurance products across two countries; mentored engineering org from 7 → 100 people.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-xl font-MN font-semibold text-gray-900">Accenture – E.ON Digital & Volvo Business Services</h3>
+                <span className="text-sm text-gray-500 font-medium">2016 – 2020</span>
+              </div>
+              <p className="text-gray-700">Delivered e-commerce solutions and modernized legacy automotive systems.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
+              <div className="flex justify-between items-start mb-4">
+                <h3 className="text-xl font-MN font-semibold text-gray-900">ReDI School of Digital Integration – Teacher Lead</h3>
+                <span className="text-sm text-gray-500 font-medium">2016 – 2025</span>
+              </div>
+              <p className="text-gray-700">Led full-stack web development courses; 50% of students transitioned to professional roles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
       <footer className="bg-[black] py-16 relative overflow-hidden">
         <div className="px-4 flex flex-col lg:flex-row justify-around items-center">
           <div className="w-full lg:w-auto mb-8 lg:mb-0 max-w-xl">
             <h2 className="text-3xl font-MN font-500 text-white mb-6 text-center lg:text-left">
-              {t("digital.contact.title")}
+              CONTACT
             </h2>
             <p className="text-lg font-MN font-light text-white leading-relaxed max-w-md text-center lg:text-left mx-auto lg:mx-0">
-              {t("digital.contact.description")}
+              To interact with our offices and work with us, a reference from an existing client or partner company is required.
             </p>
-          </div>
-
-          <div className="w-full lg:w-auto relative mx-auto lg:mx-0">
-            <img
-              src={emiLogo}
-              alt="European Management Institute Logo"
-              className="hidden lg:block w-40 h-40 object-contain opacity-30 mx-auto"
-            />
           </div>
 
           <div className="w-full lg:w-auto text-center lg:text-right mt-8 lg:mt-0">
             <div className="flex flex-row items-center mb-4 justify-center lg:justify-end">
-              <img
-                src={emiLogo}
-                alt="EMI Logo"
-                className="h-8 inline-block mr-2"
-              />
               <p className="md:text-[.49rem] font-light text-left text-white leading-tight">
-                {t("digital.company.name1")}
+                European
                 <br />
-                {t("digital.company.name2")}
+                Management
                 <br />
-                {t("digital.company.name3")}
+                Institute
               </p>
             </div>
 
             <div className="text-white text-[.59rem] text-center lg:text-right font-light">
-              <p>{t("digital.copyright.text")}</p>
-              <p className="mt-1">{t("digital.copyright.rights")}</p>
+              <p>Copyright © 2020 European Management Institute</p>
+              <p className="mt-1">All rights reserved registration no. 302022000006366</p>
             </div>
           </div>
         </div>

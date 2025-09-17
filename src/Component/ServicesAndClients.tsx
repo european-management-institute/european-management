@@ -15,8 +15,8 @@ const ServicesAndClients = () => {
       </h2>
 
       <div className="grid md:grid-cols-4 gap-8 mb-24 text-center">
-        {t("servicesAndClients.services.items", { returnObjects: true }).map(
-          (service, index) => (
+        {(t("servicesAndClients.services.items", { returnObjects: true }) as any[]).map(
+          (service: any, index: number) => (
             <div key={index} className="space-y-4">
               <h3 className="font-MN font-semibold text-lg tracking-wide text-red-900">
                 {service.title}
@@ -39,8 +39,8 @@ const ServicesAndClients = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-8 text-sm font-MN font-semibold uppercase max-w-6xl mx-auto">
-          {t("servicesAndClients.clients.list", { returnObjects: true }).map(
-            (client, index) => (
+          {(t("servicesAndClients.clients.list", { returnObjects: true }) as any[]).map(
+            (client: any, index: number) => (
               <span
                 key={index}
                 className="font-MN text-xs font-semibold whitespace-nowrap hover:text-red-800 transition-colors duration-300"

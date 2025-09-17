@@ -6,9 +6,9 @@ const Tree = () => {
     <main className="">
       <nav className="w-full mx-auto px-4">
         <TreeList>
-          <TreeItem label="MANAGEMENT" link="/management" />
-          <TreeItem label="DIGITAL" link="/digital" />
-          <TreeItem label="INSTITUTE" link="/e-learning" />
+          <TreeItem label="MANAGEMENT" link="/management" children={null} />
+          <TreeItem label="DIGITAL" link="/digital" children={null} />
+          <TreeItem label="INSTITUTE" link="/e-learning" children={null} />
         </TreeList>
       </nav>
     </main>

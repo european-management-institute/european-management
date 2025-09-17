@@ -64,7 +64,7 @@ const LoginEducationSection = () => {
               <button
                 type="button"
                 onClick={() => navigate("/signup")}
-                class="text-[#071330] hover:text-white border border-gray-800 hover:bg-[#071330] focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-md  text-lg px-5 py-2.5 text-center w-full"
+                className="text-[#071330] hover:text-white border border-gray-800 hover:bg-[#071330] focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-md  text-lg px-5 py-2.5 text-center w-full"
               >
                 REGISTER
               </button>
