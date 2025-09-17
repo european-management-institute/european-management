@@ -53,82 +53,6 @@ const Digital = () => {
         </div>
       </div>
 
-      {/* Team Member - Sintija Birgele */}
-      <div className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-4">
-              Meet Our <span className="text-red-700">Digital Expert</span>
-            </h2>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
-              <LazyLoadImage
-                src="/sintija.jpg"
-                alt="Sintija Birgele"
-                effect="blur"
-                className="w-full max-w-md mx-auto object-cover rounded-lg shadow-xl"
-              />
-            </div>
-            
-            <div className="order-1 md:order-2 space-y-6">
-              <div>
-                <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
-                  Sintija Birgele
-                </h3>
-                <p className="text-xl text-red-700 font-MN font-medium mt-2">
-                  Software Architect · Founder of Co-Fun
-                </p>
-              </div>
-              
-              <p className="text-lg text-gray-700 leading-relaxed font-MN">
-                Innovator in full-stack engineering and applied AI with 8+ years of enterprise experience. 
-                Founder of Co-Fun and driving force behind agentic AI solutions for construction and energy sectors.
-              </p>
-              
-              <div className="space-y-4">
-                <p className="text-gray-700 leading-relaxed">
-                  Sintija brings over eight years of expertise in web software engineering and AI-driven product development. 
-                  She leads cross-functional teams to deliver scalable full-stack applications across industries such as 
-                  insurance, energy, and automotive.
-                </p>
-                
-                <p className="text-gray-700 leading-relaxed">
-                  Her work focuses on agentic AI frameworks—notably automating bill-of-quantities planning and quotation 
-                  processes for construction software. Sintija is also a conference speaker (JSNation 2024) and dedicated 
-                  mentor, teaching full-stack development for nine years at ReDI School of Digital Integration.
-                </p>
-              </div>
-              
-              <div className="flex space-x-4 pt-4">
-                <a 
-                  href="#" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
-                >
-                  <Github className="w-5 h-5" />
-                  <span>GitHub</span>
-                </a>
-                <a 
-                  href="#" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
-                >
-                  <Linkedin className="w-5 h-5" />
-                  <span>LinkedIn</span>
-                </a>
-                <a 
-                  href="#" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
-                >
-                  <ExternalLink className="w-5 h-5" />
-                  <span>Conference Talk</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Our Expertise Section */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -247,53 +171,129 @@ const Digital = () => {
         </div>
       </div>
 
-      {/* Experience Timeline */}
+      {/* Team Member - Sintija Birgele */}
+      <div className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-4">
+              Meet Our <span className="text-red-700">Digital Expert</span>
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <LazyLoadImage
+                src="/sintija.jpg"
+                alt="Sintija Birgele"
+                effect="blur"
+                className="w-full max-w-md mx-auto object-cover rounded-lg shadow-xl"
+              />
+            </div>
+            
+            <div className="order-1 md:order-2 space-y-6">
+              <div>
+                <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
+                  Sintija Birgele
+                </h3>
+                <p className="text-xl text-red-700 font-MN font-medium mt-2">
+                  Software Architect · Founder of Co-Fun
+                </p>
+              </div>
+              
+              <p className="text-lg text-gray-700 leading-relaxed font-MN">
+                Innovator in full-stack engineering and applied AI with 8+ years of enterprise experience. 
+                Founder of Co-Fun and driving force behind agentic AI solutions for construction and energy sectors.
+              </p>
+              
+              <div className="space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Sintija brings over eight years of expertise in web software engineering and AI-driven product development. 
+                  She leads cross-functional teams to deliver scalable full-stack applications across industries such as 
+                  insurance, energy, and automotive.
+                </p>
+                
+                <p className="text-gray-700 leading-relaxed">
+                  Her work focuses on agentic AI frameworks—notably automating bill-of-quantities planning and quotation 
+                  processes for construction software. Sintija is also a conference speaker (JSNation 2024) and dedicated 
+                  mentor, teaching full-stack development for nine years at ReDI School of Digital Integration.
+                </p>
+              </div>
+              
+              <div className="flex space-x-4 pt-4">
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                  <span>GitHub</span>
+                </a>
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                  <span>LinkedIn</span>
+                </a>
+                <a 
+                  href="#" 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                  <span>Conference Talk</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Current Project Focus */}
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-MN font-semibold text-gray-900 mb-6">
-              Experience <span className="text-red-700">Timeline</span>
+              Current <span className="text-red-700">Innovation</span>
             </h2>
           </div>
           
-          <div className="space-y-8">
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-700">
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-MN font-semibold text-gray-900">European Management – Software Engineering & Consulting</h3>
-                <span className="text-sm text-gray-500 font-medium">June 2025 – Present</span>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-red-700">
+              <div className="flex justify-between items-start mb-6">
+                <h3 className="text-2xl font-MN font-semibold text-gray-900">
+                  European Management – Software Engineering & Consulting
+                </h3>
+                <span className="text-sm text-gray-500 font-medium bg-red-100 px-3 py-1 rounded-full">
+                  June 2025 – Present
+                </span>
               </div>
-              <p className="text-gray-700 mb-3">Building agentic AI frameworks for construction industry automation.</p>
-              <div className="flex flex-wrap gap-2">
-                {['Python', 'FastAPI', 'LLM integrations', 'LangChain', 'React', 'AWS'].map((tech) => (
-                  <span key={tech} className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-sm">
-                    {tech}
-                  </span>
-                ))}
+              
+              <div className="space-y-4">
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Currently pioneering <strong>agentic AI frameworks for construction industry automation</strong>, 
+                  revolutionizing how construction companies approach project planning and resource management.
+                </p>
+                
+                <p className="text-gray-700 leading-relaxed">
+                  Our cutting-edge solutions automate complex processes including bill-of-quantities planning, 
+                  quotation generation, and project optimization using advanced AI algorithms and machine learning models.
+                </p>
+                
+                <p className="text-gray-700 leading-relaxed">
+                  This innovative approach combines deep industry knowledge with state-of-the-art technology to deliver 
+                  measurable improvements in efficiency, accuracy, and cost reduction for construction projects of all scales.
+                </p>
               </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-MN font-semibold text-gray-900">FRIDAY Insurance S.A. – Senior Software Engineer Level 2</h3>
-                <span className="text-sm text-gray-500 font-medium">Mar 2020 – Feb 2025</span>
+              
+              <div className="mt-6">
+                <h4 className="font-MN font-semibold text-gray-900 mb-3">Core Technologies:</h4>
+                <div className="flex flex-wrap gap-2">
+                  {['Python', 'FastAPI', 'LLM Integrations', 'LangChain', 'React', 'AWS', 'AI/ML Frameworks'].map((tech) => (
+                    <span key={tech} className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-medium">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <p className="text-gray-700">Scaled five insurance products across two countries; mentored engineering org from 7 → 100 people.</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-MN font-semibold text-gray-900">Accenture – E.ON Digital & Volvo Business Services</h3>
-                <span className="text-sm text-gray-500 font-medium">2016 – 2020</span>
-              </div>
-              <p className="text-gray-700">Delivered e-commerce solutions and modernized legacy automotive systems.</p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-MN font-semibold text-gray-900">ReDI School of Digital Integration – Teacher Lead</h3>
-                <span className="text-sm text-gray-500 font-medium">2016 – 2025</span>
-              </div>
-              <p className="text-gray-700">Led full-stack web development courses; 50% of students transitioned to professional roles.</p>
             </div>
           </div>
         </div>

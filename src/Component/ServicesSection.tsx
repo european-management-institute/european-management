@@ -46,12 +46,12 @@ const ServicesSection = () => {
               )}
             </p>
             <ul className="list-disc pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left  font-MN ">
-              {t(
+              {(t(
                 "servicesManagement.outsourced_management.digital_management.list",
                 {
                   returnObjects: true,
                 }
-              ).map((item, index) => (
+              ) as string[]).map((item, index) => (
                 <li key={index} className="text-md font-light">
                   {item}
                 </li>
@@ -76,10 +76,10 @@ const ServicesSection = () => {
               )}
             </p>
             <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
-              {t(
+              {(t(
                 "servicesManagement.outsourced_management.digital_resources.list",
                 { returnObjects: true }
-              ).map((item, index) => (
+              ) as string[]).map((item, index) => (
                 <li key={index} className="text-md font-light">
                   {item}
                 </li>
@@ -112,9 +112,9 @@ const ServicesSection = () => {
             {t("servicesManagement.public_policy.intro2")}
           </p>
           <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
-            {t("servicesManagement.public_policy.list", {
+            {(t("servicesManagement.public_policy.list", {
               returnObjects: true,
-            }).map((item, index) => (
+            }) as string[]).map((item, index) => (
               <li key={index} className="text-md font-light">
                 {item}
               </li>
@@ -129,9 +129,9 @@ const ServicesSection = () => {
           </h4>
 
           <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
-            {t("servicesManagement.public_policy.citizen_satisfaction.list", {
+            {(t("servicesManagement.public_policy.citizen_satisfaction.list", {
               returnObjects: true,
-            }).map((item, index) => (
+            }) as string[]).map((item, index) => (
               <li key={index} className="text-md font-light">
                 {item}
               </li>
@@ -145,9 +145,9 @@ const ServicesSection = () => {
             {t("servicesManagement.public_policy.quality_monitor.intro")}
           </p>
           <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
-            {t("servicesManagement.public_policy.quality_monitor.list", {
+            {(t("servicesManagement.public_policy.quality_monitor.list", {
               returnObjects: true,
-            }).map((item, index) => (
+            }) as string[]).map((item, index) => (
               <li key={index} className="text-md font-light">
                 {item}
               </li>
@@ -163,9 +163,9 @@ const ServicesSection = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-8 text-sm font-MN font-semibold uppercase max-w-3xl mx-auto">
-          {t("servicesManagement.clients.sectors", {
+          {(t("servicesManagement.clients.sectors", {
             returnObjects: true,
-          }).map((item, index) => (
+          }) as string[]).map((item, index) => (
             <span key={index} className="whitespace-nowrap">
               {item}
             </span>
