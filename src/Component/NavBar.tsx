@@ -112,11 +112,11 @@ const NavBar = () => {
             <NavLink href={() => handleNavigation("/management")}>
               {t("navigation.management")}
             </NavLink>
-            <NavLink href={() => handleNavigation("/marketing")}>
-              {t("navigation.marketing")}
-            </NavLink>
             <NavLink href={() => handleNavigation("/digital")}>
               {t("navigation.digital")}
+            </NavLink>
+            <NavLink href={() => handleNavigation("/marketing")}>
+              {t("navigation.marketing")}
             </NavLink>
             <NavLink href={() => handleNavigation("/e-learning")}>
               {t("navigation.institute")}
