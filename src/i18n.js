@@ -5,7 +5,7 @@ import { initReactI18next } from "react-i18next";
 // Import other translations if needed
 import translationEN from "./locales/en/translationEn.json";
 import translationFR from "./locales/fr/translationFr.json";
-import translationIT from "./locales/it/translationIT.json";
+import translationIt from "./locales/it/translationIt.json";
 import translationES from "./locales/es/translationEs.json";
 
 i18n
@@ -22,7 +22,7 @@ i18n
         translation: translationES,
       },
       it: {
-        translation: translationIT,
+        translation: translationIt,
       },
       // Add more languages as needed
     },
