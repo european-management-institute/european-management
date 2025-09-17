@@ -105,7 +105,7 @@ const Digital = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <LazyLoadImage
-                src="/sintija.jpg"
+                src="./sintija.jpg"
                 alt="Sintija Birgele"
                 effect="blur"
                 className="w-full max-w-md mx-auto object-cover rounded-lg shadow-xl"
