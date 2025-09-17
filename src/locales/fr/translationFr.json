@@ -1,0 +1,313 @@
+{
+  "hero": {
+    "title": "Rejoignez Notre",
+    "subtitle": "Communauté d'Apprentissage"
+  },
+  "form": {
+    "title": "Créer un compte",
+    "login_prompt": "Vous avez déjà un compte ?",
+    "login_link": "Se connecter",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "E-mail",
+      "phone": "Numéro de téléphone",
+      "jobTitle": "Poste actuel",
+      "company": "Entreprise/Organisation",
+      "linkedIn": "Profil LinkedIn (facultatif)",
+      "password": "Entrez votre mot de passe"
+    },
+    "terms": {
+      "text": "J'accepte les",
+      "link": "Conditions Générales"
+    },
+    "submit": "Créer un compte"
+  },
+  "modal": {
+    "title": "Inscription Réussie !",
+    "message": "Merci d'avoir rejoint EMI. Nous vous contacterons très bientôt",
+    "button": "Continuer"
+  },
+  "login": {
+    "username_placeholder": "Nom d'utilisateur",
+    "password_placeholder": "Mot de passe",
+    "forgot_password": "Mot de passe oublié?",
+    "button": "LOGIN",
+    "register_prompt": {
+      "part1": "or",
+      "link": "Inscription",
+      "part2": "Pour en savoir plus"
+    }
+  },
+  "education": {
+    "executive": {
+      "title": "FORMATION DES EXÉCUTIFS",
+      "description": "De nouvelles compétences et un vaste réseau international pour les managers, professionnels et entrepreneurs"
+    },
+    "future_leaders": {
+      "title": "FUTURE LEADERS",
+      "description1": "Formation, orientation et réseautage destinés aux étudiants, travailleurs et professionnels qui souhaitent transformer leur carrière.",
+      "description2": "Un parcours unique pour découvrir et saisir les opportunités liées aux métiers d'avenir."
+    },
+    "professional": {
+      "title": "FORMATION PROFESSIONNELLE ET SÉCURITÉ AU TRAVAIL",
+      "description": "Parcours de formation professionnelle pratique dispensés en présentiel et en ligne avec certificats reconnus en partenariat avec FMPI"
+    }
+  },
+  "images": {
+    "woman_working": "Woman working",
+    "executive_education": "Formation des cadres",
+    "professional_training": "Formation professionnelle",
+    "future_leaders": "Future Leaders",
+    "emi_logo": "European Management Institute Logo"
+  },
+  "footer": {
+    "contact": {
+      "title": "CONTACT",
+      "description": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise."
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "All rights reserved registration no. 302022000006366"
+    }
+  },
+  "servicesAndClients": {
+    "services": {
+      "title": {
+        "part1": "NOS",
+        "part2": "SERVICES"
+      },
+      "items": [
+        {
+          "title": "PRODUCTION CRÉATIVE",
+          "description": "Créer du contenu multimédia de haute qualité qui raconte des histoires et transmet des émotions."
+        },
+        {
+          "title": "WEB AND SOCIAL",
+          "description": "Pour gérer votre présence numérique avec du contenu stratégique sur le Web et les réseaux sociaux."
+        },
+        {
+          "title": "BRAND ADVISORY",
+          "description": "Construire des marques distinctives qui renforcent l'unicité de nos clients."
+        },
+        {
+          "title": "MARKET DEVELOPMENT",
+          "description": "Pour développer votre activité avec des stratégies en ligne, hors ligne et des relations internationales."
+        }
+      ]
+    },
+    "clients": {
+      "title": {
+        "part1": "CE QUE",
+        "part2": "FONT NOS CLIENTS"
+      },
+      "list": [
+        "VOYAGES",
+        "MODE",
+        "HOSPITALITÉ",
+        "BOISSON",
+        "AUTOMOBILE",
+        "ALIMENTATION",
+        "PRODUIT",
+        "LUXE",
+        "RESTAURANT",
+        "ÉVÉNEMENTS",
+        "BIEN-ÊTRE",
+        "BEAUTÉ",
+        "SPORT",
+        "EMBALLAGE",
+        "FITNESS",
+        "DESIGN"
+      ]
+    }
+  },
+  "digital": {
+    "title": {
+      "part1": "\"",
+      "part2": "Hors",
+      "part3": " Norme\"",
+      "subtitle": "Digital Boutique"
+    },
+    "description": "Nous aidons les marques à raconter leur histoire, à créer de nouvelles connexions et à développer le marché.",
+    "button": "APPRENDRE PLUS",
+    "quote": "Nous transformons votre vision et vos objectifs commerciaux en réalité.",
+    "contact": {
+      "title": "CONTACT",
+      "description": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise."
+    },
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "All rights reserved registration no. 302022000006366"
+    }
+  },
+
+  "navigation": {
+  "about": "À propos de nous",
+  "marketing": "Marketing",
+    "management": "Management",
+    "digital": "Digital",
+    "institute": "Institute",
+    "contacts": "Contacts"
+  },
+  "company": {
+    "european": "European",
+    "management": "Management",
+    "institute": "Institute"
+  },
+  "services": {
+    "mainTitle": "VOTRE GUIDE DANS LA MER TEMPÉRÉE",
+    "subTitle": "DES MARCHÉS MONDIAUX.",
+    "management": {
+      "title": "MANAGEMENT",
+      "description": "Conseil de nouvelle génération"
+    },
+    "digital": {
+      "title": "DIGITAL",
+      "description": "Solutions commerciales basées sur les données"
+    },
+    "institute": {
+      "title": "INSTITUTE",
+      "description": "Formation et développement professionnel"
+    }
+  },
+  "advisoryTeam": {
+    "leftColumn_description1": "European Management est une société de conseil de nouvelle génération, spécialisée dans la gestion externalisée, les services numériques et la formation.",
+    "leftColumn_description2": "Elle est structurée en trois unités commerciales différentes qui accompagnent les entrepreneurs, les entreprises et les institutions dans leurs parcours de réorganisation et de développement de marché.",
+    "leftColumn_button": "APPRENDRE PLUS",
+    "rightColumn_title": "UNE ÉQUIPE CONSULTATIVE DE NOUVELLE GÉNÉRATION",
+    "rightColumn_description1": "European Management se démarque de l'approche traditionnelle du conseil. Il propose à des clients sélectionnés des solutions à forte valeur ajoutée, difficiles à trouver sur le marché..",
+    "rightColumn_description2": "Elle utilise une approche basée sur les données et accepte des contrats ambitieux, notamment ceux basés sur les résultats, qui sont rémunérés sur la base d'indicateurs de performance convenus.",
+    "boldText_managementTypes": "Gestion externalisée, services numériques et formation",
+    "boldText_solutions": "des solutions à forte valeur ajoutée",
+    "boldText_approach": "piloté par les données",
+    "boldText_contracts": "basé sur les résultats"
+  },
+  "footer_contact_title": "CONTACT",
+  "footer_contact_description": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
+  "footer_company_line1": "European",
+  "footer_company_line2": "Management",
+  "footer_company_line3": "Institute",
+  "footer_copyright_text": "Copyright © 2020 European Management Institute",
+  "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
+
+  "AboutTeamSection": {
+    "about_section_title": "APPRENDRE PLUS",
+    "about_paragraph1": "European Management a été créé pour accompagner les entreprises dans le suivi et l’étude des politiques publiques européennes, avec des conseils ad hoc et des solutions de gestion externalisées. Ces parcours permettent aux entreprises et aux entités publiques d’être plus conscientes des risques et des opportunités découlant des changements politiques et législatifs actuels ou futurs.",
+    "about_paragraph2": "L'entreprise a ensuite élargi son champ d'action avec de nouvelles voies dans le domaine de la gestion externalisée et du conseil stratégique. À partir de 2021, suite à la demande croissante du marché, elle a dédié une équipe de travail spécifique au secteur de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion.",
+    "about_paragraph3": "En 2024, grâce aux relations internationales et aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit « out of office » dédiée au marketing, à la communication et aux services digitaux.",
+    "about_modus_title": "Mode de fonctionnement:",
+    "about_modus_subtitle": "agilité d'action et flexibilité sont les maîtres mots qui distinguent notre travail.",
+    "about_modus_description": "Pour évoluer avec succès sur un marché concurrentiel en constante évolution, European Management mise sur l'hyperspécialisation. C'est pourquoi, au fil des ans, elle a structuré un réseau international de professionnels de confiance dotés de compétences uniques qui s'engagent, sous la coordination quotidienne de référents internes de chaque unité commerciale, à rendre les opérations de l'entreprise évolutives, évitant ainsi la bureaucratie, la lourdeur organisationnelle et les ralentissements qui en découlent.",
+
+    "team_management_title": "THE MANAGEMENT TEAM",
+    "team_digital_title": "THE DIGITAL TEAM",
+    "team_member_1_name": "Luca Bazzanella",
+    "team_member_1_role": "Direction and Public Policy",
+    "team_member_2_name": "Zak Edbali",
+    "team_member_2_role": "HR Management and Outsourcing",
+    "team_member_3_name": "Paolo Decaminada",
+    "team_member_3_role": "Finance and Taxation",
+    "team_member_4_name": "Isabel Tonelli",
+    "team_member_4_role": "Marketing Manager",
+    "team_member_5_name": "Jessica Pezzelato",
+    "team_member_5_role": "Business Development",
+    "team_member_6_name": "Andrea Graziani",
+    "team_member_6_role": "Social Media and Web"
+  },
+  "OutsourcedManagement": {
+    "title": "GESTION EXTERNALISÉE ET CONSEIL",
+    "subtitle": "Services de gestion externalisés à haute valeur ajoutée",
+    "button": "APPRENDRE PLUS",
+    "description": "Nous créons des outils numériques axés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
+    "contact_title": "CONTACT",
+    "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "All rights reserved registration no. 302022000006366"
+    }
+  },
+  "servicesManagement": {
+    "main_title": "NOS SERVICES",
+    "outsourced_management": {
+      "title": "GESTION EXTERNALISÉE",
+      "intro1": "Nous vivons à une époque de changements économiques, sociaux et technologiques qui exigent de nouvelles compétences et une action rapide. Des facteurs complexes à obtenir sans investissements appropriés et uniquement avec des ressources internes.",
+      "intro2": "Pour cette raison, European Management est spécialisé dans l'accompagnement des entreprises italiennes et multinationales dans des missions de gestion externalisées pour gérer ",
+      "introB": "Développement du marché ",
+      "introC": "dans des zones géographiques spécifiques, l’innovation et",
+      "introD": "numérisation",
+      "introX": "de processus complexes.",
+      "digital_management": {
+        "title": "Le numérique au service de la gestion d'entreprise",
+        "intro": "À partir de 2021, E.M.I. a dédié une équipe de travail spécifique au secteur de la construction numérique, spécialisée dans:",
+        "list": [
+          "automatisation des processus grâce à des logiciels personnalisés basés sur l'apprentissage automatique ",
+          "formation continue des entreprises ",
+          "contrôle de gestion "
+        ],
+        "outro": "L'enjeu est d'accompagner les entreprises, les coopératives et les réseaux d'entreprises dans l'atteinte de leurs objectifs de croissance avec une approche digitale axée sur les données dans un secteur généralement peu habitué au changement"
+      },
+      "digital_resources": {
+        "title": "Le numérique au service de l'optimisation des ressources",
+        "intro": "Le management européen avec la digitalisation rend les processus d'entreprise plus simples et plus contrôlables tout en favorisant la transition écologique. Comment?",
+        "list": [
+          "Par la mesure et la traçabilité de l'impact environnemental (projet Carbontrack)",
+          "Par l'intégration de matériel et de logiciel pour la production robotisée (appel d'offres ATI Dolomiti Grow for Defense Industries Agencies)",
+          "Par l'intégration de bases de données pour la recherche d'informations à partir de sources ouvertes (projet OSINT DB)"
+        ],
+        "outro": "Ce ne sont là que quelques-unes des solutions numériques de soutien à la gestion d’entreprise que nous avons créées et mises en œuvre pour répondre à nos besoins.",
+        "outroB": "mission de l'entreprise."
+      }
+    },
+    "public_policy": {
+      "title": "PUBLIC POLICY",
+      "intro": "European Management accompagne, avec des standards professionnels élevés, les entreprises et les entrepreneurs dans",
+      "intro1": "suivi et compréhension des politiques publiques",
+      "intro2": "locales et européennes, et leur impact sur leurs intérêts et leurs modèles économiques.",
+      "list": [
+        "être plus conscient des risques et des opportunités découlant des changements politiques et législatifs actuels ou futurs",
+        "simuler leur impact sur leurs intérêts",
+        "être capable de planifier en conséquence des accords stratégiques ou de nouvelles alliances"
+      ],
+      "data_driven_intro": "European Management, en partenariat avec Quaeris, une société italienne de statistiques réputée, propose des solutions basées sur les données aux institutions et aux autorités locales pour la planification des politiques publiques, notamment:",
+      "citizen_satisfaction": {
+        "title": "Satisfaction des citoyens:",
+        "list": [
+          "Grâce à la collecte et au traitement des données, nous aidons à visualiser clairement l'opinion et le sentiment des citoyens sur des sujets d'intérêt spécifiques",
+          "Grâce aux données collectées, les institutions et les autorités locales peuvent prendre de meilleures décisions en fonction des intentions et des intérêts réels des citoyens"
+        ]
+      },
+      "quality_monitor": {
+        "title": "Contrôleur de qualité:",
+        "intro": "Grâce à un logiciel innovant développé sur mesure, nous aidons les grandes entreprises à comprendre leur réel impact quotidien sur leurs utilisateurs.",
+        "list": [
+          "Nous remplaçons un département entier d'analystes par une solution numérique",
+          "Nous aidons la direction à comprendre la valeur réelle des services fournis en facilitant la comparaison des entreprises du même secteur grâce à des paramètres standards "
+        ]
+      }
+    },
+    "clients": {
+      "title": "CE QUE FONT NOS CLIENTS",
+      "sectors": [
+        "EFFICACITÉ ÉNERGÉTIQUE",
+        "INFRASTRUCTURES",
+        "INSTITUTIONS",
+        "AUTORITÉS LOCALES",
+        "ENVIRONNEMENT",
+        "CONSTRUCTIONS",
+        "ENTRETIEN",
+        "GESTION DES DÉCHETS",
+        "LOGICIELS"
+      ]
+    }
+  }
+}
