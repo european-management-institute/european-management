@@ -9,7 +9,7 @@ import ServicesAndClients from "../Component/ServicesAndClients";
 import ImageGrid from "../Component/ImageGrid";
 import { useNavigate } from "react-router-dom";
 
-const Digital = () => {
+const Marketing = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
   return (
@@ -18,15 +18,15 @@ const Digital = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8 text-center md:text-left px-4 md:px-6">
             <h2 className="text-3xl md:text-5xl font-MN font-semibold leading-tight">
-              {t("digital.title.part1")}
-              <span className="text-red-700">{t("digital.title.part2")}</span>
-              {t("digital.title.part3")}
+              {t("marketing.title.part1")}
+              <span className="text-red-700">{t("marketing.title.part2")}</span>
+              {t("marketing.title.part3")}
               <br />
-              {t("digital.title.subtitle")}
+              {t("marketing.title.subtitle")}
             </h2>
 
             <p className="text-xl font-MN font-bold text-gray-700 leading-tight">
-              {t("digital.description")}
+              {t("marketing.description")}
             </p>
 
             <button
@@ -39,7 +39,7 @@ const Digital = () => {
               }}
               onClick={() => navigate("/chi-siamo")}
             >
-              {t("digital.button")}
+              {t("marketing.button")}
             </button>
           </div>
 
@@ -59,7 +59,7 @@ const Digital = () => {
           <div className="py-6 flex justify-end">
             <div className="max-w-2xl space-y-8 text-white">
               <p className="text-lg md:text-xl lg:text-2xl font-MN font-medium leading-tight text-center md:text-left p-4 max-w-lg md:mr-16">
-                {t("digital.quote")}
+                {t("marketing.quote")}
               </p>
               <div className="flex justify-center">
                 <img
@@ -80,10 +80,10 @@ const Digital = () => {
         <div className="px-4 flex flex-col lg:flex-row justify-around items-center">
           <div className="w-full lg:w-auto mb-8 lg:mb-0 max-w-xl">
             <h2 className="text-3xl font-MN font-500 text-white mb-6 text-center lg:text-left">
-              {t("digital.contact.title")}
+              {t("marketing.contact.title")}
             </h2>
             <p className="text-lg font-MN font-light text-white leading-relaxed max-w-md text-center lg:text-left mx-auto lg:mx-0">
-              {t("digital.contact.description")}
+              {t("marketing.contact.description")}
             </p>
           </div>
 
@@ -103,17 +103,17 @@ const Digital = () => {
                 className="h-8 inline-block mr-2"
               />
               <p className="md:text-[.49rem] font-light text-left text-white leading-tight">
-                {t("digital.company.name1")}
+                {t("marketing.company.name1")}
                 <br />
-                {t("digital.company.name2")}
+                {t("marketing.company.name2")}
                 <br />
-                {t("digital.company.name3")}
+                {t("marketing.company.name3")}
               </p>
             </div>
 
             <div className="text-white text-[.59rem] text-center lg:text-right font-light">
-              <p>{t("digital.copyright.text")}</p>
-              <p className="mt-1">{t("digital.copyright.rights")}</p>
+              <p>{t("marketing.copyright.text")}</p>
+              <p className="mt-1">{t("marketing.copyright.rights")}</p>
             </div>
           </div>
         </div>
@@ -122,4 +122,4 @@ const Digital = () => {
   );
 };
 
-export default Digital;
+export default Marketing;

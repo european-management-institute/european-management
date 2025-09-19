@@ -39,7 +39,7 @@
       "part2": "per saperne di più"
     }
   },
-  "digital": {
+  "marketing": {
     "title": {
       "part1": "\"",
       "part2": "OUT",
@@ -310,6 +310,55 @@
         "WASTE MANAGEMENT",
         "SOFTWARE"
       ]
+    }
+  }
+  ,
+  "digital": {
+    "title": {
+      "part1": "digital",
+      "part2": "& technology"
+    },
+    "hero": {
+      "subtitle": "Combiniamo tecnologia avanzata con la trasformazione digitale per accelerare crescita e innovazione.",
+      "icons": ["Code", "Database", "Brain", "Cloud"]
+    },
+    "expertise_title": {
+      "part1": "La tua Visione con la Nostra ",
+      "part2": "Expertise"
+    },
+    "innovation": {
+      "title": "Innovazione",
+      "latest_projects": "Ultimi progetti",
+      "date": "Giugno 2025 – Presente",
+      "description1": "Siamo pionieri di framework AI agentici per l'automazione nel settore delle costruzioni, rivoluzionando la pianificazione finanziaria, la gestione dei cantieri e delle risorse.",
+      "description2": "Le nostre soluzioni digitali automatizzano processi complessi come la pianificazione dei computi metrici, la generazione di preventivi e l'ottimizzazione dei progetti tramite algoritmi avanzati di AI e modelli di machine learning.",
+      "description3": "Questo approccio innovativo combina profonda conoscenza del settore con tecnologia all'avanguardia per migliorare la pianificazione, l'efficienza e ridurre i costi nei progetti di costruzione di ogni scala.",
+      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Framework AI/ML"]
+    },
+    "team": {
+      "title": "Sintija Birgele",
+      "role": "Software Architect",
+      "description": "Software Architect specializzata in scienze applicate del web e Intelligenza Artificiale con oltre 8 anni di esperienza nello sviluppo software per aziende. Guida il team tecnico e sviluppa framework AI agentici con CO-FUN nei settori costruzioni, assicurazioni, automotive ed energia.",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "conferences": "Conferenze"
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "CONTATTI",
+        "description": "Per interfacciarsi con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner."
+      },
+      "company": {
+        "line1": "European",
+        "line2": "Management",
+        "line3": "Institute"
+      },
+      "copyright": {
+        "text": "Copyright © 2020 European Management Institute",
+        "rights": "Tutti i diritti riservati n.registrazione 302022000006366"
+      }
     }
   }
 }
