@@ -20,7 +20,7 @@ const Digital = () => {
               <span className="block text-red-700 drop-shadow-lg text-[4rem] md:text-[6rem] font-bold mb-2 leading-none">{t('digital.title.part1')}</span>
               <span className="block text-gray-900 text-[2.5rem] md:text-[4rem] font-semibold tracking-tight -mt-4 ml-8">{t('digital.title.part2')}</span>
             </h1>
-            <p className="text-base md:text-xl font-MN font-light text-gray-700 leading-relaxed max-w-xl mt-6 ml-20">
+            <p className="text-base text-justify tracking-tighter md:text-xl font-MN font-light text-gray-700 leading-relaxed max-w-xl mt-6 ml-20">
               {t('digital.hero.subtitle')}
             </p>
             <div className="flex gap-6 pt-10 md:py-10 md:ml-32">
@@ -55,18 +55,31 @@ const Digital = () => {
             </h2>
           </div>
           <div className="w-full max-w-7xl mx-auto px-4 md:px-6">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-8 ">
-              <div className="flex-1 md:px-8 pb-4 md:py-12 md:py-0 order-2 md:order-1">
-            <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight">
+            <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight md:px-8">
               {t('digital.innovation.latest_projects')}
             </h3>
-                <span className="inline-block text-base md:text-lg text-white font-bold bg-red-700 px-4 py-2 rounded-full mb-8 shadow">
-                  {t('digital.innovation.date')}
-                </span>
+                <div className="flex items-center h-full md:px-8">
+                  <span className="inline-block text-base md:text-lg text-white font-bold bg-red-700 px-4 py-2 rounded-full shadow">
+                    {t('digital.innovation.date')}
+                  </span>
+                </div>
+            <div className="flex flex-col md:flex-row items-start justify-between gap-8 ">
+              <div className="flex-1 md:px-8 pb-4 md:py-8 md:py-0 order-2 md:order-1">
                 <div className="space-y-6">
                   <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
+                    {t('digital.innovation.description_intro')}
+                  </p>
+                  <p className="text-xl text-gray-700 leading-relaxed font-MN text-justify tracking-tighter">
                     {t('digital.innovation.description1')}
                   </p>
+                  <ul className="pl-6">
+                    {(t('digital.innovation.description_list', { returnObjects: true }) as string[]).map((item, idx) => (
+                      <li key={idx} className="flex items-start mb-2 text-base text-justify tracking-tighter md:text-xl font-MN font-light text-gray-700 leading-relaxed">
+                        <span className="text-red-700 font-bold mr-2">–</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
                 <div className="mt-8">
                   <h4 className="font-Archivo font-bold text-gray-900 mb-4 text-xl">Core Technologies</h4>
@@ -79,9 +92,9 @@ const Digital = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex-1 md-px-8 py-12 md:py-0 order-1 md:order-2 flex items-center justify-center">
+              <div className="flex-1 md-px-8 py-12 md:py-8 order-1 md:order-2 flex items-center justify-center">
                 <div className="space-y-6 w-full">
-                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
+                  <p className="text-lg md:text-xl text-gray-700 text-red-700 leading-relaxed font-MN text-justify">
                     {t('digital.innovation.description2')}
                   </p>
                   <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
@@ -147,6 +160,14 @@ const Digital = () => {
                 >
                   <ExternalLink className="w-5 h-5" />
                   <span>{t('digital.team.links.conferences')}</span>
+                </a>
+                <a 
+                  href={t('digital.team.links.website_link')} 
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                  target="_blank" rel="noopener noreferrer"
+                >
+                  <ExternalLink className="w-5 h-5" />
+                  <span>{t('digital.team.links.website')}</span>
                 </a>
               </div>
             </div>

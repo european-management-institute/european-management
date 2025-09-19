@@ -319,7 +319,7 @@
       "part2": "& technology"
     },
     "hero": {
-      "subtitle": "Combiniamo tecnologia avanzata con la trasformazione digitale per accelerare crescita e innovazione.",
+      "subtitle": "La Business Unit Digitale di European Management sviluppa soluzioni avanzate di automazione basate su IA, pensate per i settori delle costruzioni e della manutenzione. Integra hardware, software e intelligenza artificiale per aumentare l'efficienza, accelerare la crescita aziendale e abilitare la scalabilità.",
       "icons": ["Code", "Database", "Brain", "Cloud"]
     },
     "expertise_title": {
@@ -328,21 +328,29 @@
     },
     "innovation": {
       "title": "Innovazione",
-      "latest_projects": "Ultimi progetti",
+      "latest_projects": "Migliori Progetti Recenti",
       "date": "Giugno 2025 – Presente",
-      "description1": "Siamo pionieri di framework AI agentici per l'automazione nel settore delle costruzioni, rivoluzionando la pianificazione finanziaria, la gestione dei cantieri e delle risorse.",
-      "description2": "Le nostre soluzioni digitali automatizzano processi complessi come la pianificazione dei computi metrici, la generazione di preventivi e l'ottimizzazione dei progetti tramite algoritmi avanzati di AI e modelli di machine learning.",
-      "description3": "Questo approccio innovativo combina profonda conoscenza del settore con tecnologia all'avanguardia per migliorare la pianificazione, l'efficienza e ridurre i costi nei progetti di costruzione di ogni scala.",
+      "description_intro": "Framework AI agentico per l'automazione in edilizia e industria",
+      "description1": "Abbiamo sviluppato e continuiamo a personalizzare un framework intelligente che trasforma il modo in cui operano le aziende di costruzione e manutenzione. La soluzione consente alle organizzazioni di:",
+      "description_list": [
+        "Ripensare la pianificazione del budget e i preventivi con maggiore precisione ed efficienza",
+        "Monitorare i processi quotidiani e tracciare i risultati in tempo reale",
+        "Identificare e gestire i rischi confrontando i risultati attesi con le performance reali"
+      ],
+      "description2": "Cosa fa la differenza?",
+      "description3": "Partiamo dalla conoscenza del business, non dalla tecnologia. Comprendendo come le aziende crescono e si espandono, integriamo AI e blockchain per offrire soluzioni semplici, efficaci e accessibili—senza i costi proibitivi che frenano l'innovazione.",
       "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Framework AI/ML"]
     },
     "team": {
       "title": "Sintija Birgele",
-      "role": "Software Architect",
-      "description": "Software Architect specializzata in scienze applicate del web e Intelligenza Artificiale con oltre 8 anni di esperienza nello sviluppo software per aziende. Guida il team tecnico e sviluppa framework AI agentici con CO-FUN nei settori costruzioni, assicurazioni, automotive ed energia.",
+      "role": "Architetto Software",
+      "description": "Architetto Software con oltre 8 anni di esperienza nell'ingegneria software aziendale, specializzata in tecnologie web e Intelligenza Artificiale applicata. Esperta nella progettazione e realizzazione di framework di IA agentica per i settori assicurativo, automobilistico ed energetico.",
       "links": {
         "github": "GitHub",
         "linkedin": "LinkedIn",
-        "conferences": "Conferenze"
+        "conferences": "Conferenze",
+        "website": "Sito web",
+        "website_link": "https://cofun.digital/"
       }
     },
     "footer": {
