@@ -39,7 +39,7 @@
       "part2": "para saber más"
     }
   },
-  "digital": {
+  "marketing": {
     "title": {
       "part1": "\"",
       "part2": "OUT",
@@ -307,6 +307,55 @@
         "GESTIÓN DE RESIDUOS",
         "SOFTWARE"
       ]
+    }
+  }
+  ,
+  "digital": {
+    "title": {
+      "part1": "digital",
+      "part2": "& technology"
+    },
+    "hero": {
+      "subtitle": "Combinamos tecnología avanzada con transformación digital para acelerar el crecimiento y la innovación.",
+      "icons": ["Code", "Database", "Brain", "Cloud"]
+    },
+    "expertise_title": {
+      "part1": "Tu Visión con Nuestra ",
+      "part2": "Experiencia"
+    },
+    "innovation": {
+      "title": "Innovación",
+      "latest_projects": "Últimos proyectos",
+      "date": "Junio 2025 – Presente",
+      "description1": "Somos pioneros en frameworks de IA agentica para la automatización en la industria de la construcción, revolucionando la planificación financiera, la gestión de obras y recursos.",
+      "description2": "Nuestras soluciones digitales automatizan procesos complejos como la planificación de cantidades, generación de cotizaciones y optimización de proyectos usando algoritmos avanzados de IA y modelos de aprendizaje automático.",
+      "description3": "Este enfoque innovador combina profundo conocimiento del sector con tecnología de vanguardia para mejorar la planificación, eficiencia y reducir costos en proyectos de construcción de cualquier escala.",
+      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Frameworks IA/ML"]
+    },
+    "team": {
+      "title": "Sintija Birgele",
+      "role": "Arquitecta de Software",
+      "description": "Arquitecta de software especializada en ciencias aplicadas del web y en inteligencia artificial con más de 8 años de experiencia en ingeniería de software para empresas. Impulsora de la gestión del equipo técnico y el desarrollo de frameworks de IA agentica con CO-FUN en los sectores de construcción, seguros, automotriz y energía.",
+      "links": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "conferences": "Conferencias"
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "CONTACTOS",
+        "description": "Para interactuar con nuestras oficinas y trabajar con nosotros es necesaria la referencia de una empresa que ya sea cliente o socio."
+      },
+      "company": {
+        "line1": "European",
+        "line2": "Management",
+        "line3": "Institute"
+      },
+      "copyright": {
+        "text": "Copyright © 2020 European Management Institute",
+        "rights": "Todos los derechos reservados n.registro 302022000006366"
+      }
     }
   }
 }

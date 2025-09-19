@@ -17,11 +17,11 @@ const Digital = () => {
           {/* Left Column: Text */}
           <div className="flex-1 flex flex-col items-start justify-center px-2 md:px-8">
             <h1 className="font-MN font-extrabold mb-4 text-left">
-              <span className="block text-red-700 drop-shadow-lg text-[4rem] md:text-[6rem] font-bold mb-2 leading-none">{"digital"}</span>
-              <span className="block text-gray-900 text-[2.5rem] md:text-[4rem] font-semibold tracking-tight -mt-4 ml-8">& technology</span>
+              <span className="block text-red-700 drop-shadow-lg text-[4rem] md:text-[6rem] font-bold mb-2 leading-none">{t('digital.title.part1')}</span>
+              <span className="block text-gray-900 text-[2.5rem] md:text-[4rem] font-semibold tracking-tight -mt-4 ml-8">{t('digital.title.part2')}</span>
             </h1>
             <p className="text-base md:text-xl font-MN font-light text-gray-700 leading-relaxed max-w-xl mt-6 ml-20">
-              We combine advanced technology with digital transformation to accelerate growth and innovation.
+              {t('digital.hero.subtitle')}
             </p>
             <div className="flex gap-6 pt-10 md:py-10 md:ml-32">
               <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
@@ -51,27 +51,27 @@ const Digital = () => {
         <div className="w-full px-0 md:px-0">
           <div className="text-center mb-4 ">
             <h2 className="text-4xl md:text-5xl font-Archivo font-regular text-gray-900 tracking-tight">
-              <span className="text-red-700">Innovation</span>
+              <span className="text-red-700">{t('digital.innovation.title')}</span>
             </h2>
           </div>
           <div className="w-full max-w-7xl mx-auto px-4 md:px-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-8 ">
               <div className="flex-1 md:px-8 pb-4 md:py-12 md:py-0 order-2 md:order-1">
-             <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight">
-              Latest projects
+            <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight">
+              {t('digital.innovation.latest_projects')}
             </h3>
                 <span className="inline-block text-base md:text-lg text-white font-bold bg-red-700 px-4 py-2 rounded-full mb-8 shadow">
-                  June 2025 – Present
+                  {t('digital.innovation.date')}
                 </span>
                 <div className="space-y-6">
                   <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-                    We are pioneering <span className="font-bold text-red-700">agentic AI frameworks for construction industry automation</span>, revolutionizing how construction companies approach their finance budget planning, construction site and resource management.
+                    {t('digital.innovation.description1')}
                   </p>
                 </div>
                 <div className="mt-8">
                   <h4 className="font-Archivo font-bold text-gray-900 mb-4 text-xl">Core Technologies</h4>
                   <div className="flex flex-wrap gap-3">
-                    {['Python', 'FastAPI', 'LLM Integrations', 'LangChain', 'React', 'AWS', 'AI/ML Frameworks'].map((tech) => (
+                    {(t('digital.innovation.core_technologies', { returnObjects: true }) as string[]).map((tech) => (
                       <span key={tech} className="px-4 py-2 bg-red-100 text-red-700 rounded-full text-base font-semibold shadow">
                         {tech}
                       </span>
@@ -82,10 +82,10 @@ const Digital = () => {
               <div className="flex-1 md-px-8 py-12 md:py-0 order-1 md:order-2 flex items-center justify-center">
                 <div className="space-y-6 w-full">
                   <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
-                    Our digital solutions automate complex processes including bill-of-quantities planning, quotation generation, and project optimization using advanced AI algorithms and machine learning models.
+                    {t('digital.innovation.description2')}
                   </p>
                   <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-MN text-justify">
-                    This innovative approach combines deep industry knowledge with state-of-the-art technology to deliver measurable improvements in project planning and efficiency, and cost reduction for construction projects of all scales.
+                    {t('digital.innovation.description3')}
                   </p>
                 </div>
               </div>
@@ -95,7 +95,8 @@ const Digital = () => {
       </div>
           <div className="w-full bg-[#071330] py-10">
             <h2 className="text-3xl md:text-4xl font-MN font-regular text-white text-center mb-4">
-              Your Vision with Our <span className="text-red-700">Expertise</span>
+              {t('digital.expertise_title.part1')}
+              <span className="text-red-700">{t('digital.expertise_title.part2')}</span>
             </h2>
           </div>
       {/* Team Member - Sintija Birgele */}
@@ -115,16 +116,15 @@ const Digital = () => {
             <div className="order-1 md:order-2 space-y-6">
               <div>
                 <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
-                  Sintija Birgele
+                  {t('digital.team.title')}
                 </h3>
                 <p className="text-xl text-red-700 font-MN font-medium mt-2">
-                  Software Architect
+                  {t('digital.team.role')}
                 </p>
               </div>
               
               <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN">
-                Software Architect specialized in applied sciences of web software and Artificial Intelligence with 8+ years experience in software engineering for enterprises. 
-                Driving force behind managing technical team and building agentic AI frameworks with <a className="underline" href="https://cofun.digital">CO-FUN</a> in construction, insurance, automotive and energy sectors.
+                {t('digital.team.description')}
               </p>
               <div className="flex space-x-4 pt-4">
                 <a 
@@ -132,21 +132,21 @@ const Digital = () => {
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <Github className="w-5 h-5" />
-                  <span>GitHub</span>
+                  <span>{t('digital.team.links.github')}</span>
                 </a>
                 <a 
                   href="https://de.linkedin.com/in/sintija-birgele" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
-                  <span>LinkedIn</span>
+                  <span>{t('digital.team.links.linkedin')}</span>
                 </a>
                 <a 
                   href="https://gitnation.com/contents/internationalization-i18n-with-ai-powered-language-model" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
                 >
                   <ExternalLink className="w-5 h-5" />
-                  <span>Conferences</span>
+                  <span>{t('digital.team.links.conferences')}</span>
                 </a>
               </div>
             </div>
@@ -159,27 +159,27 @@ const Digital = () => {
         <div className="px-4 flex flex-col lg:flex-row justify-around items-center">
           <div className="w-full lg:w-auto mb-8 lg:mb-0 max-w-xl">
             <h2 className="text-3xl font-MN font-500 text-white mb-6 text-center lg:text-left">
-              CONTACT
+              {t('digital.footer.contact.title')}
             </h2>
             <p className="text-lg font-MN font-light text-white leading-relaxed max-w-md text-center lg:text-left mx-auto lg:mx-0">
-              To interact with our offices and work with us, a reference from an existing client or partner company is required.
+              {t('digital.footer.contact.description')}
             </p>
           </div>
 
           <div className="w-full lg:w-auto text-center lg:text-right mt-8 lg:mt-0">
             <div className="flex flex-row items-center mb-4 justify-center lg:justify-end">
               <p className="md:text-[.49rem] font-light text-left text-white leading-tight">
-                European
+                {t('digital.footer.company.line1')}
                 <br />
-                Management
+                {t('digital.footer.company.line2')}
                 <br />
-                Institute
+                {t('digital.footer.company.line3')}
               </p>
             </div>
 
             <div className="text-white text-[.59rem] text-center lg:text-right font-light">
-              <p>Copyright © 2020 European Management Institute</p>
-              <p className="mt-1">All rights reserved registration no. 302022000006366</p>
+              <p>{t('digital.footer.copyright.text')}</p>
+              <p className="mt-1">{t('digital.footer.copyright.rights')}</p>
             </div>
           </div>
         </div>
