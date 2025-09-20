@@ -15,7 +15,7 @@ import SignUpComponent from "./pages/SignUpComponent.jsx";
 
 createRoot(document.getElementById("root")).render(
   <I18nextProvider i18n={i18n}>
-    <BrowserRouter basename="/european-management/">
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<App />} />
