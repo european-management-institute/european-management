@@ -327,7 +327,7 @@ export default function ExpertiseGraph() {
   const [rfEdges, setEdges, onEdgesChange] = useEdgesState(edges);
 
   return (
-    <div style={{ width: "100%", height: 600 }} className="md:my-12">
+    <div style={{ width: "100%", height: 450 }} className="md:my-24">
       <ReactFlow
         nodes={rfNodes}
         edges={rfEdges}
@@ -339,6 +339,7 @@ export default function ExpertiseGraph() {
         zoomOnScroll
         minZoom={0.3}
         maxZoom={1.5}
+        proOptions={{ hideAttribution: true }}
       >
         <Background color="#f3f4f6" gap={16} />
         {/* MiniMap and Controls removed for cleaner UI */}

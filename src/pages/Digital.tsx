@@ -15,7 +15,7 @@ const Digital = () => {
       <div className="w-full min-h-[60vh] flex items-center justify-center px-4 md:px-0 pt-16 md:pt-24">
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-start justify-center gap-8">
           {/* Left Column: Text */}
-          <div className="flex-1 flex flex-col items-start justify-center px-2 md:px-8">
+          <div className="flex-1 flex flex-col items-start justify-center md:px-8">
             <h1 className="font-MN font-extrabold mb-4 text-left">
               <span className="block text-red-700 drop-shadow-lg text-[4rem] md:text-[6rem] font-bold mb-2 leading-none">{t('digital.title.part1')}</span>
               <span className="block text-gray-900 text-[2.5rem] md:text-[4rem] font-semibold tracking-tight -mt-4 ml-8">{t('digital.title.part2')}</span>
@@ -139,31 +139,31 @@ const Digital = () => {
               <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN">
                 {t('digital.team.description')}
               </p>
-              <div className="flex space-x-4 pt-4">
+              <div className="flex space-x-4 pt-4 flex-wrap">
                 <a 
                   href="https://github.com/sintijab" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
                 >
                   <Github className="w-5 h-5" />
                   <span>{t('digital.team.links.github')}</span>
                 </a>
                 <a 
                   href="https://de.linkedin.com/in/sintija-birgele" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
                 >
                   <Linkedin className="w-5 h-5" />
                   <span>{t('digital.team.links.linkedin')}</span>
                 </a>
                 <a 
                   href="https://gitnation.com/contents/internationalization-i18n-with-ai-powered-language-model" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
                 >
                   <ExternalLink className="w-5 h-5" />
                   <span>{t('digital.team.links.conferences')}</span>
                 </a>
                 <a 
                   href={t('digital.team.links.website_link')} 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
                   target="_blank" rel="noopener noreferrer"
                 >
                   <ExternalLink className="w-5 h-5" />
