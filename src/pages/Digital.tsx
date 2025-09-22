@@ -58,11 +58,6 @@ const Digital = () => {
             <h3 className="text-4xl md:text-4xl font-Archivo font-regular text-gray-900 mb-4 tracking-tight md:px-8">
               {t('digital.innovation.latest_projects')}
             </h3>
-                <div className="flex items-center h-full md:px-8">
-                  <span className="inline-block text-base md:text-lg text-white font-bold bg-red-700 px-4 py-2 rounded-full shadow">
-                    {t('digital.innovation.date')}
-                  </span>
-                </div>
             <div className="flex flex-col md:flex-row items-start justify-between gap-8 ">
               <div className="flex-1 md:px-8 pb-4 md:py-8 md:py-0 order-2 md:order-1">
                 <div className="space-y-6">
