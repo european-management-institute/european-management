@@ -101,8 +101,14 @@ const Digital = () => {
           </div>
         </div>
       </div>
+      <div className="w-full py-10">
+        <h2 className="text-3xl md:text-4xl font-MN font-regular text-center mb-4">
+          {t('digital.expertise_title.part1')}
+          <span className="text-red-700">{t('digital.expertise_title.part2')}</span>
+        </h2>
+      </div>
       {/* Team Member - Sintija Birgele */}
-      <div className="bg-gray-50 md:py-24">
+      <div className="md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
