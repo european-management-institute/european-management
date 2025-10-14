@@ -190,12 +190,10 @@
   "footer_contact_description": "Per interfacciarsi con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner.",
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "Tutti i diritti riservati n.registrazione 302022000006366",
-
   "footer_company_line1": "European",
   "footer_company_line2": "Management",
   "footer_company_line3": "Institute",
   "team_digital_title": "DIGITAL TEAM",
-
   "AboutTeamSection": {
     "about_section_title": "SCOPRI DI PIÚ",
     "about_paragraph1": "European Management nasce come supporto esterno per aziende nel monitoraggio e studio delle politiche pubbliche europee con soluzioni ad hoc di consulenza e management esternalizzato. Percorsi di questo tipo permettono ad aziende e enti pubblici di essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri.",
@@ -206,19 +204,20 @@
     "about_modus_description": "Per potersi muovere con successo in un mercato competitivo in continuo cambiamento European Management punta sulla iper-specializzazione. Per questo motivo ha strutturato negli anni una rete internazionale di professionisti di fiducia con competenze uniche che coinvolge, sotto il coordinamento quotidiano dei referenti interni di ogni business unit, per renderne scalabile l'operato aziendale evitando così burocrazia, pesantezza organizzativa e conseguenti rallentamenti.",
     "team_management_title": "IL TEAM MANAGEMENT",
     "team_digital_title": "IL TEAM DIGITAL",
-
     "team_member_1_name": "Luca Bazzanella",
     "team_member_1_role": "Direzione e Public Policy",
     "team_member_2_name": "Zak Edbali",
     "team_member_2_role": "HR Management e outsourching",
     "team_member_3_name": "Paolo Decaminada",
     "team_member_3_role": "Finanza e fiscalità",
-    "team_member_4_name": "Isabel Tonelli",
-    "team_member_4_role": "Marketing Manager",
-    "team_member_5_name": "Jessica Pezzelato",
-    "team_member_5_role": "Business Development",
-    "team_member_6_name": "Andrea Graziani",
-    "team_member_6_role": "Social Media e Web"
+    "team_member_4_name": "Sintija Birgele",
+    "team_member_4_role": "Software Development",
+    "team_member_5_name": "Isabel Tonelli",
+    "team_member_5_role": "Marketing Manager",
+    "team_member_6_name": "Jessica Pezzelato",
+    "team_member_6_role": "Business Development",
+    "team_member_7_name": "Andrea Graziani",
+    "team_member_7_role": "Social Media e Web"
   },
   "OutsourcedManagement": {
     "title": "OUTSOURCHED MANAGEMENT & CONSULTING",
@@ -237,7 +236,6 @@
       "rights": "Tutti i diritti riservati n.registrazione 302022000006366"
     }
   },
-
   "servicesManagement": {
     "main_title": "I NOSTRI SERVIZI",
     "outsourced_management": {
@@ -323,8 +321,7 @@
         "SOFTWARE"
       ]
     }
-  }
-  ,
+  },
   "digital": {
     "title": {
       "part1": "digital",
@@ -332,7 +329,12 @@
     },
     "hero": {
       "subtitle": "La Business Unit Digitale di European Management sviluppa soluzioni avanzate di automazione basate su IA, pensate per i settori delle costruzioni e della manutenzione. Integra hardware, software e intelligenza artificiale per aumentare l'efficienza, accelerare la crescita aziendale e abilitare la scalabilità.",
-      "icons": ["Code", "Database", "Brain", "Cloud"]
+      "icons": [
+        "Code",
+        "Database",
+        "Brain",
+        "Cloud"
+      ]
     },
     "expertise_title": {
       "part1": "La tua Visione con la Nostra ",
@@ -351,7 +353,15 @@
       ],
       "description2": "Cosa fa la differenza?",
       "description3": "Partiamo dalla conoscenza del business, non dalla tecnologia. Comprendendo come le aziende crescono e si espandono, integriamo AI e blockchain per offrire soluzioni semplici, efficaci e accessibili—senza i costi proibitivi che frenano l'innovazione.",
-      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Framework AI/ML"]
+      "core_technologies": [
+        "Python",
+        "FastAPI",
+        "LLM Integrations",
+        "LangChain",
+        "React",
+        "AWS",
+        "Framework AI/ML"
+      ]
     },
     "team": {
       "title": "Sintija Birgele",

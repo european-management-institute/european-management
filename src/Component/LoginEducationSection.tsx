@@ -160,11 +160,11 @@ const LoginEducationSection = () => {
                 className="h-8 inline-block mr-2"
               />
               <p className="md:text-[.49rem] font-light text-left text-white leading-tight">
-                {t("digital.company.name1")}
+                {t("digital.footer.company.line1")}
                 <br />
-                {t("digital.company.name2")}
+                {t("digital.footer.company.line2")}
                 <br />
-                {t("digital.company.name3")}
+                {t("digital.footer.company.line3")}
               </p>
             </div>
 

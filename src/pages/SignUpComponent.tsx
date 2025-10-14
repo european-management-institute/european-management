@@ -84,11 +84,11 @@ export default function RegistrationForm() {
         <div className="w-full md:w-1/3 relative bg-[#071330] p-4 md:p-8">
           <div className="absolute top-8 left-8 flex flex-row justify-center">
             <p className="hidden md:block md:text-[.49rem] font-MN font-light text-left text-white leading-tight">
-              {t("digital.company.name1")}
+              {t("digital.footer.company.line1")}
               <br />
-              {t("digital.company.name2")}
+              {t("digital.footer.company.line2")}
               <br />
-              {t("digital.company.name3")}
+              {t("digital.footer.company.line3")}
             </p>
           </div>
 

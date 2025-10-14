@@ -210,12 +210,14 @@
     "team_member_2_role": "Gestión de RRHH y externalización",
     "team_member_3_name": "Paolo Decaminada",
     "team_member_3_role": "Finanzas y fiscalidad",
-    "team_member_4_name": "Isabel Tonelli",
-    "team_member_4_role": "Gerente de Marketing",
-    "team_member_5_name": "Jessica Pezzelato",
-    "team_member_5_role": "Desarrollo de Negocio",
-    "team_member_6_name": "Andrea Graziani",
-    "team_member_6_role": "Redes Sociales y Web"
+    "team_member_4_name": "Sintija Birgele",
+    "team_member_4_role": "Software Development",
+    "team_member_5_name": "Isabel Tonelli",
+    "team_member_5_role": "Gerente de Marketing",
+    "team_member_6_name": "Jessica Pezzelato",
+    "team_member_6_role": "Desarrollo de Negocio",
+    "team_member_7_name": "Andrea Graziani",
+    "team_member_7_role": "Redes Sociales y Web"
   },
   "OutsourcedManagement": {
     "title": "GESTIÓN Y CONSULTORÍA EXTERNALIZADAS",

@@ -213,12 +213,14 @@
     "team_member_2_role": "HR Management and Outsourcing",
     "team_member_3_name": "Paolo Decaminada",
     "team_member_3_role": "Finance and Taxation",
-    "team_member_4_name": "Isabel Tonelli",
-    "team_member_4_role": "Marketing Manager",
-    "team_member_5_name": "Jessica Pezzelato",
-    "team_member_5_role": "Business Development",
-    "team_member_6_name": "Andrea Graziani",
-    "team_member_6_role": "Social Media and Web"
+    "team_member_4_name": "Sintija Birgele",
+    "team_member_4_role": "Software Development",
+    "team_member_5_name": "Isabel Tonelli",
+    "team_member_5_role": "Marketing Manager",
+    "team_member_6_name": "Jessica Pezzelato",
+    "team_member_6_role": "Business Development",
+    "team_member_7_name": "Andrea Graziani",
+    "team_member_7_role": "Social Media and Web"
   },
   "OutsourcedManagement": {
     "title": "OUTSOURCED MANAGEMENT & CONSULTING",
