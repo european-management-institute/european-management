@@ -32,13 +32,13 @@ const ServicesLayout = () => {
         <div className="lg:hidden mt-8">
           <div className="max-w-md mx-auto space-y-4 pb-2">
             <ServiceItem
-              title="MANAGEMENT"
+              title=" OUTSOURCED MANAGEMENT"
               description={t("services.management.description")}
               link="/management"
               icon="🎯"
             />
             <ServiceItem
-              title="DIGITAL"
+              title="PUBLIC POLICY"
               link="/digital"
               description={t("services.digital.description")}
               icon="💻"

@@ -6,8 +6,8 @@ const Tree = () => {
     <main className="">
       <nav className="w-full mx-auto px-4">
         <TreeList>
-          <TreeItem label="MANAGEMENT" link="/management" children={null} />
-          <TreeItem label="DIGITAL" link="/digital" children={null} />
+          <TreeItem label="OUTSOURCED MANAGEMENT" link="/management" children={null} />
+          <TreeItem label="PUBLIC POLICY" link="/digital" children={null} />
           <TreeItem label="INSTITUTE" link="/e-learning" children={null} />
         </TreeList>
       </nav>
@@ -26,7 +26,7 @@ const TreeItem = ({ label, children, className = "", link }) => {
   return (
     <li
       className={`
-      relative pt-12 text-center list-none ${className}
+      relative max-w-[200px] pt-12 text-center list-none ${className}
       ${children ? "w-full" : ""}
       ${
         children
