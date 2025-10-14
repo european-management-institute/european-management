@@ -276,22 +276,33 @@
         "simular su impacto en sus intereses",
         "poder planificar en consecuencia acuerdos estratégicos o nuevas alianzas"
       ],
-      "data_driven_intro": "European Management, en asociación con Quaeris, conocida empresa italiana de estadística, ofrece a instituciones y entidades locales soluciones \"basadas en datos\" para la planificación de políticas públicas, entre ellas:",
-
-      "citizen_satisfaction": {
-        "title": "Satisfacción Ciudadana:",
-        "list": [
-          "Con la recopilación y procesamiento de datos ayudamos a visualizar claramente la opinión y el sentimiento de los ciudadanos sobre temas específicos de interés",
-          "Gracias a los datos recopilados, instituciones y entidades locales pueden tomar las mejores decisiones basadas en las intenciones e intereses reales de los ciudadanos"
-        ]
-      },
-      "quality_monitor": {
-        "title": "Monitor de Calidad:",
-        "intro": "Gracias a un software innovador desarrollado específicamente, ayudamos a grandes empresas a comprender su impacto real diario en sus usuarios.",
-        "list": [
-          "Sustituimos con una solución digital todo un departamento de analistas",
-          "Apoyamos a la dirección en la comprensión del valor efectivo de los servicios prestados, favoreciendo la comparación de empresas en el mismo sector mediante parámetros estándar"
-        ]
+      "digital_public_policy": {
+        "title": "Política pública digital",
+        "intro": "Ponemos a disposición de autoridades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que ayudan a mejorar la planificación de las políticas públicas. En concreto, nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas gracias a un mayor conocimiento e información.",
+        "citizen_satisfaction": {
+          "title": "Satisfacción Ciudadana:",
+          "list": [
+            "Medir y mapear con precisión el sentimiento de los ciudadanos por área geográfica sobre temas específicos de interés y su evolución en el tiempo.",
+            "Gracias a los datos recopilados, los responsables públicos pueden tomar mejores decisiones basadas en intenciones e intereses reales."
+          ]
+        },
+        "quality_monitor": {
+          "title": "Monitor de Calidad:",
+          "intro": "Gracias a un software innovador desarrollado ad hoc, ayudamos a grandes empresas privadas y públicas a comprender su impacto real diario en sus usuarios.",
+          "list": [
+            "Sustituimos con una solución digital el trabajo que normalmente realiza todo un departamento de analistas.",
+            "Apoyamos a la dirección en la comprensión del valor efectivo de los servicios prestados, favoreciendo la comparación de empresas en el mismo sector mediante parámetros estándar."
+          ]
+        },
+        "microtargeting_ai": {
+          "title": "Microtargeting con inteligencia artificial (IA)",
+          "intro": "Las encuestas tradicionales ofrecen cifras estáticas, mientras que el microtargeting dinámico combinado con el web monitoring y la IA permite:",
+          "list": [
+            "IDENTIFICAR PERSONAS DE OPINIÓN sobre temas específicos de interés público (sanidad, servicios al ciudadano, infraestructuras, eventos, bienestar, etc.)",
+            "Identificar TEMAS Y TONOS DE COMUNICACIÓN óptimos para dialogar correctamente con cada grupo homogéneo identificado;",
+            "ADAPTAR RÁPIDA Y EFICAZMENTE las estrategias de comunicación y sensibilización;"
+          ]
+        }
       }
     },
     "clients": {
