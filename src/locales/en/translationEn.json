@@ -270,29 +270,30 @@
       }
     },
     "public_policy": {
-      "title": "PUBLIC POLICY",
-      "intro": "European Management supports, with high professional standards, companies and entrepreneurs in",
-      "intro1": "monitoring and understanding public policies",
-      "intro2": "local and European, and their impact on their interests and business models.",
-      "list": [
-        "being more aware of risks and opportunities arising from current or future political and legislative changes",
-        "simulating their impact on their interests",
-        "being able to consequently plan strategic agreements or new alliances"
-      ],
-      "data_driven_intro": "European Management, in partnership with Quaeris, a well-known Italian statistics company, offers data-driven solutions to institutions and local authorities for public policy planning, including:",
+      "title": "Digital public policy",
+      "intro": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that help improve public policy planning. Specifically, our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions thanks to greater knowledge and information.",
       "citizen_satisfaction": {
         "title": "Citizen Satisfaction:",
         "list": [
-          "Through data collection and processing, we help visualize clearly the opinion and sentiment of citizens on specific topics of interest",
-          "Thanks to the collected data, institutions and local authorities can make better decisions based on citizens' real intentions and interests"
+          "Measure and accurately map citizen sentiment by geographic area on specific topics of interest and its evolution over time.",
+          "Thanks to the collected data, public decision-makers can make better decisions based on real intentions and interests."
         ]
       },
       "quality_monitor": {
         "title": "Quality Monitor:",
-        "intro": "Thanks to an innovative custom-developed software, we help large companies understand their real daily impact on their users.",
+        "intro": "Thanks to innovative custom-developed software, we help large private and public companies understand their real daily impact on their users.",
         "list": [
-          "We replace an entire department of analysts with a digital solution",
-          "We support management in understanding the actual value of delivered services by facilitating comparison of companies in the same sector through standard parameters"
+          "We replace with a digital solution the work usually performed by an entire department of analysts.",
+          "We support management in understanding the actual value of delivered services by facilitating comparison of companies in the same sector through standard parameters."
+        ]
+      },
+      "microtargeting_ai": {
+        "title": "Microtargeting with Artificial Intelligence (AI)",
+        "intro": "Traditional surveys offer static numbers, while dynamic microtargeting combined with web monitoring and AI allows you to:",
+        "list": [
+          "IDENTIFY OPINION PERSONAS on specific topics of public interest (healthcare, citizen services, infrastructure, events, welfare, etc.)",
+          "Identify OPTIMAL TOPICS AND COMMUNICATION TONES to correctly engage with each identified homogeneous group;",
+          "QUICKLY AND EFFECTIVELY ADAPT communication and awareness strategies;"
         ]
       }
     },

@@ -22,7 +22,7 @@ const ServicesSection = () => {
             {t("servicesManagement.outsourced_management.intro1")}
           </p>
           <p className="text-base  font-MN  font-light leading-6 max-w-md mx-auto md:mx-0">
-            {t("servicesManagement.outsourced_management.intro2")}{" "}
+            {t("servicesManagement.outsourced_management.intro2")} {" "}
             <span className="font-bold">
               {" "}
               {t("servicesManagement.outsourced_management.introB")}
@@ -99,36 +99,19 @@ const ServicesSection = () => {
           </div>
         </div>
 
-        {/* Public Policy */}
+        {/* Digital Public Policy */}
         <div className="space-y-6 text-center md:text-left">
           <h3 className="font-MN text-blue-950 font-semibold text-lg tracking-wide">
             {t("servicesManagement.public_policy.title")}
           </h3>
-          <p className="text-base  font-MN  font-light leading-6 max-w-md mx-auto md:mx-0">
-            {t("servicesManagement.public_policy.intro")}{" "}
-            <span className="font-bold">
-              {t("servicesManagement.public_policy.intro1")}
-            </span>{" "}
-            {t("servicesManagement.public_policy.intro2")}
-          </p>
-          <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
-            {(t("servicesManagement.public_policy.list", {
-              returnObjects: true,
-            }) as string[]).map((item, index) => (
-              <li key={index} className="text-md font-light">
-                {item}
-              </li>
-            ))}
-          </ul>
-          <p className="text-base  font-MN  font-light leading-6 max-w-md mx-auto md:mx-0">
-            {t("servicesManagement.public_policy.data_driven_intro")}
+          <p className="text-base font-MN font-light leading-6 max-w-md mx-auto md:mx-0">
+            {t("servicesManagement.public_policy.intro")}
           </p>
 
           <h4 className="font-MN text-blue-950 font-semibold tracking-tight">
             {t("servicesManagement.public_policy.citizen_satisfaction.title")}
           </h4>
-
-          <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
+          <ul className="list-disc font-MN pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
             {(t("servicesManagement.public_policy.citizen_satisfaction.list", {
               returnObjects: true,
             }) as string[]).map((item, index) => (
@@ -141,11 +124,28 @@ const ServicesSection = () => {
           <h4 className="font-MN text-blue-950 font-semibold tracking-tight">
             {t("servicesManagement.public_policy.quality_monitor.title")}
           </h4>
-          <p className="text-base  font-MN  font-light leading-6 max-w-md mx-auto md:mx-0">
+          <p className="text-base font-MN font-light leading-6 max-w-md mx-auto md:mx-0">
             {t("servicesManagement.public_policy.quality_monitor.intro")}
           </p>
-          <ul className="list-disc  font-MN  pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
+          <ul className="list-disc font-MN pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
             {(t("servicesManagement.public_policy.quality_monitor.list", {
+              returnObjects: true,
+            }) as string[]).map((item, index) => (
+              <li key={index} className="text-md font-light">
+                {item}
+              </li>
+            ))}
+          </ul>
+
+          {/* Microtargeting AI Section */}
+          <h4 className="font-MN text-blue-950 font-semibold tracking-tight">
+            {t("servicesManagement.public_policy.microtargeting_ai.title")}
+          </h4>
+          <p className="text-base font-MN font-light leading-6 max-w-md mx-auto md:mx-0">
+            {t("servicesManagement.public_policy.microtargeting_ai.intro")}
+          </p>
+          <ul className="list-disc font-MN pl-5 space-y-2 max-w-md mx-auto md:mx-0 text-left">
+            {(t("servicesManagement.public_policy.microtargeting_ai.list", {
               returnObjects: true,
             }) as string[]).map((item, index) => (
               <li key={index} className="text-md font-light">
