@@ -20,9 +20,9 @@ createRoot(document.getElementById("root")).render(
         <Route element={<Layout />}>
           <Route index element={<App />} />
           <Route path="/chi-siamo" element={<AboutTeamSection />} />
-          <Route path="/management" element={<OutsourcedManagement />} />
+          <Route path="/management" element={<Digital />} />
           <Route path="/marketing" element={<Marketing />} />
-          <Route path="/digital" element={<Digital />} />
+          <Route path="/digital" element={<OutsourcedManagement />} />
           <Route path="/e-learning" element={<LoginEducationSection />} />
           <Route path="/signup" element={<SignUpComponent />} />
         </Route>
