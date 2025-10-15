@@ -17,13 +17,8 @@ const OutsourcedManagement = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-8 text-center md:text-left px-4 md:px-6">
             <h2 className="text-2xl text-blue-950 md:text-4xl lg:text-5xl font-MN font-medium leading-tight">
-              {t("OutsourcedManagement.title")}
+              {t("servicesManagement.public_policy.title")}
             </h2>
-
-            <p className="text-lg md:text-xl font-MN font-bold text-gray-700 leading-tight">
-              {t("OutsourcedManagement.subtitle")}
-            </p>
-
             <div className="flex justify-center md:justify-start">
               <button
                 className="bg-cover bg-center text-white px-6 md:px-8 py-2 md:py-3 rounded-full font-MN
@@ -42,7 +37,7 @@ const OutsourcedManagement = () => {
 
           <div className="relative -mb-24 lg:block">
             <LazyLoadImage
-              src={lucaImg}
+              src='./public_policy.jpg'
               alt="Business consultant on phone"
               className="w-screen rounded-lg shadow-xl"
             />
@@ -53,22 +48,78 @@ const OutsourcedManagement = () => {
         <div className="max-w-7xl mx-auto">
           <div className="py-6 flex justify-end">
             <div className=" space-y-8 text-white">
-              <p className="text-lg md:text-xl lg:text-lg font-MN font-medium leading-tight text-left p-8 max-w-2xl -mr-6 ">
-                {t("OutsourcedManagement.description")}
-              </p>
-
-              <div className="flex justify-end">
-                <img
-                  src={srcc}
-                  alt="Luca Bazzanella signature"
-                  className="h-20 object-contain"
-                />
+              <div className="w-full text-center mb-8">
+                <p className="text-xl md:text-3xl font-MN font-thin text-white max-w-3xl mx-auto mb-2">
+                  {t("servicesManagement.public_policy.intro")}
+                  <span className="font-bold"> {t("servicesManagement.public_policy.intro1")}</span> {t("servicesManagement.public_policy.intro2")}
+                </p>
               </div>
             </div>
           </div>
         </div>
       </footer>
-      <ServicesSection />
+      {/* Modern Public Policy Section - Full Width */}
+        <section className="w-full min-h-screen bg-gradient-to-br from-gray-50 to-white flex items-center justify-center px-0 md:px-0">
+          <div className="w-full max-w-7xl mx-auto md:py-16 px-2 md:px-8 flex flex-col items-center justify-center">
+            <div className="w-full flex flex-col gap-12 items-center justify-center">
+              <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
+                {/* Left: Main Policy List */}
+                <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col justify-start items-start min-h-[400px]">
+                  <h3 className="font-Archivo text-blue-950 font-bold text-3xl tracking-tight mb-6">
+                    {t("servicesManagement.public_policy.digital_public_policy.title")}
+                  </h3>
+                  <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-6">
+                    {t("servicesManagement.public_policy.digital_public_policy.intro")}
+                  </p>
+                  <ul className="list-disc font-MN pl-5 space-y-3 text-left">
+                    {(t("servicesManagement.public_policy.list", { returnObjects: true }) as string[]).map((item, index) => (
+                      <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                {/* Right: Digital Public Policy Areas */}
+                <div className="flex flex-col gap-8 justify-center items-start">
+                  <div className="bg-white rounded-2xl shadow-lg p-10">
+                    <h4 className="font-Archivo text-blue-950 font-semibold text-2xl tracking-tight mb-4">
+                      {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.title")}
+                    </h4>
+                    <ul className="list-disc font-MN pl-5 space-y-3 text-left">
+                      {(t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.list", { returnObjects: true }) as string[]).map((item, index) => (
+                        <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-2xl shadow-lg p-10">
+                    <h4 className="font-Archivo text-blue-950 font-semibold text-2xl tracking-tight mb-4">
+                      {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.title")}
+                    </h4>
+                    <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4">
+                      {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.intro")}
+                    </p>
+                    <ul className="list-disc font-MN pl-5 space-y-3 text-left">
+                      {(t("servicesManagement.public_policy.digital_public_policy.quality_monitor.list", { returnObjects: true }) as string[]).map((item, index) => (
+                        <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-2xl shadow-lg p-10">
+                    <h4 className="font-Archivo text-blue-950 font-semibold text-2xl tracking-tight mb-4">
+                      {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.title")}
+                    </h4>
+                    <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4">
+                      {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.intro")}
+                    </p>
+                    <ul className="list-disc font-MN pl-5 space-y-3 text-left">
+                      {(t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.list", { returnObjects: true }) as string[]).map((item, index) => (
+                        <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       <footer className="bg-[#071330] py-16 relative overflow-hidden">
         <div className="px-4 flex flex-col lg:flex-row justify-around items-center">
           <div className="w-full lg:w-auto mb-8 lg:mb-0 max-w-xl">
