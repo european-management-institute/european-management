@@ -4,7 +4,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin, ExternalLink, Code, Database, Brain, Cloud, Users, Award } from "lucide-react";
 import ExpertiseGraph from "@/Component/ExpertiseGraph";
-import ServicesSection from "@/Component/ServicesSection";
 import srcc from "../assets/11_white.png";
 import bt from "../assets/7.png";
 import lucaImg from "../assets/luca.jpeg";
@@ -74,9 +73,6 @@ const Digital = () => {
       <div className="bg-gray-50 py-16 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4 w-full">
           <div className="bg-gray-50 mx-auto md:p-8 space-y-8 max-w-7xl md:px-6">
-            <h3 className="font-MN font-semibold text-3xl md:text-4xl text-blue-950 tracking-tight mb-4 text-center">
-              {t("servicesManagement.outsourced_management.title")}
-            </h3>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
               {t("servicesManagement.outsourced_management.intro1")}
             </p>

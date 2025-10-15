@@ -346,7 +346,6 @@ export default function ExpertiseGraph() {
         zoomOnScroll={false}
         panOnScroll={false}
         zoomOnDoubleClick={false}
-        zoomOnPinch={false}
         minZoom={0.3}
         maxZoom={1.5}
         defaultViewport={initialViewport}
