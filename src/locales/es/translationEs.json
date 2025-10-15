@@ -223,7 +223,7 @@
     "title": "GESTIÓN Y CONSULTORÍA EXTERNALIZADAS",
     "subtitle": "Servicios gerenciales externalizados de alto valor añadido",
     "button": "DESCUBRE MÁS",
-  "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
+  "description": "Creamos herramientas digitales basadas en datos para apoyar a la dirección en la gestión y el control de los procesos.",
     "contact_title": "CONTACTOS",
     "contact_text": "Para poder interactuar con nuestras oficinas y trabajar con nosotros es necesaria la referencia de una empresa que ya sea cliente o socio.",
     "company": {
@@ -269,6 +269,7 @@
       }
     },
     "public_policy": {
+  "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
       "title": "POLÍTICAS PÚBLICAS",
       "intro": "European Management acompaña, con altos estándares de profesionalidad a empresas y empresarios en el",
       "intro1": "monitoreo y comprensión de las políticas públicas",

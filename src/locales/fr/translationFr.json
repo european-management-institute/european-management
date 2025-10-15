@@ -225,7 +225,7 @@
     "title": "GESTION EXTERNALISÉE ET CONSEIL",
     "subtitle": "Services de gestion externalisés à haute valeur ajoutée",
     "button": "APPRENDRE PLUS",
-    "description": "Nous créons des outils numériques axés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
+  "description": "Nous créons des outils numériques basés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
     "contact_title": "CONTACT",
     "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
     "company": {
@@ -271,6 +271,7 @@
       }
     },
     "public_policy": {
+  "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "title": "PUBLIC POLICY",
       "intro": "European Management accompagne, avec des standards professionnels élevés, les entreprises et les entrepreneurs dans",
       "intro1": "suivi et compréhension des politiques publiques",

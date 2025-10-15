@@ -226,7 +226,7 @@
     "title": "OUTSOURCED MANAGEMENT & CONSULTING",
     "subtitle": "High value-added outsourced management services",
     "button": "LEARN MORE",
-    "description": "We create data-driven digital tools to support management in process management and control.",
+  "description": "We create data-driven digital tools to support management in process management and control.",
     "contact_title": "CONTACT",
     "contact_text": "To interact with our offices and work with us, a reference from an existing client or partner company is required.",
     "company": {
@@ -272,6 +272,7 @@
       }
     },
     "public_policy": {
+  "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "title": "PUBLIC POLICY",
       "intro": "European Management supports, with high professional standards, companies and entrepreneurs in",
       "intro1": "monitoring and understanding public policies",
