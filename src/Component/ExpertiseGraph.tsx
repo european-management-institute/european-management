@@ -326,8 +326,15 @@ export default function ExpertiseGraph() {
   const [rfNodes, setNodes, onNodesChange] = useNodesState(nodes);
   const [rfEdges, setEdges, onEdgesChange] = useEdgesState(edges);
 
+  // Detect mobile device
+  const isMobile = typeof window !== "undefined" && window.matchMedia("(max-width: 768px)").matches;
+  // Set initial viewport for ReactFlow
+  const initialViewport = isMobile
+    ? { x: 0, y: 0, zoom: 0.5 }
+    : { x: 0, y: 0, zoom: 1.5 };
+
   return (
-    <div style={{ width: "100%", height: 450 }} className="md:my-24">
+    <div style={{ width: "100%", height: 500 }} className="md:my-24">
       <ReactFlow
         nodes={rfNodes}
         edges={rfEdges}
@@ -335,14 +342,17 @@ export default function ExpertiseGraph() {
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
         fitView
-        panOnDrag
-        zoomOnScroll
+        panOnDrag={false}
+        zoomOnScroll={false}
+        panOnScroll={false}
+        zoomOnDoubleClick={false}
+        zoomOnPinch={false}
         minZoom={0.3}
         maxZoom={1.5}
+        defaultViewport={initialViewport}
         proOptions={{ hideAttribution: true }}
       >
         <Background color="#f3f4f6" gap={16} />
-        {/* MiniMap and Controls removed for cleaner UI */}
       </ReactFlow>
     </div>
   );

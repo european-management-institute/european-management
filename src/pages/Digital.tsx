@@ -4,6 +4,10 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useNavigate } from "react-router-dom";
 import { Github, Linkedin, ExternalLink, Code, Database, Brain, Cloud, Users, Award } from "lucide-react";
 import ExpertiseGraph from "@/Component/ExpertiseGraph";
+import ServicesSection from "@/Component/ServicesSection";
+import srcc from "../assets/11_white.png";
+import bt from "../assets/7.png";
+import lucaImg from "../assets/luca.jpeg";
 
 const Digital = () => {
   const { t } = useTranslation();
@@ -11,6 +15,132 @@ const Digital = () => {
   
   return (
     <section>
+        <div className="max-w-7xl mx-auto py-8 md:py-12 lg:py-16 px-4 md:px-6">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="space-y-8 text-center md:text-left px-4 md:px-6">
+            <h2 className="text-2xl text-blue-950 md:text-4xl lg:text-5xl font-MN font-medium leading-tight">
+              {t("OutsourcedManagement.title")}
+            </h2>
+
+            <p className="text-lg md:text-xl font-MN font-bold text-gray-700 leading-tight">
+              {t("OutsourcedManagement.subtitle")}
+            </p>
+
+            <div className="flex justify-center md:justify-start">
+              <button
+                className="bg-cover bg-center text-white px-6 md:px-8 py-2 md:py-3 rounded-full font-MN
+                   font-semibold text-lg md:text-xl hover:opacity-90 
+                   transition-all duration-300 min-w-[200px]"
+                style={{
+                  backgroundImage: `url(${bt})`,
+                  backgroundSize: "120% 140%",
+                }}
+                onClick={() => navigate("/chi-siamo")}
+              >
+                {t("OutsourcedManagement.button")}
+              </button>
+            </div>
+          </div>
+
+          <div className="relative -mb-24 lg:block">
+            <LazyLoadImage
+              src={lucaImg}
+              alt="Business consultant on phone"
+              className="w-screen rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+      <footer className="bg-[#071330] relative overflow-hidden min-w-full">
+        <div className="max-w-7xl mx-auto">
+          <div className="py-6 flex justify-end">
+            <div className=" space-y-8 text-white">
+              <p className="text-lg md:text-xl lg:text-lg font-MN font-medium leading-tight text-left p-8 max-w-2xl -mr-6 ">
+                {t("OutsourcedManagement.description")}
+              </p>
+
+              <div className="flex justify-end">
+                <img
+                  src={srcc}
+                  alt="Luca Bazzanella signature"
+                  className="h-20 object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      {/* Modern Services Section - Outsourced Management */}
+      <div className="bg-gray-50 py-16 px-4 md:px-0 w-full flex items-center justify-center">
+        <div className="w-full mx-auto px-4 w-full">
+          <div className="bg-gray-50 mx-auto md:p-8 space-y-8 max-w-7xl md:px-6">
+            <h3 className="font-MN font-semibold text-3xl md:text-4xl text-blue-950 tracking-tight mb-4 text-center">
+              {t("servicesManagement.outsourced_management.title")}
+            </h3>
+            <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
+              {t("servicesManagement.outsourced_management.intro1")}
+            </p>
+            <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
+              {t("servicesManagement.outsourced_management.intro2")}
+              <span className="font-bold"> {t("servicesManagement.outsourced_management.introB")} </span>
+              {t("servicesManagement.outsourced_management.introC")}
+              <span className="font-bold"> {t("servicesManagement.outsourced_management.introD")} </span>
+              {t("servicesManagement.outsourced_management.introX")}
+            </p>
+
+            {/* Two-column layout for Digital Management and Digital Resources */}
+            <div className="flex flex-col md:flex-row gap-8 mt-8 pt-16">
+              {/* Digital Management Section */}
+              <div className="flex-1 bg-white rounded-xl shadow-md p-6 space-y-4 border border-gray-100">
+                <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 text-center md:text-left">
+                  {t("servicesManagement.outsourced_management.digital_management.title")}
+                </h4>
+                <p className="text-base md:text-lg font-MN font-light leading-relaxed text-gray-700">
+                  {t("servicesManagement.outsourced_management.digital_management.intro")}
+                </p>
+                <ul className="pl-6 space-y-2 text-left font-MN">
+                  {(t("servicesManagement.outsourced_management.digital_management.list", {returnObjects: true}) as string[]).map((item, index) => (
+                    <li key={index} className="flex items-start text-base md:text-lg font-light text-gray-700">
+                      <span className="text-red-700 font-bold mr-2">–</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-base md:text-lg font-MN font-light leading-relaxed text-gray-700">
+                  {t("servicesManagement.outsourced_management.digital_management.outro")}
+                </p>
+              </div>
+
+              {/* Divider for desktop */}
+              <div className="hidden md:flex items-center justify-center">
+                <div className="w-px h-40 bg-gray-200"></div>
+              </div>
+
+              {/* Digital Resources Section */}
+              <div className="flex-1 bg-white rounded-xl shadow-md p-6 space-y-4 border border-gray-100">
+                <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 text-center md:text-left">
+                  {t("servicesManagement.outsourced_management.digital_resources.title")}
+                </h4>
+                <p className="text-base md:text-lg font-MN font-light leading-relaxed text-gray-700">
+                  {t("servicesManagement.outsourced_management.digital_resources.intro")}
+                </p>
+                <ul className="pl-6 space-y-2 text-left font-MN">
+                  {(t("servicesManagement.outsourced_management.digital_resources.list", {returnObjects: true}) as string[]).map((item, index) => (
+                    <li key={index} className="flex items-start text-base md:text-lg font-light text-gray-700">
+                      <span className="text-red-700 font-bold mr-2">–</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-base md:text-lg font-MN font-light leading-relaxed text-gray-700">
+                  {t("servicesManagement.outsourced_management.digital_resources.outro")}
+                  <span className="font-bold"> {t("servicesManagement.outsourced_management.digital_resources.outroB")}</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* Modern Responsive Hero Section with ExpertiseGraph */}
       <div className="w-full min-h-[60vh] flex items-center justify-center px-4 md:px-0 pt-16 md:pt-24">
         <div className="max-w-7xl w-full flex flex-col md:flex-row items-start justify-center gap-8">
@@ -23,7 +153,7 @@ const Digital = () => {
             <p className="text-base text-justify tracking-tighter md:text-xl font-MN font-light text-gray-700 leading-relaxed max-w-xl mt-6 ml-20">
               {t('digital.hero.subtitle')}
             </p>
-            <div className="flex gap-6 pt-10 md:py-10 md:ml-32">
+            <div className="mx-auto flex gap-6 pt-10 md:py-10 md:ml-32">
               <div className="bg-white p-4 rounded-xl shadow flex items-center justify-center">
                 <Code className="w-10 h-10 text-red-700" />
               </div>
@@ -76,16 +206,6 @@ const Digital = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="mt-8">
-                  <h4 className="font-Archivo font-bold text-gray-900 mb-4 text-xl">Core Technologies</h4>
-                  <div className="flex flex-wrap gap-3">
-                    {(t('digital.innovation.core_technologies', { returnObjects: true }) as string[]).map((tech) => (
-                      <span key={tech} className="px-4 py-2 bg-red-100 text-red-700 rounded-full text-base font-semibold shadow">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
               </div>
               <div className="flex-1 md-px-8 py-12 md:py-8 order-1 md:order-2 flex items-center justify-center">
                 <div className="space-y-6 w-full">
@@ -136,33 +256,11 @@ const Digital = () => {
               </p>
               <div className="flex space-x-4 pt-4 flex-wrap">
                 <a 
-                  href="https://github.com/sintijab" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                >
-                  <Github className="w-5 h-5" />
-                  <span>{t('digital.team.links.github')}</span>
-                </a>
-                <a 
                   href="https://de.linkedin.com/in/sintija-birgele" 
                   className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
                 >
                   <Linkedin className="w-5 h-5" />
                   <span>{t('digital.team.links.linkedin')}</span>
-                </a>
-                <a 
-                  href="https://gitnation.com/contents/internationalization-i18n-with-ai-powered-language-model" 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                >
-                  <ExternalLink className="w-5 h-5" />
-                  <span>{t('digital.team.links.conferences')}</span>
-                </a>
-                <a 
-                  href={t('digital.team.links.website_link')} 
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                  target="_blank" rel="noopener noreferrer"
-                >
-                  <ExternalLink className="w-5 h-5" />
-                  <span>{t('digital.team.links.website')}</span>
                 </a>
               </div>
             </div>
