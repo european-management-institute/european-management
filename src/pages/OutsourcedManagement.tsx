@@ -46,9 +46,9 @@ const OutsourcedManagement = () => {
       </div>
       <footer className="bg-[#071330] relative overflow-hidden min-w-full">
         <div className="max-w-7xl mx-auto">
-          <div className="py-6 flex justify-end">
+          <div className="py-6 px-2 flex justify-end">
             <div className=" space-y-8 text-white">
-              <div className="w-full text-center mb-8">
+              <div className="w-full text-center md:text-left md:pl-4 mb-8">
                 <p className="text-xl md:text-3xl font-MN font-thin text-white max-w-3xl mx-auto mb-2">
                   {t("servicesManagement.public_policy.intro")}
                   <span className="font-bold"> {t("servicesManagement.public_policy.intro1")}</span> {t("servicesManagement.public_policy.intro2")}
