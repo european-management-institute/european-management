@@ -117,7 +117,7 @@
     },
     "digital": {
       "title": "DIGITAL",
-      "description": "Soluciones empresariales basadas en datos"
+      "description": "Soluciones digitales para los responsables políticos del futuro"
     },
     "institute": {
       "title": "INSTITUTO",
@@ -276,17 +276,9 @@
     "public_policy": {
       "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
       "title": "POLÍTICAS PÚBLICAS",
-      "intro": "European Management acompaña, con altos estándares de profesionalidad a empresas y empresarios en el",
-      "intro1": "monitoreo y comprensión de las políticas públicas",
-      "intro2": "locales y europeas y del impacto en sus intereses y modelos de negocio.",
-      "list": [
-        "ser más conscientes de los riesgos y oportunidades derivados de cambios políticos y legislativos actuales o futuros",
-        "simular su impacto en sus intereses",
-        "poder planificar en consecuencia acuerdos estratégicos o nuevas alianzas"
-      ],
+      "subtitle": "Soluciones digitales para los policy makers del futuro",
+      "intro": "Ponemos a disposición de autoridades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que ayudan a mejorar la planificación de las políticas públicas. En concreto, nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas gracias a un mayor conocimiento e información.",
       "digital_public_policy": {
-        "title": "Política pública digital",
-        "intro": "Ponemos a disposición de autoridades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que ayudan a mejorar la planificación de las políticas públicas. En concreto, nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas gracias a un mayor conocimiento e información.",
         "citizen_satisfaction": {
           "title": "Satisfacción Ciudadana:",
           "list": [
