@@ -83,7 +83,7 @@ const Digital = () => {
                 <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto text-center md:text-left">
                   {t("servicesManagement.outsourced_management.digital_management.title")}
                 </h4>
-                <p className="text-base md:text-xl font-MN font-light leading-relaxed text-gray-700 max-w-4xl mx-auto">
+                <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
                   {t("servicesManagement.outsourced_management.digital_management.intro")}
                 </p>
           </div>
@@ -103,7 +103,7 @@ const Digital = () => {
               />
             </div>
 
-            <div className="order-1 md:order-2 space-y-6">
+            <div className="order-1 md:order-2 space-y-6 p-6 md:p-0">
               <div>
                 <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
                   {t('digital.team.title')}
