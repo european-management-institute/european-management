@@ -242,7 +242,8 @@
     "main_title": "OUR SERVICES",
     "outsourced_management": {
       "title": "OUTSOURCED MANAGEMENT",
-      "intro1": "We live in an era of epochal economic, social, and technological changes that require new skills and rapid action. Complex factors to obtain without proper investments and with only internal resources.",
+      "intro": "Outsourced management is a practice mainly adopted by large companies in growth or change phases, choosing to entrust experienced external managers or specialized companies with turnkey project management or the achievement of specific objectives: extraordinary operations, finance, market development, public tenders/contracts, digitalization, and much more. The goal of clients is to increase efficiency and focus attention on core business.",
+      "intro1": "It is an increasingly widespread practice in light of epochal economic, social, and technological changes that require new skills and rapid action. Complex factors to obtain for many companies structured with only internal resources and procedures.",
       "intro2": "For this reason, European Management specializes in supporting Italian and multinational companies with outsourced management assignments to manage ",
       "introB": "market development ",
       "introC": "in specific geographical areas, innovation and",
@@ -250,7 +251,7 @@
       "introX": "of complex processes.",
       "digital_management": {
         "title": "Digital for Business Management",
-        "intro": "Starting from 2021, E.M.I. has dedicated a specific work team to the digital construction sector, specializing in:",
+        "intro": "Since 2021, E.M.I. has dedicated a specific team to the digitalization of processes through custom-made software based on machine learning and artificial intelligence. Specifically, procedures have been automated for: site inspections, offer studies, metric calculations, management control, logistics tracking, CO2 emissions monitoring, robotic production, and much more. The challenge is to support companies and business networks in managing internal and external procedures more efficiently and economically, achieving growth and scalability objectives.",
         "list": [
           "process automation through custom software based on machine learning",
           "continuous business training",
@@ -326,46 +327,6 @@
     }
   },
   "digital": {
-    "title": {
-      "part1": "digital",
-      "part2": "& technology"
-    },
-    "hero": {
-      "subtitle": "The Digital Business Unit of European Management develops advanced AI-powered automation solutions tailored for the construction and maintenance sectors. It integrates hardware, software, and artificial intelligence to drive efficiency, accelerate business growth, and enable scalability.",
-      "icons": [
-        "Code",
-        "Database",
-        "Brain",
-        "Cloud"
-      ]
-    },
-    "expertise_title": {
-      "part1": "Your Vision with Our ",
-      "part2": "Expertise"
-    },
-    "innovation": {
-      "title": "Innovation",
-      "latest_projects": "Best Recent Projects",
-      "date": "June 2025 – Present",
-      "description_intro": "Agentic AI Framework for Automation in Construction and Industry",
-      "description1": "We have developed and continue to customize an intelligent framework that transforms the way construction and maintenance companies operate. The solution empowers organizations to:",
-      "description_list": [
-        "Rethink budget planning and quotations with higher accuracy and efficiency",
-        "Monitor daily processes and track results in real time",
-        "Identify and manage risks by comparing expected outcomes with actual performance"
-      ],
-      "description2": "What makes the difference?",
-      "description3": "We start from business knowledge, not technology. By understanding how companies grow and scale, we integrate AI and blockchain to deliver simple, effective, and accessible solutions—without the prohibitive costs that hold back innovation.",
-      "core_technologies": [
-        "Python",
-        "FastAPI",
-        "LLM Integrations",
-        "LangChain",
-        "React",
-        "AWS",
-        "AI/ML Frameworks"
-      ]
-    },
     "team": {
       "title": "Sintija Birgele",
       "role": "Software Architect",

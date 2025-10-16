@@ -227,6 +227,8 @@
     "subtitle": "Servicios gerenciales externalizados de alto valor añadido",
     "button": "DESCUBRE MÁS",
     "description": "Creamos herramientas digitales basadas en datos para apoyar a la dirección en la gestión y el control de los procesos.",
+    "intro": "La gestión externalizada es una práctica adoptada principalmente por grandes empresas en fase de crecimiento o cambio, que eligen confiar a gerentes externos experimentados o empresas especializadas la gestión llave en mano de proyectos o el logro de objetivos específicos: operaciones extraordinarias, finanzas, desarrollo de mercado, licitaciones públicas/contratos, digitalización y mucho más. El objetivo de los clientes es aumentar la eficiencia y centrar la atención en el core business.",
+    "intro1": "Se trata de una práctica cada vez más extendida a la luz de los cambios económicos, sociales y tecnológicos actuales que requieren nuevas competencias y rapidez de acción. Factores complejos de obtener para muchas empresas estructuradas solo con recursos y procedimientos internos.",
     "contact_title": "CONTACTOS",
     "contact_text": "Para poder interactuar con nuestras oficinas y trabajar con nosotros es necesaria la referencia de una empresa que ya sea cliente o socio.",
     "company": {
@@ -251,7 +253,7 @@
       "introX": "de procesos complejos.",
       "digital_management": {
         "title": "Digital para la gestión empresarial",
-        "intro": "A partir de 2021, E.M.I. ha dedicado un equipo de trabajo específico al sector de la construcción digital especializándose en:",
+        "intro": "Desde 2021, E.M.I. ha dedicado un equipo específico a la digitalización de procesos mediante software a medida basado en machine learning e inteligencia artificial. En concreto, se han automatizado procedimientos de: inspección de obras, estudio de ofertas, cálculos métricos, control de gestión, trazabilidad logística, monitoreo de emisiones de CO2, producción robotizada y mucho más. El reto es acompañar a empresas y redes empresariales en la gestión de procedimientos internos y externos de forma más eficiente y económica, alcanzando objetivos de crecimiento y escalabilidad.",
         "list": [
           "automatización de procesos mediante software a medida basado en \"machine learning\"",
           "formación empresarial continua",
@@ -327,46 +329,6 @@
     }
   },
   "digital": {
-    "title": {
-      "part1": "digital",
-      "part2": "& technology"
-    },
-    "hero": {
-      "subtitle": "La Unidad de Negocios Digitales de European Management desarrolla soluciones avanzadas de automatización impulsadas por IA, adaptadas para los sectores de construcción y mantenimiento. Integra hardware, software e inteligencia artificial para impulsar la eficiencia, acelerar el crecimiento empresarial y permitir la escalabilidad.",
-      "icons": [
-        "Code",
-        "Database",
-        "Brain",
-        "Cloud"
-      ]
-    },
-    "expertise_title": {
-      "part1": "Tu Visión con Nuestra ",
-      "part2": "Experiencia"
-    },
-    "innovation": {
-      "title": "Innovación",
-      "latest_projects": "Mejores proyectos recientes",
-      "date": "Junio 2025 – Presente",
-      "description_intro": "Framework de IA agentica para automatización en construcción e industria",
-      "description1": "Hemos desarrollado y seguimos personalizando un framework inteligente que transforma la forma en que operan las empresas de construcción y mantenimiento. La solución permite a las organizaciones:",
-      "description_list": [
-        "Repensar la planificación presupuestaria y las cotizaciones con mayor precisión y eficiencia",
-        "Monitorear procesos diarios y rastrear resultados en tiempo real",
-        "Identificar y gestionar riesgos comparando resultados esperados con el rendimiento real"
-      ],
-      "description2": "¿Qué marca la diferencia?",
-      "description3": "Partimos del conocimiento empresarial, no de la tecnología. Al comprender cómo crecen y escalan las empresas, integramos IA y blockchain para ofrecer soluciones simples, efectivas y accesibles—sin los costos prohibitivos que frenan la innovación.",
-      "core_technologies": [
-        "Python",
-        "FastAPI",
-        "LLM Integrations",
-        "LangChain",
-        "React",
-        "AWS",
-        "Frameworks IA/ML"
-      ]
-    },
     "team": {
       "title": "Sintija Birgele",
       "role": "Arquitecta de Software",

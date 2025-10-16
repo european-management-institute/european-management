@@ -243,21 +243,11 @@
     "main_title": "I NOSTRI SERVIZI",
     "outsourced_management": {
       "title": "OUTSOURCED MANAGEMENT",
-      "intro1": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
-      "intro2": "Per questo motivo European Management si specializza nel supportare aziende italiane e multinazionali con incarichi di management esternalizzato per gestire lo ",
-      "introB": "sviluppo di mercato  ",
-      "introC": "in specifiche aree geografiche, l'innovazione e la",
-      "introD": "digitalizzazione",
-      "introX": "di processi complessi.",
+      "intro1": "La gestione esternalizzata o “outsourched management” è una pratica adottata principalmente da grandi imprese in fase di crescita o cambiamento che scelgono di affidare esternamente a manager esperti la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi:  operazioni straordinarie, finanza, sviluppo di mercato, bandi pubblici / commesse e digitalizzazione.. L’obiettivo dei committenti è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
+      "intro": "SI tratta di una pratica sempre più diffusa alla luce dei cambiamenti economici, sociali e tecnologici epocali in corso che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere per molte aziende strutturate con il solo utilizzo di risorse e procedure interne.",
       "digital_management": {
         "title": "Digitale per la gestione aziendale",
-        "intro": "A partire dal 2021 E.M.I. ha dedicato un apposito team di lavoro al settore dell'edilizia digitale specializzandosi in:",
-        "list": [
-          "automazione dei processi tramite software su misura basati sul \"machine learning\"",
-          "formazione aziendale continua",
-          "controllo di gestione"
-        ],
-        "outro": "La sfida è quella di affiancare aziende, cooperative e reti d'impresa nel raggiungere i propri obiettivi di crescita con un approccio digitale \"data driven\" in un settore tipicamente poco avvezzo al cambiamento"
+        "intro": "A partire dal 2021 E.M.I. ha dedicato un apposito team di lavoro al settore della digitalizzazione dei processi tramite software realizzati su misura basati sul machine learning e intelligenza artificiale. Nello specifico sono state automatizzate procedure di: sopralluogo, studio di offerta, quotazione di computi metrici, controllo di gestione, tracciabilità logistica, monitoraggio delle emissioni di co2, produzione robotizzata e molto altro.. La sfida è quella di affiancare aziende e reti d'impresa nel gestire procedure interne ed esterne in modo più efficiente ed economico raggiungendo obiettivi di crescita e scalabilità."
       },
       "digital_resources": {
         "title": "Digitale per l'ottimizzazione delle risorse",
@@ -327,46 +317,6 @@
     }
   },
   "digital": {
-    "title": {
-      "part1": "digital",
-      "part2": "& technology"
-    },
-    "hero": {
-      "subtitle": "La Business Unit Digitale di European Management sviluppa soluzioni avanzate di automazione basate su IA, pensate per i settori delle costruzioni e della manutenzione. Integra hardware, software e intelligenza artificiale per aumentare l'efficienza, accelerare la crescita aziendale e abilitare la scalabilità.",
-      "icons": [
-        "Code",
-        "Database",
-        "Brain",
-        "Cloud"
-      ]
-    },
-    "expertise_title": {
-      "part1": "La tua Visione con la Nostra ",
-      "part2": "Expertise"
-    },
-    "innovation": {
-      "title": "Innovazione",
-      "latest_projects": "Migliori Progetti Recenti",
-      "date": "Giugno 2025 – Presente",
-      "description_intro": "Framework AI agentico per l'automazione in edilizia e industria",
-      "description1": "Abbiamo sviluppato e continuiamo a personalizzare un framework intelligente che trasforma il modo in cui operano le aziende di costruzione e manutenzione. La soluzione consente alle organizzazioni di:",
-      "description_list": [
-        "Ripensare la pianificazione del budget e i preventivi con maggiore precisione ed efficienza",
-        "Monitorare i processi quotidiani e tracciare i risultati in tempo reale",
-        "Identificare e gestire i rischi confrontando i risultati attesi con le performance reali"
-      ],
-      "description2": "Cosa fa la differenza?",
-      "description3": "Partiamo dalla conoscenza del business, non dalla tecnologia. Comprendendo come le aziende crescono e si espandono, integriamo AI e blockchain per offrire soluzioni semplici, efficaci e accessibili—senza i costi proibitivi che frenano l'innovazione.",
-      "core_technologies": [
-        "Python",
-        "FastAPI",
-        "LLM Integrations",
-        "LangChain",
-        "React",
-        "AWS",
-        "Framework AI/ML"
-      ]
-    },
     "team": {
       "title": "Sintija Birgele",
       "role": "Architetto Software",

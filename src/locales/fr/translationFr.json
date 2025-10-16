@@ -226,6 +226,8 @@
     "subtitle": "Services de gestion externalisés à haute valeur ajoutée",
     "button": "APPRENDRE PLUS",
     "description": "Nous créons des outils numériques basés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
+    "intro": "La gestion externalisée est une pratique principalement adoptée par les grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés ou à des sociétés spécialisées la gestion clé en main de projets ou l’atteinte d’objectifs spécifiques : opérations extraordinaires, finance, développement de marché, appels d’offres publics/contrats, digitalisation et bien plus encore. L’objectif des clients est d’augmenter l’efficacité et de concentrer l’attention sur le cœur de métier.",
+    "intro1": "Il s’agit d’une pratique de plus en plus répandue à la lumière des changements économiques, sociaux et technologiques majeurs en cours qui nécessitent de nouvelles compétences et une rapidité d’action. Des facteurs complexes à obtenir pour de nombreuses entreprises structurées uniquement avec des ressources et des procédures internes.",
     "contact_title": "CONTACT",
     "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
     "company": {
@@ -250,7 +252,7 @@
       "introX": "de processus complexes.",
       "digital_management": {
         "title": "Le numérique au service de la gestion d'entreprise",
-        "intro": "À partir de 2021, E.M.I. a dédié une équipe de travail spécifique au secteur de la construction numérique, spécialisée dans:",
+        "intro": "Depuis 2021, E.M.I. a dédié une équipe spécifique à la digitalisation des processus via des logiciels sur mesure basés sur le machine learning et l'intelligence artificielle. Plus précisément, des procédures ont été automatisées pour : les inspections de site, les études d'offres, les calculs métriques, le contrôle de gestion, le suivi logistique, le suivi des émissions de CO2, la production robotisée et bien plus encore. Le défi est d'accompagner les entreprises et les réseaux d'entreprises dans la gestion de procédures internes et externes de manière plus efficace et économique, en atteignant des objectifs de croissance et de scalabilité.",
         "list": [
           "automatisation des processus grâce à des logiciels personnalisés basés sur l'apprentissage automatique ",
           "formation continue des entreprises ",
@@ -326,46 +328,6 @@
     }
   },
   "digital": {
-    "title": {
-      "part1": "digital",
-      "part2": "& technology"
-    },
-    "hero": {
-      "subtitle": "L'Unité Digitale d'European Management développe des solutions avancées d'automatisation basées sur l'IA, adaptées aux secteurs de la construction et de la maintenance. Elle intègre matériel, logiciel et intelligence artificielle pour accroître l'efficacité, accélérer la croissance des entreprises et permettre l'évolutivité.",
-      "icons": [
-        "Code",
-        "Database",
-        "Brain",
-        "Cloud"
-      ]
-    },
-    "expertise_title": {
-      "part1": "Votre Vision avec Notre ",
-      "part2": "Expertise"
-    },
-    "innovation": {
-      "title": "Innovation",
-      "latest_projects": "Meilleurs projets récents",
-      "date": "Juin 2025 – Présent",
-      "description_intro": "Framework IA agentique pour l'automatisation dans la construction et l'industrie",
-      "description1": "Nous avons développé et continuons de personnaliser un framework intelligent qui transforme la façon dont les entreprises de construction et de maintenance opèrent. La solution permet aux organisations de :",
-      "description_list": [
-        "Repenser la planification budgétaire et les devis avec plus de précision et d'efficacité",
-        "Surveiller les processus quotidiens et suivre les résultats en temps réel",
-        "Identifier et gérer les risques en comparant les résultats attendus avec les performances réelles"
-      ],
-      "description2": "Qu'est-ce qui fait la différence ?",
-      "description3": "Nous partons de la connaissance métier, pas de la technologie. En comprenant comment les entreprises se développent et évoluent, nous intégrons l'IA et la blockchain pour offrir des solutions simples, efficaces et accessibles—sans les coûts prohibitifs qui freinent l'innovation.",
-      "core_technologies": [
-        "Python",
-        "FastAPI",
-        "LLM Integrations",
-        "LangChain",
-        "React",
-        "AWS",
-        "Frameworks IA/ML"
-      ]
-    },
     "team": {
       "title": "Sintija Birgele",
       "role": "Architecte Logiciel",
