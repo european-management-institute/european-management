@@ -167,7 +167,7 @@
     },
     "digital": {
       "title": "DIGITAL",
-      "description": "Data-driven business solutions"
+      "description": "Solutions for future policymakers"
     },
     "institute": {
       "title": "INSTITUTE",
@@ -274,17 +274,9 @@
     "public_policy": {
       "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "title": "PUBLIC POLICY",
-      "intro": "European Management supports, with high professional standards, companies and entrepreneurs in",
-      "intro1": "monitoring and understanding public policies",
-      "intro2": "local and European, and their impact on their interests and business models.",
-      "list": [
-        "being more aware of risks and opportunities arising from current or future political and legislative changes",
-        "simulating their impact on their interests",
-        "being able to consequently plan strategic agreements or new alliances"
-      ],
+      "subtitle": "Digital solutions for future policymakers",
+      "intro": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that help improve public policy planning. Specifically, our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions thanks to greater knowledge and information.",
       "digital_public_policy": {
-        "title": "Digital public policy",
-        "intro": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that help improve public policy planning. Specifically, our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions thanks to greater knowledge and information.",
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
           "list": [

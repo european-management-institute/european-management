@@ -117,7 +117,7 @@
     },
     "digital": {
       "title": "DIGITALE",
-      "description": "Soluzioni digitali per lo sviluppo d'impresa"
+      "description": "Soluzioni digitali per i policy maker del futuro"
     },
     "institute": {
       "title": "ISTITUTO",
@@ -263,18 +263,10 @@
     },
     "public_policy": {
       "title": "PUBLIC POLICY",
+      "subtitle": "Soluzioni digitali per i policy maker del futuro",
       "description": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni, strumenti statistici e informatici di nuova generazione che permettono di prendere decisioni strategiche in modo informato e consapevole.",
-      "intro": "European Management affianca, con elevati standard di professionalità aziende e imprenditori nel",
-      "intro1": "monitoraggio, e comprensione delle politiche pubbliche",
-      "intro2": "locali ed europee e dell'impatto sui propri interessi e modelli di business.",
-      "list": [
-        "essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri",
-        "simularne l'impatto sui propri interessi",
-        "poter pianificare di conseguenza accordi strategici o nuove alleanze"
-      ],
+      "intro": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni strumenti statistici e informatici di nuova generazione che aiutano a migliorare la pianificazione delle politiche pubbliche. Nello specifico le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di scegliere in modo consapevole grazie a una maggiore conoscenza e informazione.",
       "digital_public_policy": {
-        "title": "Digital public policy",
-        "intro": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni strumenti statistici e informatici di nuova generazione che aiutano a migliorare la pianificazione delle politiche pubbliche. Nello specifico le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di prendere decisioni consapevoli grazie a una maggiore conoscenza e informazione.",
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
           "list": [

@@ -167,7 +167,7 @@
     },
     "digital": {
       "title": "DIGITAL",
-      "description": "Solutions commerciales basées sur les données"
+      "description": "Solutions numériques pour les décideurs politiques de demain"
     },
     "institute": {
       "title": "INSTITUTE",
@@ -275,17 +275,9 @@
     "public_policy": {
       "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "title": "PUBLIC POLICY",
-      "intro": "European Management accompagne, avec des standards professionnels élevés, les entreprises et les entrepreneurs dans",
-      "intro1": "suivi et compréhension des politiques publiques",
-      "intro2": "locales et européennes, et leur impact sur leurs intérêts et leurs modèles économiques.",
-      "list": [
-        "être plus conscient des risques et des opportunités découlant des changements politiques et législatifs actuels ou futurs",
-        "simuler leur impact sur leurs intérêts",
-        "être capable de planifier en conséquence des accords stratégiques ou de nouvelles alliances"
-      ],
+      "subtitle": "Solutions numériques pour les décideurs politiques de demain",
+      "intro": "Nous mettons à disposition des autorités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui aident à améliorer la planification des politiques publiques. Plus précisément, nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées grâce à une meilleure connaissance et information.",
       "digital_public_policy": {
-        "title": "Politique publique numérique",
-        "intro": "Nous mettons à la disposition des autorités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui aident à améliorer la planification des politiques publiques. Plus précisément, nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées grâce à une meilleure connaissance et information.",
         "citizen_satisfaction": {
           "title": "Satisfaction des citoyens:",
           "list": [
