@@ -19,6 +19,29 @@ const AboutTeamSection = () => {
           <p className="font-MN">{t("AboutTeamSection.about_paragraph2")}</p>
 
           <p className="font-MN">{t("AboutTeamSection.about_paragraph3")}</p>
+          <p className="font-MN">{t("AboutTeamSection.about_paragraph4")}</p>
+          <p className="font-MN">
+            {t("AboutTeamSection.about_paragraph5")
+              .split(/(\d{4})/)
+              .map((part, idx) =>
+                /^\d{4}$/.test(part) ? (
+                  <span key={idx} className="font-bold">{part}</span>
+                ) : (
+                  part
+                )
+              )}
+          </p>
+          <p className="font-MN">
+            {t("AboutTeamSection.about_paragraph6")
+              .split(/(\d{4})/)
+              .map((part, idx) =>
+                /^\d{4}$/.test(part) ? (
+                  <span key={idx} className="font-bold">{part}</span>
+                ) : (
+                  part
+                )
+              )}
+          </p>
 
           <div>
             <p className="font-bold mb-2 font-MN">

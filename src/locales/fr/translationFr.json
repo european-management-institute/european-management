@@ -145,10 +145,9 @@
       "rights": "All rights reserved registration no. 302022000006366"
     }
   },
-
   "navigation": {
-  "about": "À propos de nous",
-  "marketing": "Marketing",
+    "about": "À propos de nous",
+    "marketing": "Marketing",
     "management": "Outsourced Management",
     "digital": "Public Policy",
     "institute": "Institute",
@@ -194,16 +193,17 @@
   "footer_company_line3": "Institute",
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
-
   "AboutTeamSection": {
-    "about_section_title": "APPRENDRE PLUS",
+    "about_paragraph4": "L'activité de conseil destinée aux institutions et aux organismes publics est réalisée en partenariat scientifique avec l'institut Quaeris et comprend des solutions numériques sur mesure pour la cartographie du sentiment des citoyens, le suivi des politiques publiques et l'analyse qualitative des services fournis au public par les entreprises participantes.",
+    "about_paragraph5": "Depuis 2021, en réponse à une demande croissante du marché, European Management a dédié une équipe de travail spécifique au secteur des infrastructures et de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion.",
+    "about_paragraph6": "En 2024, grâce aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit « out of office » dédiée au marketing, à la communication et aux services digitaux.",
+    "about_section_title": "À PROPOS DE NOUS",
     "about_paragraph1": "European Management a été créé pour accompagner les entreprises dans le suivi et l’étude des politiques publiques européennes, avec des conseils ad hoc et des solutions de gestion externalisées. Ces parcours permettent aux entreprises et aux entités publiques d’être plus conscientes des risques et des opportunités découlant des changements politiques et législatifs actuels ou futurs.",
     "about_paragraph2": "L'entreprise a ensuite élargi son champ d'action avec de nouvelles voies dans le domaine de la gestion externalisée et du conseil stratégique. À partir de 2021, suite à la demande croissante du marché, elle a dédié une équipe de travail spécifique au secteur de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion.",
     "about_paragraph3": "En 2024, grâce aux relations internationales et aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit « out of office » dédiée au marketing, à la communication et aux services digitaux.",
     "about_modus_title": "Mode de fonctionnement:",
     "about_modus_subtitle": "agilité d'action et flexibilité sont les maîtres mots qui distinguent notre travail.",
     "about_modus_description": "Pour évoluer avec succès sur un marché concurrentiel en constante évolution, European Management mise sur l'hyperspécialisation. C'est pourquoi, au fil des ans, elle a structuré un réseau international de professionnels de confiance dotés de compétences uniques qui s'engagent, sous la coordination quotidienne de référents internes de chaque unité commerciale, à rendre les opérations de l'entreprise évolutives, évitant ainsi la bureaucratie, la lourdeur organisationnelle et les ralentissements qui en découlent.",
-
     "team_management_title": "THE MANAGEMENT TEAM",
     "team_digital_title": "THE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
@@ -225,7 +225,7 @@
     "title": "GESTION EXTERNALISÉE ET CONSEIL",
     "subtitle": "Services de gestion externalisés à haute valeur ajoutée",
     "button": "APPRENDRE PLUS",
-  "description": "Nous créons des outils numériques basés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
+    "description": "Nous créons des outils numériques basés sur les données pour soutenir la direction dans la gestion et le contrôle des processus.",
     "contact_title": "CONTACT",
     "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
     "company": {
@@ -271,7 +271,7 @@
       }
     },
     "public_policy": {
-  "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
+      "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "title": "PUBLIC POLICY",
       "intro": "European Management accompagne, avec des standards professionnels élevés, les entreprises et les entrepreneurs dans",
       "intro1": "suivi et compréhension des politiques publiques",
@@ -324,8 +324,7 @@
         "LOGICIELS"
       ]
     }
-  }
-  ,
+  },
   "digital": {
     "title": {
       "part1": "digital",
@@ -333,7 +332,12 @@
     },
     "hero": {
       "subtitle": "L'Unité Digitale d'European Management développe des solutions avancées d'automatisation basées sur l'IA, adaptées aux secteurs de la construction et de la maintenance. Elle intègre matériel, logiciel et intelligence artificielle pour accroître l'efficacité, accélérer la croissance des entreprises et permettre l'évolutivité.",
-      "icons": ["Code", "Database", "Brain", "Cloud"]
+      "icons": [
+        "Code",
+        "Database",
+        "Brain",
+        "Cloud"
+      ]
     },
     "expertise_title": {
       "part1": "Votre Vision avec Notre ",
@@ -352,7 +356,15 @@
       ],
       "description2": "Qu'est-ce qui fait la différence ?",
       "description3": "Nous partons de la connaissance métier, pas de la technologie. En comprenant comment les entreprises se développent et évoluent, nous intégrons l'IA et la blockchain pour offrir des solutions simples, efficaces et accessibles—sans les coûts prohibitifs qui freinent l'innovation.",
-      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Frameworks IA/ML"]
+      "core_technologies": [
+        "Python",
+        "FastAPI",
+        "LLM Integrations",
+        "LangChain",
+        "React",
+        "AWS",
+        "Frameworks IA/ML"
+      ]
     },
     "team": {
       "title": "Sintija Birgele",
