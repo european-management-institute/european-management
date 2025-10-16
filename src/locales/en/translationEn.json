@@ -28,7 +28,6 @@
     "message": "Thank you for joining EMI. We will contact you very soon",
     "button": "Continue"
   },
-
   "login": {
     "username_placeholder": "Username",
     "password_placeholder": "Password",
@@ -146,7 +145,6 @@
       "rights": "All rights reserved registration no. 302022000006366"
     }
   },
-
   "navigation": {
     "about": "About Us",
     "marketing": "Marketing",
@@ -195,16 +193,17 @@
   "footer_company_line3": "Institute",
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
-
   "AboutTeamSection": {
-    "about_section_title": "LEARN MORE",
+    "about_paragraph4": "Consulting activities aimed at institutions and public bodies are carried out in scientific partnership with the Quaeris institute and include tailor-made digital solutions for mapping citizen sentiment, monitoring public policies, and qualitative analysis of services provided to the public by participating companies.",
+    "about_paragraph5": "Since 2021, in response to growing market demand, European Management has dedicated a specific work team to the infrastructure and construction sector, with particular focus on process digitalization, business planning, and management control.",
+    "about_paragraph6": "In 2024, thanks to business synergies built over time, European Management added market development to its services through the \"out of office\" business unit dedicated to marketing, communication, and digital services.",
+    "about_section_title": "ABOUT US",
     "about_paragraph1": "European Management was established as external support for companies in monitoring and studying European public policies with ad hoc consulting and outsourced management solutions. Such paths allow companies and public entities to be more aware of risks and opportunities arising from current or future political and legislative changes.",
     "about_paragraph2": "The company subsequently expanded its field of action with new paths in outsourced management and strategic consulting. Starting from 2021, following growing market demand, it dedicated a specific work team to the construction sector, with particular focus on process digitalization, business planning, and management control.",
     "about_paragraph3": "In 2024, thanks to international relations and business synergies built over time, European Management added market development to its services through the \"out of office\" business unit dedicated to marketing, communication, and digital services.",
     "about_modus_title": "Mode de fonctionnement:",
     "about_modus_subtitle": "agility of action and flexibility are the key words that distinguish our work.",
     "about_modus_description": "To move successfully in a continuously changing competitive market, European Management focuses on hyper-specialization. For this reason, over the years it has structured an international network of trusted professionals with unique skills who are involved, under the daily coordination of internal referents of each business unit, to make company operations scalable, thus avoiding bureaucracy, organizational heaviness, and consequent slowdowns.",
-
     "team_management_title": "THE MANAGEMENT TEAM",
     "team_digital_title": "THE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
@@ -226,7 +225,7 @@
     "title": "OUTSOURCED MANAGEMENT & CONSULTING",
     "subtitle": "High value-added outsourced management services",
     "button": "LEARN MORE",
-  "description": "We create data-driven digital tools to support management in process management and control.",
+    "description": "We create data-driven digital tools to support management in process management and control.",
     "contact_title": "CONTACT",
     "contact_text": "To interact with our offices and work with us, a reference from an existing client or partner company is required.",
     "company": {
@@ -272,7 +271,7 @@
       }
     },
     "public_policy": {
-  "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
+      "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "title": "PUBLIC POLICY",
       "intro": "European Management supports, with high professional standards, companies and entrepreneurs in",
       "intro1": "monitoring and understanding public policies",
@@ -325,8 +324,7 @@
         "SOFTWARE"
       ]
     }
-  }
-  ,
+  },
   "digital": {
     "title": {
       "part1": "digital",
@@ -334,7 +332,12 @@
     },
     "hero": {
       "subtitle": "The Digital Business Unit of European Management develops advanced AI-powered automation solutions tailored for the construction and maintenance sectors. It integrates hardware, software, and artificial intelligence to drive efficiency, accelerate business growth, and enable scalability.",
-      "icons": ["Code", "Database", "Brain", "Cloud"]
+      "icons": [
+        "Code",
+        "Database",
+        "Brain",
+        "Cloud"
+      ]
     },
     "expertise_title": {
       "part1": "Your Vision with Our ",
@@ -353,7 +356,15 @@
       ],
       "description2": "What makes the difference?",
       "description3": "We start from business knowledge, not technology. By understanding how companies grow and scale, we integrate AI and blockchain to deliver simple, effective, and accessible solutions—without the prohibitive costs that hold back innovation.",
-      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "AI/ML Frameworks"]
+      "core_technologies": [
+        "Python",
+        "FastAPI",
+        "LLM Integrations",
+        "LangChain",
+        "React",
+        "AWS",
+        "AI/ML Frameworks"
+      ]
     },
     "team": {
       "title": "Sintija Birgele",

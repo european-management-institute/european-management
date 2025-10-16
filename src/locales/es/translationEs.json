@@ -97,11 +97,11 @@
   },
   "navigation": {
     "about": "Quiénes Somos",
-  "management": "Outsourced Management",
-  "marketing": "Marketing",
-  "digital": "Public Policy",
-  "institute": "Instituto",
-  "contacts": "Contactos"
+    "management": "Outsourced Management",
+    "marketing": "Marketing",
+    "digital": "Public Policy",
+    "institute": "Instituto",
+    "contacts": "Contactos"
   },
   "company": {
     "european": "European",
@@ -195,7 +195,10 @@
   "footer_company_line3": "Institute",
   "team_digital_title": "EQUIPO DIGITAL",
   "AboutTeamSection": {
-    "about_section_title": "DESCUBRE MÁS",
+    "about_paragraph4": "La actividad de consultoría dirigida a instituciones y organismos públicos se realiza en colaboración científica con el instituto Quaeris e incluye soluciones digitales a medida para el mapeo del sentimiento ciudadano, el monitoreo de políticas públicas y el análisis cualitativo de los servicios prestados al público por empresas participadas.",
+    "about_paragraph5": "Desde 2021, en respuesta a una creciente demanda del mercado, European Management ha dedicado un equipo de trabajo específico al sector de infraestructuras y construcción, con especial énfasis en la digitalización de procesos, planificación empresarial y control de gestión.",
+    "about_paragraph6": "En 2024, gracias a las sinergias empresariales construidas a lo largo del tiempo, European Management añade a sus servicios el desarrollo de mercado a través de la unidad de negocio \"out of office\" dedicada al marketing, comunicación y servicios digitales.",
+    "about_section_title": "SOBRE NOSOTROS",
     "about_paragraph1": "European Management nace como apoyo externo para empresas en el monitoreo y estudio de las políticas públicas europeas con soluciones personalizadas de consultoría y gestión externalizada. Este tipo de procesos permite a empresas y entidades públicas ser más conscientes de los riesgos y oportunidades derivados de cambios políticos y legislativos actuales o futuros.",
     "about_paragraph2": "La empresa posteriormente amplía su campo de acción con nuevos procesos de gestión externalizada y consultoría estratégica. A partir de 2021, debido a una creciente demanda del mercado, dedica un equipo de trabajo específico al sector de la construcción con especial énfasis en la digitalización de procesos, planificación empresarial y control de gestión.",
     "about_paragraph3": "En 2024, gracias a las relaciones internacionales y sinergias empresariales construidas a lo largo del tiempo, European Management añade a sus servicios el desarrollo de mercado a través de la unidad de negocio \"out of office\" dedicada al marketing, comunicación y servicios digitales.",
@@ -223,7 +226,7 @@
     "title": "GESTIÓN Y CONSULTORÍA EXTERNALIZADAS",
     "subtitle": "Servicios gerenciales externalizados de alto valor añadido",
     "button": "DESCUBRE MÁS",
-  "description": "Creamos herramientas digitales basadas en datos para apoyar a la dirección en la gestión y el control de los procesos.",
+    "description": "Creamos herramientas digitales basadas en datos para apoyar a la dirección en la gestión y el control de los procesos.",
     "contact_title": "CONTACTOS",
     "contact_text": "Para poder interactuar con nuestras oficinas y trabajar con nosotros es necesaria la referencia de una empresa que ya sea cliente o socio.",
     "company": {
@@ -269,7 +272,7 @@
       }
     },
     "public_policy": {
-  "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
+      "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
       "title": "POLÍTICAS PÚBLICAS",
       "intro": "European Management acompaña, con altos estándares de profesionalidad a empresas y empresarios en el",
       "intro1": "monitoreo y comprensión de las políticas públicas",
@@ -322,8 +325,7 @@
         "SOFTWARE"
       ]
     }
-  }
-  ,
+  },
   "digital": {
     "title": {
       "part1": "digital",
@@ -331,7 +333,12 @@
     },
     "hero": {
       "subtitle": "La Unidad de Negocios Digitales de European Management desarrolla soluciones avanzadas de automatización impulsadas por IA, adaptadas para los sectores de construcción y mantenimiento. Integra hardware, software e inteligencia artificial para impulsar la eficiencia, acelerar el crecimiento empresarial y permitir la escalabilidad.",
-      "icons": ["Code", "Database", "Brain", "Cloud"]
+      "icons": [
+        "Code",
+        "Database",
+        "Brain",
+        "Cloud"
+      ]
     },
     "expertise_title": {
       "part1": "Tu Visión con Nuestra ",
@@ -350,7 +357,15 @@
       ],
       "description2": "¿Qué marca la diferencia?",
       "description3": "Partimos del conocimiento empresarial, no de la tecnología. Al comprender cómo crecen y escalan las empresas, integramos IA y blockchain para ofrecer soluciones simples, efectivas y accesibles—sin los costos prohibitivos que frenan la innovación.",
-      "core_technologies": ["Python", "FastAPI", "LLM Integrations", "LangChain", "React", "AWS", "Frameworks IA/ML"]
+      "core_technologies": [
+        "Python",
+        "FastAPI",
+        "LLM Integrations",
+        "LangChain",
+        "React",
+        "AWS",
+        "Frameworks IA/ML"
+      ]
     },
     "team": {
       "title": "Sintija Birgele",
