@@ -41,11 +41,6 @@ const AdvisoryTeamSection = () => {
         <p className="text-xl leading-tight font-MN font-light">
           {t("advisoryTeam.rightColumn_description1")}
         </p>
-
-        <p className="text-xl leading-tight font-MN font-light">
-          {t("advisoryTeam.rightColumn_description2")}
-        </p>
-
         <div className="mt-8">
           <img
             src={srcc}

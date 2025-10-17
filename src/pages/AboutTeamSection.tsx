@@ -13,14 +13,10 @@ const AboutTeamSection = () => {
           {t("AboutTeamSection.about_section_title")}
         </h2>
 
-        <div className="space-y-8 text-lg max-w-5xl leading-tight font-MN pb-8">
-          <p className="font-MN">{t("AboutTeamSection.about_paragraph1")}</p>
-
-          <p className="font-MN">{t("AboutTeamSection.about_paragraph2")}</p>
-
-          <p className="font-MN">{t("AboutTeamSection.about_paragraph3")}</p>
-          <p className="font-MN">{t("AboutTeamSection.about_paragraph4")}</p>
-          <p className="font-MN">
+        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN pb-8">
+          <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph1")}</p>
+          <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph4")}</p>
+          <p className="font-MN leading-7">
             {t("AboutTeamSection.about_paragraph5")
               .split(/(\d{4})/)
               .map((part, idx) =>
@@ -31,18 +27,6 @@ const AboutTeamSection = () => {
                 )
               )}
           </p>
-          <p className="font-MN">
-            {t("AboutTeamSection.about_paragraph6")
-              .split(/(\d{4})/)
-              .map((part, idx) =>
-                /^\d{4}$/.test(part) ? (
-                  <span key={idx} className="font-bold">{part}</span>
-                ) : (
-                  part
-                )
-              )}
-          </p>
-
           <div>
             <p className="font-bold mb-2 font-MN">
               {t("AboutTeamSection.about_modus_title")}

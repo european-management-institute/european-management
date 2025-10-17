@@ -70,35 +70,34 @@ const OutsourcedManagement = () => {
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto text-center md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.title")}
             </h4>
-            <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
-              <ul className="list-disc font-MN pl-5 space-y-3 text-left">
-                {(t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.list", { returnObjects: true }) as string[]).map((item, index) => (
-                  <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
-                ))}
-              </ul>
+            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto text-justify">
+              {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.intro")}
             </p>
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto text-center md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.title")}
             </h4>
-            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto">
+            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto text-justify">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.intro")}
-            </p>
-            <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
-              <ul className="list-disc font-MN pl-5 space-y-3 text-left">
-                {(t("servicesManagement.public_policy.digital_public_policy.quality_monitor.list", { returnObjects: true }) as string[]).map((item, index) => (
-                  <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
-                ))}
-              </ul>
             </p>
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto text-center md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.title")}
             </h4>
-            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto">
+            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto text-justify">
               {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.intro")}
             </p>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
               <ul className="list-disc font-MN pl-5 space-y-3 text-left">
                 {(t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.list", { returnObjects: true }) as string[]).map((item, index) => (
+                  <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
+                ))}
+              </ul>
+            </p>
+            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 max-w-4xl mx-auto text-justify">
+              {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.intro1")}
+            </p>
+            <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
+              <ul className="list-disc font-MN pl-5 space-y-3 text-left">
+                {(t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.list1", { returnObjects: true }) as string[]).map((item, index) => (
                   <li key={index} className="text-lg font-normal text-gray-800">{item}</li>
                 ))}
               </ul>

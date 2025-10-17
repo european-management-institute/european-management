@@ -175,12 +175,11 @@
     }
   },
   "advisoryTeam": {
-    "leftColumn_description1": "European Management est une société de conseil de nouvelle génération, spécialisée dans la gestion externalisée, les services numériques et la formation.",
-    "leftColumn_description2": "Elle est structurée en trois unités commerciales différentes qui accompagnent les entrepreneurs, les entreprises et les institutions dans leurs parcours de réorganisation et de développement de marché.",
+    "leftColumn_description1": "European Management est une société de conseil de nouvelle génération spécialisée dans le management externalisé et digital, qui offre à des clients sélectionnés des solutions à forte valeur ajoutée difficiles à trouver sur le marché.",
+    "leftColumn_description2": "Opérationnellement, elle est structurée en trois unités d'affaires verticales distinctes, chacune composée d'une équipe spécialisée.",
     "leftColumn_button": "APPRENDRE PLUS",
     "rightColumn_title": "UNE ÉQUIPE CONSULTATIVE DE NOUVELLE GÉNÉRATION",
-    "rightColumn_description1": "European Management se démarque de l'approche traditionnelle du conseil. Il propose à des clients sélectionnés des solutions à forte valeur ajoutée, difficiles à trouver sur le marché..",
-    "rightColumn_description2": "Elle utilise une approche basée sur les données et accepte des contrats ambitieux, notamment ceux basés sur les résultats, qui sont rémunérés sur la base d'indicateurs de performance convenus.",
+    "rightColumn_description1": "European Management se distingue des modèles traditionnels de conseil. Elle utilise une approche digitale et pilotée par les données pour automatiser des processus d'entreprise complexes et accepte des contrats ambitieux, y compris ceux basés sur les résultats, rémunérés selon des indicateurs de performance convenus.",
     "boldText_managementTypes": "Gestion externalisée, services numériques et formation",
     "boldText_solutions": "des solutions à forte valeur ajoutée",
     "boldText_approach": "piloté par les données",
@@ -194,24 +193,21 @@
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
   "AboutTeamSection": {
-    "about_paragraph4": "L'activité de conseil destinée aux institutions et aux organismes publics est réalisée en partenariat scientifique avec l'institut Quaeris et comprend des solutions numériques sur mesure pour la cartographie du sentiment des citoyens, le suivi des politiques publiques et l'analyse qualitative des services fournis au public par les entreprises participantes.",
-    "about_paragraph5": "Depuis 2021, en réponse à une demande croissante du marché, European Management a dédié une équipe de travail spécifique au secteur des infrastructures et de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion.",
-    "about_paragraph6": "En 2024, grâce aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit « out of office » dédiée au marketing, à la communication et aux services digitaux.",
     "about_section_title": "À PROPOS DE NOUS",
-    "about_paragraph1": "European Management a été créé pour accompagner les entreprises dans le suivi et l’étude des politiques publiques européennes, avec des conseils ad hoc et des solutions de gestion externalisées. Ces parcours permettent aux entreprises et aux entités publiques d’être plus conscientes des risques et des opportunités découlant des changements politiques et législatifs actuels ou futurs.",
-    "about_paragraph2": "L'entreprise a ensuite élargi son champ d'action avec de nouvelles voies dans le domaine de la gestion externalisée et du conseil stratégique. À partir de 2021, suite à la demande croissante du marché, elle a dédié une équipe de travail spécifique au secteur de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion.",
-    "about_paragraph3": "En 2024, grâce aux relations internationales et aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit « out of office » dédiée au marketing, à la communication et aux services digitaux.",
+    "about_paragraph1": "European Management a été créée comme une société spécialisée dans la gestion managériale externalisée de projets complexes. Il s'agit d'une pratique, adoptée principalement par de grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés ou à des sociétés spécialisées la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, finance, développement de marché, appels d'offres/contrats publics, digitalisation et bien plus encore. L'objectif des clients est d'augmenter l'efficacité et de concentrer l'attention sur le cœur de métier.",
+    "about_paragraph4": "L'activité de conseil destinée aux institutions et aux organismes publics est réalisée en partenariat scientifique avec l'institut Quaeris et comprend des solutions numériques sur mesure pour la cartographie du sentiment des citoyens, le suivi des politiques publiques et l'analyse qualitative des services fournis au public.",
+    "about_paragraph5": "Depuis 2021, en réponse à une demande croissante du marché, European Management a dédié une équipe de travail spécifique appelée 'Edilmanager' au secteur de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion. En 2024, grâce aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit 'out of office' dédiée au marketing, à la communication et aux services digitaux.",
     "about_modus_title": "Mode de fonctionnement:",
-    "about_modus_subtitle": "agilité d'action et flexibilité sont les maîtres mots qui distinguent notre travail.",
-    "about_modus_description": "Pour évoluer avec succès sur un marché concurrentiel en constante évolution, European Management mise sur l'hyperspécialisation. C'est pourquoi, au fil des ans, elle a structuré un réseau international de professionnels de confiance dotés de compétences uniques qui s'engagent, sous la coordination quotidienne de référents internes de chaque unité commerciale, à rendre les opérations de l'entreprise évolutives, évitant ainsi la bureaucratie, la lourdeur organisationnelle et les ralentissements qui en découlent.",
-    "team_management_title": "THE MANAGEMENT TEAM",
-    "team_digital_title": "THE DIGITAL TEAM",
+    "about_modus_subtitle": "Agilité d'action et flexibilité sont les maîtres mots qui distinguent notre travail.",
+    "about_modus_description": "Pour évoluer avec succès sur un marché concurrentiel en constante évolution, European Management mise sur l'hyperspécialisation. C'est pourquoi, au fil des ans, elle a structuré un réseau international de professionnels de confiance dotés de compétences uniques qui s'engagent, sous la coordination quotidienne des référents internes, à rendre les opérations de l'entreprise évolutives.",
+    "team_management_title": "LE MANAGEMENT TEAM",
+    "team_digital_title": "LE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
-    "team_member_1_role": "Direction and Public Policy",
+    "team_member_1_role": "Direction et Public Policy",
     "team_member_2_name": "Zak Edbali",
-    "team_member_2_role": "HR Management and Outsourcing",
+    "team_member_2_role": "HR Management et outsourcing",
     "team_member_3_name": "Paolo Decaminada",
-    "team_member_3_role": "Finance and Taxation",
+    "team_member_3_role": "Finance et fiscalité",
     "team_member_4_name": "Sintija Birgele",
     "team_member_4_role": "Software Development",
     "team_member_5_name": "Isabel Tonelli",
@@ -219,7 +215,7 @@
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Business Development",
     "team_member_7_name": "Andrea Graziani",
-    "team_member_7_role": "Social Media and Web"
+    "team_member_7_role": "Social Media et Web"
   },
   "OutsourcedManagement": {
     "title": "GESTION EXTERNALISÉE ET CONSEIL",
@@ -273,33 +269,31 @@
       }
     },
     "public_policy": {
-      "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "title": "PUBLIC POLICY",
-      "subtitle": "Solutions numériques pour les décideurs politiques de demain",
-      "intro": "Nous mettons à disposition des autorités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui aident à améliorer la planification des politiques publiques. Plus précisément, nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées grâce à une meilleure connaissance et information.",
+      "subtitle": "Solutions numériques pour les décideurs politiques",
+      "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
+      "intro": "Nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées et de planifier des stratégies gouvernementales grâce à une meilleure connaissance et information.",
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Satisfaction des citoyens:",
-          "list": [
-            "Mesurer et cartographier avec précision le sentiment des citoyens par zone géographique sur des sujets spécifiques d'intérêt et son évolution dans le temps.",
-            "Grâce aux données collectées, les décideurs publics peuvent prendre de meilleures décisions basées sur les intentions et intérêts réels."
-          ]
+          "intro": "Il s'agit d'une cartographie évolutive dans le temps du sentiment des citoyens sur des sujets d'intérêt spécifiques, segmentés en catégories homogènes et répartis par zone géographique. Son application peut être au niveau communal, provincial, régional ou national. Dans le cas de sujets spécifiques (ex. transports, santé, services publics..), l'analyse sera verticale et approfondie, tandis que s'il n'existe pas de sujets précis d'intérêt, l'analyse commence par un screening général divisé par secteurs économiques et services définis avec le client. Grâce aux données collectées, les décideurs publics peuvent comprendre de plus en plus en profondeur les opinions, positions et besoins réels des citoyens et prendre ainsi de meilleures décisions politiques."
         },
         "quality_monitor": {
-          "title": "Contrôleur de qualité:",
-          "intro": "Grâce à un logiciel innovant développé sur mesure, nous aidons les grandes entreprises privées et publiques à comprendre leur réel impact quotidien sur leurs utilisateurs.",
-          "list": [
-            "Nous remplaçons par une solution numérique le travail habituellement effectué par tout un département d'analystes.",
-            "Nous aidons la direction à comprendre la valeur réelle des services fournis en facilitant la comparaison des entreprises du même secteur grâce à des paramètres standards."
-          ]
+          "title": "Quality Monitor:",
+          "intro": "Grâce à un logiciel innovant développé sur mesure, nous aidons les entreprises publiques, semi-publiques et privées à comprendre leur réel impact quotidien sur les usagers. Le système soumet quotidiennement des questionnaires ad hoc sur la satisfaction et la qualité des services à tous les clients interagissant avec les bureaux du client, recueillant des insights détaillés qui alimentent automatiquement un tableau de bord graphique interactif. Nous remplaçons par un logiciel intelligent le travail habituellement effectué par un département entier d'analystes. Grâce aux rapports toujours mis à jour en temps réel, nous soutenons le management dans la compréhension de la qualité effective des prestations fournies, facilitant la comparaison des entreprises du même secteur et entre secteurs similaires à l'aide de paramètres standard."
         },
         "microtargeting_ai": {
-          "title": "Microciblage avec intelligence artificielle (IA)",
-          "intro": "Les enquêtes traditionnelles offrent des chiffres statiques, tandis que le microciblage dynamique combiné au web monitoring et à l'IA permet de :",
+          "title": "Microciblage avec Intelligence Artificielle (IA)",
+          "intro": "Il s'agit d'un système d'enquête qui combine analyse de données, psychologie sociale et intelligence artificielle. Il segmente la population en groupes d'opinion extrêmement précis et personnalise les messages de communication promotionnelle en fonction de valeurs, d'émotions et de besoins réels. Alors que les enquêtes traditionnelles offrent des chiffres statiques, le microciblage crée des profils dynamiques, traitant d'énormes quantités de données en temps réel. Le processus commence par la collecte de données qualitatives et quantitatives via : entretiens individuels ou focus groups, enquêtes ouvertes, web listening (réseaux sociaux, forums, moteurs de recherche).. L'IA traite ces données pour identifier des schémas récurrents : motivations, peurs, langages et références de valeurs communes. De ces schémas naissent les 'personas d'opinion', c'est-à-dire des profils synthétiques mais réalistes représentant différents segments du public. Exemple : ",
           "list": [
-            "IDENTIFIER DES PERSONAS D'OPINION sur des sujets spécifiques d'intérêt public (santé, services aux citoyens, infrastructures, événements, bien-être, etc.)",
-            "Identifier les SUJETS ET LES TONS DE COMMUNICATION optimaux pour dialoguer correctement avec chaque groupe homogène identifié ;",
-            "ADAPTER RAPIDEMENT ET EFFICACEMENT les stratégies de communication et de sensibilisation ;"
+            "'Marco, 42 ans, technicien pragmatique, méfiant envers la politique mais sensible à l'efficacité et au mérite.'",
+            "'Sara, 28 ans, étudiante idéaliste, orientée vers la durabilité et la justice sociale.'"
+          ],
+          "intro1": "Une fois les 'personas d'opinion' définies, le microciblage par IA permet de : modéliser des messages différents pour chaque groupe, en utilisant le langage, les valeurs et les symboles qui résonnent avec chaque identité, tester automatiquement la réponse émotionnelle et cognitive aux contenus, optimiser la diffusion des messages sur les canaux digitaux les plus fréquentés par chaque 'persona', et bien plus encore.. En bref, le microciblage par IA permet de :",
+          "list1": [
+            "anticiper les tendances et les changements d'opinion; ",
+            "réduire le gaspillage de communication (ne parler qu'à ceux qui sont potentiellement intéressés);",
+            "obtenir un retour plus élevé en termes de consensus, de ventes ou d'engagement."
           ]
         }
       }
@@ -320,18 +314,34 @@
     }
   },
   "digital": {
-    "team": {
-      "title": "Sintija Birgele",
-      "role": "Architecte Logiciel",
-      "description": "Architecte Logiciel avec plus de 8 ans d'expérience en ingénierie logicielle d'entreprise, spécialisée dans les technologies web et l'intelligence artificielle appliquée. Experte dans la conception et la construction de cadres d'IA agentique pour les secteurs de l'assurance, de l'automobile et de l'énergie.",
-      "links": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "conferences": "Conférences",
-        "website": "Site web",
-        "website_link": "https://cofun.digital/"
+    "team": [
+      {
+        "title": "Sintija Birgele",
+        "image": "./sintija.jpg",
+        "role": "Architecte Logiciel",
+        "description": "Architecte Logiciel avec plus de 8 ans d'expérience en ingénierie logicielle d'entreprise, spécialisée dans les technologies web et l'intelligence artificielle appliquée. Experte dans la conception et la construction de cadres d'IA agentique pour les secteurs de l'assurance, de l'automobile et de l'énergie.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
+          "website": "Site web",
+          "website_link": "https://cofun.digital/"
+        }
+      },
+      {
+        "title": "Luca Bazzanella",
+        "role": "Managing Director",
+        "image": "./luca_profile.png",
+        "description": "Manager originaire du Trentin, né en 1991, avec une expérience en tant que conseiller au Parlement européen. Spécialisé en gestion d'entreprise externalisée et en digitalisation, avec une expertise particulière dans l'analyse des politiques publiques et les relations institutionnelles. Toujours passionné par la recherche du juste équilibre entre efficacité d'entreprise et impact social.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "website": "Site web",
+          "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
       }
-    },
+    ],
     "footer": {
       "contact": {
         "title": "CONTACT",
