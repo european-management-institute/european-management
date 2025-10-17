@@ -175,12 +175,11 @@
     }
   },
   "advisoryTeam": {
-    "leftColumn_description1": "European Management es una empresa de consultoría de nueva generación, especializada en gestión externalizada, digital y formación.",
-    "leftColumn_description2": "Se estructura en tres unidades de negocio diferentes que se ocupan de apoyar a empresarios, empresas e instituciones en sus procesos de reorganización y desarrollo de mercado.",
+    "leftColumn_description1": "European Management es una empresa de consultoría de nueva generación especializada en gestión externalizada y digital, que ofrece a clientes seleccionados soluciones de alto valor añadido difíciles de encontrar en el mercado.",
+    "leftColumn_description2": "A nivel operativo, se estructura en tres unidades de negocio verticales distintas, cada una compuesta por un equipo especializado.",
     "leftColumn_button": "DESCUBRE MÁS",
     "rightColumn_title": "UN \"EQUIPO ASESOR\" DE NUEVA GENERACIÓN",
-    "rightColumn_description1": "European Management se contrapone al enfoque tradicional de consultoría. Ofrece a clientes seleccionados soluciones de alto valor añadido difícilmente disponibles en el mercado.",
-    "rightColumn_description2": "Utiliza un enfoque \"basado en datos\" y acepta contratos desafiantes incluso de tipo \"basado en resultados\", es decir, remunerados según los indicadores de rendimiento acordados.",
+    "rightColumn_description1": "European Management se contrapone a los modelos tradicionales de consultoría. Utiliza un enfoque digital y basado en datos para automatizar procesos empresariales complejos y acepta contratos desafiantes, incluidos los de tipo outcome based, es decir, remunerados según los indicadores de rendimiento acordados.",
     "boldText_managementTypes": "gestión externalizada, digital y formación",
     "boldText_solutions": "soluciones de alto valor añadido",
     "boldText_approach": "basado en datos",
@@ -195,22 +194,19 @@
   "footer_company_line3": "Institute",
   "team_digital_title": "EQUIPO DIGITAL",
   "AboutTeamSection": {
-    "about_paragraph4": "La actividad de consultoría dirigida a instituciones y organismos públicos se realiza en colaboración científica con el instituto Quaeris e incluye soluciones digitales a medida para el mapeo del sentimiento ciudadano, el monitoreo de políticas públicas y el análisis cualitativo de los servicios prestados al público por empresas participadas.",
-    "about_paragraph5": "Desde 2021, en respuesta a una creciente demanda del mercado, European Management ha dedicado un equipo de trabajo específico al sector de infraestructuras y construcción, con especial énfasis en la digitalización de procesos, planificación empresarial y control de gestión.",
-    "about_paragraph6": "En 2024, gracias a las sinergias empresariales construidas a lo largo del tiempo, European Management añade a sus servicios el desarrollo de mercado a través de la unidad de negocio \"out of office\" dedicada al marketing, comunicación y servicios digitales.",
     "about_section_title": "SOBRE NOSOTROS",
-    "about_paragraph1": "European Management nace como apoyo externo para empresas en el monitoreo y estudio de las políticas públicas europeas con soluciones personalizadas de consultoría y gestión externalizada. Este tipo de procesos permite a empresas y entidades públicas ser más conscientes de los riesgos y oportunidades derivados de cambios políticos y legislativos actuales o futuros.",
-    "about_paragraph2": "La empresa posteriormente amplía su campo de acción con nuevos procesos de gestión externalizada y consultoría estratégica. A partir de 2021, debido a una creciente demanda del mercado, dedica un equipo de trabajo específico al sector de la construcción con especial énfasis en la digitalización de procesos, planificación empresarial y control de gestión.",
-    "about_paragraph3": "En 2024, gracias a las relaciones internacionales y sinergias empresariales construidas a lo largo del tiempo, European Management añade a sus servicios el desarrollo de mercado a través de la unidad de negocio \"out of office\" dedicada al marketing, comunicación y servicios digitales.",
+    "about_paragraph1": "European Management nace como una empresa especializada en la gestión directiva externalizada de proyectos complejos. Se trata de una práctica, adoptada principalmente por grandes empresas en fase de crecimiento o cambio, que eligen confiar a gerentes externos experimentados o empresas especializadas la gestión llave en mano de proyectos o el logro de objetivos específicos: operaciones extraordinarias, finanzas, desarrollo de mercado, licitaciones/contratos públicos, digitalización y mucho más. El objetivo de los clientes es aumentar la eficiencia y centrar la atención en el core business.",
+    "about_paragraph4": "La actividad de consultoría dirigida a instituciones y organismos públicos se realiza en colaboración científica con el instituto Quaeris e incluye soluciones digitales a medida para el mapeo del sentimiento ciudadano, el monitoreo de políticas públicas y el análisis cualitativo de los servicios prestados al público.",
+    "about_paragraph5": "Desde 2021, en respuesta a una creciente demanda del mercado, European Management ha dedicado un equipo de trabajo específico llamado 'Edilmanager' al sector de la construcción, con especial énfasis en la digitalización de procesos, planificación empresarial y control de gestión. En 2024, gracias a las sinergias empresariales construidas a lo largo del tiempo, European Management añade a sus servicios el desarrollo de mercado a través de la unidad de negocio 'out of office' dedicada al marketing, comunicación y servicios digitales.",
     "about_modus_title": "Modo de operación:",
-    "about_modus_subtitle": "agilidad de acción y flexibilidad son las palabras clave que distinguen nuestro trabajo.",
-    "about_modus_description": "Para poder moverse con éxito en un mercado competitivo en constante cambio, European Management apuesta por la hiperespecialización. Por este motivo, ha estructurado a lo largo de los años una red internacional de profesionales de confianza con competencias únicas que involucra, bajo la coordinación diaria de los referentes internos de cada unidad de negocio, para hacer escalable el trabajo empresarial evitando así burocracia, pesadez organizativa y consecuentes retrasos.",
+    "about_modus_subtitle": "Agilidad de acción y flexibilidad son las palabras clave que distinguen nuestro trabajo.",
+    "about_modus_description": "Para poder moverse con éxito en un mercado competitivo en constante cambio, European Management apuesta por la hiperespecialización. Por este motivo, ha estructurado a lo largo de los años una red internacional de profesionales de confianza con competencias únicas que involucra, bajo la coordinación diaria de los referentes internos, para hacer escalable el trabajo empresarial.",
     "team_management_title": "EL EQUIPO DE GESTIÓN",
     "team_digital_title": "EL EQUIPO DIGITAL",
     "team_member_1_name": "Luca Bazzanella",
     "team_member_1_role": "Dirección y Políticas Públicas",
     "team_member_2_name": "Zak Edbali",
-    "team_member_2_role": "Gestión de RRHH y externalización",
+    "team_member_2_role": "Gestión de RRHH y outsourcing",
     "team_member_3_name": "Paolo Decaminada",
     "team_member_3_role": "Finanzas y fiscalidad",
     "team_member_4_name": "Sintija Birgele",
@@ -274,33 +270,31 @@
       }
     },
     "public_policy": {
-      "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
       "title": "POLÍTICAS PÚBLICAS",
-      "subtitle": "Soluciones digitales para los policy makers del futuro",
-      "intro": "Ponemos a disposición de autoridades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que ayudan a mejorar la planificación de las políticas públicas. En concreto, nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas gracias a un mayor conocimiento e información.",
+      "subtitle": "Soluciones digitales para los responsables políticos",
+      "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
+      "intro": "Nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas y planificar estrategias gubernamentales gracias a un mayor conocimiento e información.",
       "digital_public_policy": {
         "citizen_satisfaction": {
-          "title": "Satisfacción Ciudadana:",
-          "list": [
-            "Medir y mapear con precisión el sentimiento de los ciudadanos por área geográfica sobre temas específicos de interés y su evolución en el tiempo.",
-            "Gracias a los datos recopilados, los responsables públicos pueden tomar mejores decisiones basadas en intenciones e intereses reales."
-          ]
+          "title": "Satisfacción ciudadana:",
+          "intro": "Se trata de un mapeo evolutivo en el tiempo del sentimiento de los ciudadanos sobre temas específicos de interés, segmentados en categorías homogéneas y divididos por área geográfica. Su aplicación puede ser a nivel municipal, provincial, regional o nacional. En el caso de temas específicos (ej. transporte, sanidad, servicios públicos..), el análisis será vertical y en profundidad, mientras que si no existen temas precisos de interés, el análisis comienza con un screening general dividido por sectores económicos y servicios definidos junto con el cliente. Gracias a los datos recogidos, los responsables públicos pueden comprender cada vez más en profundidad las opiniones, posiciones y necesidades reales de los ciudadanos y, en consecuencia, tomar mejores decisiones políticas."
         },
         "quality_monitor": {
-          "title": "Monitor de Calidad:",
-          "intro": "Gracias a un software innovador desarrollado ad hoc, ayudamos a grandes empresas privadas y públicas a comprender su impacto real diario en sus usuarios.",
-          "list": [
-            "Sustituimos con una solución digital el trabajo que normalmente realiza todo un departamento de analistas.",
-            "Apoyamos a la dirección en la comprensión del valor efectivo de los servicios prestados, favoreciendo la comparación de empresas en el mismo sector mediante parámetros estándar."
-          ]
+          "title": "Quality Monitor:",
+          "intro": "Gracias a un software innovador desarrollado a medida, ayudamos a empresas públicas, semipúblicas y privadas a comprender su verdadero impacto diario en los usuarios. El sistema envía diariamente cuestionarios ad hoc sobre satisfacción y calidad del servicio a todos los clientes que interactúan con las oficinas del cliente, recopilando insights detallados que alimentan automáticamente un panel gráfico interactivo. Reemplazamos con software inteligente el trabajo que normalmente realiza todo un departamento de analistas. Gracias a los informes siempre actualizados en tiempo real, apoyamos a la dirección en la comprensión de la calidad real de los servicios prestados, facilitando la comparación de empresas del mismo sector y entre sectores similares mediante parámetros estándar."
         },
         "microtargeting_ai": {
-          "title": "Microtargeting con inteligencia artificial (IA)",
-          "intro": "Las encuestas tradicionales ofrecen cifras estáticas, mientras que el microtargeting dinámico combinado con el web monitoring y la IA permite:",
+          "title": "Microtargeting con Inteligencia Artificial (IA)",
+          "intro": "Se trata de un sistema de investigación que combina análisis de datos, psicología social e inteligencia artificial. Segmenta la población en grupos de opinión extremadamente precisos y personaliza los mensajes de comunicación promocional en función de valores, emociones y necesidades reales. Mientras que las encuestas tradicionales ofrecen cifras estáticas, el microtargeting crea perfiles dinámicos, procesando enormes cantidades de datos en tiempo real. El proceso comienza con la recogida de datos cualitativos y cuantitativos a través de: entrevistas individuales o focus groups, encuestas abiertas, web listening (redes sociales, foros, motores de búsqueda).. La IA procesa estos datos para identificar patrones recurrentes: motivaciones, miedos, lenguajes y referencias de valores comunes. De estos patrones nacen las 'personas de opinión', es decir, perfiles sintéticos pero realistas que representan diferentes segmentos del público. Ejemplo: ",
           "list": [
-            "IDENTIFICAR PERSONAS DE OPINIÓN sobre temas específicos de interés público (sanidad, servicios al ciudadano, infraestructuras, eventos, bienestar, etc.)",
-            "Identificar TEMAS Y TONOS DE COMUNICACIÓN óptimos para dialogar correctamente con cada grupo homogéneo identificado;",
-            "ADAPTAR RÁPIDA Y EFICAZMENTE las estrategias de comunicación y sensibilización;"
+            "'Marco, 42 años, técnico pragmático, desconfiado de la política pero sensible a la eficiencia y el mérito.'",
+            "'Sara, 28 años, estudiante idealista, orientada a la sostenibilidad y la justicia social.'"
+          ],
+          "intro1": "Una vez definidas las 'personas de opinión', el microtargeting con IA permite: modelar mensajes diferentes para cada grupo, utilizando el lenguaje, los valores y los símbolos que resuenan con cada identidad, probar automáticamente la respuesta emocional y cognitiva a los contenidos, optimizar la difusión de los mensajes en los canales digitales más frecuentados por cada 'persona', y mucho más.. En resumen, el microtargeting con IA permite:",
+          "list1": [
+            "anticipar tendencias y cambios de opinión; ",
+            "reducir el desperdicio de comunicación (hablar solo con quienes están potencialmente interesados);",
+            "obtener un mayor retorno en términos de consenso, ventas o engagement."
           ]
         }
       }
@@ -321,18 +315,34 @@
     }
   },
   "digital": {
-    "team": {
-      "title": "Sintija Birgele",
-      "role": "Arquitecta de Software",
-      "description": "Arquitecta de Software con más de 8 años de experiencia en ingeniería de software empresarial, especializada en tecnologías web e Inteligencia Artificial aplicada. Experta en diseñar y construir marcos de IA agentica para los sectores de seguros, automotriz y energía.",
-      "links": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "conferences": "Conferencias",
-        "website": "Sitio web",
-        "website_link": "https://cofun.digital/"
+    "team": [
+      {
+        "title": "Sintija Birgele",
+        "image": "./sintija.jpg",
+        "role": "Arquitecta de Software",
+        "description": "Arquitecta de Software con más de 8 años de experiencia en ingeniería de software empresarial, especializada en tecnologías web e inteligencia artificial aplicada. Experta en el diseño y desarrollo de marcos de IA agentica para los sectores asegurador, automotriz y energético.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
+          "website": "Sitio web",
+          "website_link": "https://cofun.digital/"
+        }
+      },
+      {
+        "title": "Luca Bazzanella",
+        "role": "Managing Director",
+        "image": "./luca_profile.png",
+        "description": "Manager originario de Trentino, nacido en 1991, con experiencia como asesor en el Parlamento Europeo. Especializado en gestión empresarial externalizada y digitalización, con especial experiencia en el análisis de políticas públicas y relaciones institucionales. Siempre interesado en encontrar el equilibrio adecuado entre eficiencia empresarial e impacto social.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "website": "Sitio web",
+          "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
       }
-    },
+    ],
     "footer": {
       "contact": {
         "title": "CONTACTOS",

@@ -117,7 +117,7 @@
     },
     "digital": {
       "title": "DIGITALE",
-      "description": "Soluzioni digitali per i policy maker del futuro"
+      "description": "Soluzioni digitali per policy maker"
     },
     "institute": {
       "title": "ISTITUTO",
@@ -175,12 +175,11 @@
     }
   },
   "advisoryTeam": {
-    "leftColumn_description1": "European Management è un'azienda di consulenza di nuova generazione, specializzata nel management esternalizzato, digitale e formazione.",
-    "leftColumn_description2": "Si struttura in tre diverse business unit che si occupano di supportare imprenditori, aziende e istituzioni nei loro percorsi di riorganizzazione e sviluppo di mercato.",
+    "leftColumn_description1": "European Management è un'azienda di consulenza di nuova generazione specializzata nel management esternalizzato e digitale che offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato",
+    "leftColumn_description2": "A livello operativo si struttura in tre distinte unità di business verticali composte ognuna da un team di lavoro specializzato.",
     "leftColumn_button": "SCOPRI DI PIÚ",
     "rightColumn_title": "UN \"ADVISORY TEAM\" DI NUOVA GENERAZIONE",
-    "rightColumn_description1": "European Management si contrappone all'approccio consulenziale tradizionale. Offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato.",
-    "rightColumn_description2": "Utilizza un approccio \"data driven\" e accetta contratti sfidanti anche di tipo \"outcome based\" ovvero remunerati in base agli indicatori di performance concordati.",
+    "rightColumn_description1": "European Management si contrappone ai modelli tradizionali di consulenza. Utilizza un approccio \"data driven\" e digitale per automatizzare processi aziendali complessi e accetta contratti sfidanti anche di tipo \"outcome based\" ovvero remunerati in base agli indicatori di performance concordati.",
     "boldText_managementTypes": "management esternalizzato, digitale e formazione",
     "boldText_solutions": "soluzioni ad alto valore aggiunto",
     "boldText_approach": "data driven",
@@ -196,15 +195,12 @@
   "team_digital_title": "DIGITAL TEAM",
   "AboutTeamSection": {
     "about_section_title": "CHI SIAMO",
-    "about_paragraph1": "European Management nasce come azienda specializzata nella gestione manageriale esternalizzata di progetti complessi per conto di aziende e istituzioni.",
-    "about_paragraph2": "Si tratta di una pratica, adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare a manager esperti esterni o aziende specializzate la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi:  operazioni straordinarie, finanza, sviluppo di mercato, bandi/commesse, digitalizzazione e molto altro.",
-    "about_paragraph3": "L’obiettivo dei committenti è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
-    "about_paragraph4": "L’attività consulenziale rivolta a istituzioni ed enti pubblici viene svolta in partnership scientifica con l’istituto Quaeris e comprende invece soluzioni digitali su misura per la mappatura del sentiment dei cittadini, il monitoraggio delle politiche pubbliche e l’analisi qualitativa dei servizi erogati al pubblico da aziende partecipate.",
-    "about_paragraph5": "European Management a partire dal 2021, In seguito ad una crescente richiesta di mercato, dedica un apposito team di lavoro al settore delle infrastrutture e costruzioni con particolare focus sulla digitalizzazione dei processi, pianificazione aziendale e controllo di gestione.",
-    "about_paragraph6": "Nel 2024, grazie alle sinergie aziendali costruite nel tempo, European Management aggiunge ai suoi servizi lo sviluppo di mercato tramite la business unit \"out of office\" dedicata al marketing, comunicazione e servizi digitali.",
+    "about_paragraph1": "European Management nasce come azienda specializzata nella gestione manageriale esternalizzata di progetti complessi. Si tratta di una pratica, adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare a manager esperti esterni o aziende specializzate la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi: operazioni straordinarie, finanza, sviluppo di mercato, bandi/commesse, digitalizzazione e molto altro. L’obiettivo dei committenti è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
+    "about_paragraph4": "L’attività consulenziale rivolta a istituzioni ed enti pubblici viene svolta in partnership scientifica con l’istituto Quaeris e comprende soluzioni digitali su misura per la mappatura del sentiment dei cittadini, il monitoraggio delle politiche pubbliche e l’analisi qualitativa dei servizi erogati al pubblico.",
+    "about_paragraph5": "European Management a partire dal 2021, In seguito ad una crescente richiesta di mercato, dedica un apposito team di lavoro \"Edilmanager\" dedicato al settore delle costruzioni con particolare focus sulla digitalizzazione dei processi, pianificazione aziendale e controllo di gestione. Nel 2024, grazie alle sinergie aziendali costruite nel tempo, European Management aggiunge ai suoi servizi lo sviluppo di mercato tramite la business unit \"out of office\" dedicata al marketing, comunicazione e servizi digitali.",
     "about_modus_title": "Modus operandi:",
-    "about_modus_subtitle": "agilità d'azione e flessibilità sono le parole chiave che contraddistinguono il nostro operato.",
-    "about_modus_description": "Per potersi muovere con successo in un mercato competitivo in continuo cambiamento European Management punta sulla iper-specializzazione. Per questo motivo ha strutturato negli anni una rete internazionale di professionisti di fiducia con competenze uniche che coinvolge, sotto il coordinamento quotidiano dei referenti interni, per renderne scalabile l'operato aziendale evitando così burocrazia, pesantezza organizzativa e conseguenti rallentamenti.",
+    "about_modus_subtitle": "Agilità d'azione e flessibilità sono le parole chiave che contraddistinguono il nostro operato.",
+    "about_modus_description": "Per potersi muovere con successo in un mercato competitivo in continuo cambiamento European Management punta sulla iper-specializzazione. Per questo motivo ha strutturato negli anni una rete internazionale di professionisti di fiducia con competenze uniche che coinvolge, sotto il coordinamento quotidiano dei referenti interni, per renderne scalabile l'operato aziendale.",
     "team_management_title": "IL TEAM MANAGEMENT",
     "team_digital_title": "IL TEAM DIGITAL",
     "team_member_1_name": "Luca Bazzanella",
@@ -263,32 +259,30 @@
     },
     "public_policy": {
       "title": "PUBLIC POLICY",
-      "subtitle": "Soluzioni digitali per i policy maker del futuro",
+      "subtitle": "Soluzioni digitali per policy maker",
       "description": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni, strumenti statistici e informatici di nuova generazione che permettono di prendere decisioni strategiche in modo informato e consapevole.",
-      "intro": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni strumenti statistici e informatici di nuova generazione che aiutano a migliorare la pianificazione delle politiche pubbliche. Nello specifico le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di scegliere in modo consapevole grazie a una maggiore conoscenza e informazione.",
+      "intro": "Le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di scegliere in modo consapevole e pianificare strategie di governo grazie a una maggiore conoscenza e informazione.",
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
-          "list": [
-            "misurare e mappare in modo preciso il sentiment dei cittadini per area geografica su specifici temi di interesse e la sua evoluzione nel tempo.",
-            "Grazie ai dati raccolti i decisori pubblici possono prendere decisioni migliori basate sulle reali intenzioni e interessi."
-          ]
+          "intro": "Si tratta di una mappatura evolutiva nel tempo del sentiment dei cittadini su specifici temi di interesse, segmentati in categorie omogenee e divisi per area geografica. La sua applicazione può essere a livello comunale, provinciale, regionale o nazionale. Nel caso di specifici temi (es. trasporti, sanità, servizi pubblici..) l'analisi sarà verticale e approfondita mentre nel caso in cui non esistano precisi temi di interesse, l'analisi inizia con uno screening generale diviso per settori economici e servizi definiti assieme al committente. Grazie ai dati raccolti i decisori pubblici possono conoscere sempre più a fondo le reali opinioni, posizioni e necessità dei cittadini e prendere di conseguenza decisioni politiche migliori."
         },
         "quality_monitor": {
           "title": "Quality Monitor:",
-          "intro": "grazie ad un software innovativo sviluppato ad hoc aiutiamo grandi aziende private e pubbliche a comprendere il loro reale impatto quotidiano sui propri utenti.",
-          "list": [
-            "Sostituiamo con una soluzione digitale il lavoro solitamente svolto da un intero dipartimento di analisti.",
-            "Supportiamo il management nel comprendere il valore effettivo delle prestazioni erogate favorendo la comparazione di aziende nello stesso settore tramite parametri standard."
-          ]
+          "intro": "Grazie ad un software innovativo sviluppato su misura aiutiamo aziende pubbliche, para-pubbliche e private a comprendere il loro reale impatto quotidiano sugli utenti. Il sistema sottopone quotidianamente questionari ad hoc sulla soddisfazione e sulla qualità dei servizi erogati a tutti i clienti che interagiscono con gli uffici del cliente raccogliendo insight dettagliate che popolano automaticamente un cruscotto grafico interattivo. Sostituiamo con un software intelligente il lavoro solitamente svolto da un intero dipartimento di analisti. Grazie agli elaborati sempre aggiornati in tempo reale supportiamo il management nel comprendere la qualità effettiva delle prestazioni erogate favorendo la comparazione di aziende nello stesso settore e tra settori similari tramite parametri standard."
         },
         "microtargeting_ai": {
           "title": "Microtargeting con intelligenza artificiale (IA)",
-          "intro": "I sondaggi tradizionali offrono numeri statici, mentre il microtargeting dinamico combinato con il ‘web monitoring’ e IA permette di:",
+          "intro": "Si tratta di un sistema di indagine che combina analisi dei dati, psicologia sociale e intelligenza artificiale. Segmenta la popolazione in gruppi di opinione estremamente precisi e personalizza messaggi comunicativi - promozionali in base a valori, emozioni e bisogni reali. Mentre i sondaggi tradizionali offrono numeri statici, il microtargeting crea profili dinamici, elaborando in tempo reale enormi quantità di dati. Il processo inizia con la raccolta di dati qualitativi e quantitativi, tramite: interviste individuali o focus group, sondaggi aperti, web listening (social, forum, motori di ricerca).. L’IA elabora questi dati per individuare pattern ricorrenti: motivazioni, paure, linguaggi e riferimenti valoriali comuni. Da questi pattern nascono le “personas di opinione”, cioè profili sintetici ma realistici che rappresentano diversi segmenti del pubblico. Esempio: ",
           "list": [
-            "IDENTIFICARE PERSONAS DI OPINIONE su tematiche specifiche di interesse per il pubblico (sanità, servizi al cittadino, infrastrutture, eventi, welfare..)",
-            "Identificare TEMI E TONI COMUNICATIVI ottimali per dialogare correttamente con ogni gruppo omogeneo identificato;",
-            "ADATTARE RAPIDAMENTE ed EFFICACEMENTE LE STRATEGIE comunicative e di sensibilizzazione;"
+            "'Marco, 42 anni, tecnico pragmatico, diffidente verso la politica ma sensibile ai temi dell’efficienza e del merito.'",
+            "'Sara, 28 anni, studentessa idealista, orientata alla sostenibilità e alla giustizia sociale.'"
+          ],
+          "intro1": "Una volta definite le “personas di opinione”, il microtargeting con IA consente di: modellare messaggi diversi per ogni gruppo, usando linguaggio, valori e simboli che risuonano con ciascuna identità, testare automaticamente la risposta emotiva e cognitiva ai contenuti, ottimizzare la diffusione dei messaggi sui canali digitali più frequentati da ciascuna “persona” e molto altro.. In breve il microtargeting con IA consente di: ",
+          "list1": [
+            "anticipare tendenze e cambiamenti d’opinione; ",
+            "ridurre sprechi di comunicazione (parlare solo a chi è potenzialmente interessato);",
+            "ottenere un ritorno più alto in termini di consenso, vendite o engagement."
           ]
         }
       }
@@ -309,18 +303,34 @@
     }
   },
   "digital": {
-    "team": {
-      "title": "Sintija Birgele",
-      "role": "Architetto Software",
-      "description": "Architetto Software con oltre 8 anni di esperienza nell'ingegneria software aziendale, specializzata in tecnologie web e Intelligenza Artificiale applicata. Esperta nella progettazione e realizzazione di framework di IA agentica per i settori assicurativo, automobilistico ed energetico.",
-      "links": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "conferences": "Conferenze",
-        "website": "Sito web",
-        "website_link": "https://cofun.digital/"
+    "team": [
+      {
+        "title": "Sintija Birgele",
+        "role": "Architetto Software",
+        "image": "./sintija.jpg",
+        "description": "Architetto Software con oltre 8 anni di esperienza nell'ingegneria software aziendale, specializzata in tecnologie web e Intelligenza Artificiale applicata. Esperta nella progettazione e realizzazione di framework di IA agentica per i settori assicurativo, automobilistico ed energetico.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
+          "website": "Sito web",
+          "website_link": "https://cofun.digital/"
+        }
+      },
+      {
+        "title": "Luca Bazzanella",
+        "role": "Managing Director",
+        "image": "./luca_profile.png",
+        "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "website": "Sito web",
+          "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
       }
-    },
+    ],
     "footer": {
       "contact": {
         "title": "CONTATTI",

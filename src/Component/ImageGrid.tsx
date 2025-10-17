@@ -11,7 +11,7 @@ import bt2 from "../assets/Digital/78e94317-4b65-4ac7-a69b-a5783dc54fef.webp";
 import bt3 from "../assets/Digital/DSC03430.webp";
 // import bt4 from "../assets/Digital/DSC04624.webp";
 import bt5 from "../assets/Digital/DSC06123.webp";
-import bt6 from "../assets/Digital/DSC06429.webp";
+import bt6 from "../assets/Digital/DSC04624.webp";
 // import bt7 from "../assets/Digital/DSC07278.webp";
 import bt8 from "../assets/Digital/DSC08132.webp";
 import bt9 from "../assets/Digital/DSC08299.webp";

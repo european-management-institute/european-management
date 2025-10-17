@@ -175,12 +175,11 @@
     }
   },
   "advisoryTeam": {
-    "leftColumn_description1": "European Management is a next-generation consulting company, specializing in outsourced management, digital services, and training.",
-    "leftColumn_description2": "It is structured in three different business units that support entrepreneurs, companies, and institutions in their reorganization and market development paths.",
+    "leftColumn_description1": "European Management is a next-generation consulting company specialized in outsourced and digital management, offering selected clients high value-added solutions that are hard to find in the market.",
+    "leftColumn_description2": "Operationally, it is structured into three distinct vertical business units, each composed of a specialized work team.",
     "leftColumn_button": "LEARN MORE",
     "rightColumn_title": "A NEXT-GENERATION ADVISORY TEAM",
-    "rightColumn_description1": "European Management stands in contrast to the traditional consulting approach. It offers selected clients high value-added solutions that are hard to find in the market.",
-    "rightColumn_description2": "It uses a data-driven approach and accepts challenging contracts, including outcome-based ones, which are remunerated based on agreed performance indicators.",
+    "rightColumn_description1": "European Management stands in contrast to traditional consulting models. It uses a data-driven and digital approach to automate complex business processes and accepts challenging contracts, including outcome-based ones, which are remunerated based on agreed performance indicators.",
     "boldText_managementTypes": "outsourced management, digital services, and training",
     "boldText_solutions": "high value-added solutions",
     "boldText_approach": "data driven",
@@ -194,16 +193,14 @@
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
   "AboutTeamSection": {
-    "about_paragraph4": "Consulting activities aimed at institutions and public bodies are carried out in scientific partnership with the Quaeris institute and include tailor-made digital solutions for mapping citizen sentiment, monitoring public policies, and qualitative analysis of services provided to the public by participating companies.",
-    "about_paragraph5": "Since 2021, in response to growing market demand, European Management has dedicated a specific work team to the infrastructure and construction sector, with particular focus on process digitalization, business planning, and management control.",
     "about_paragraph6": "In 2024, thanks to business synergies built over time, European Management added market development to its services through the \"out of office\" business unit dedicated to marketing, communication, and digital services.",
     "about_section_title": "ABOUT US",
-    "about_paragraph1": "European Management was established as external support for companies in monitoring and studying European public policies with ad hoc consulting and outsourced management solutions. Such paths allow companies and public entities to be more aware of risks and opportunities arising from current or future political and legislative changes.",
-    "about_paragraph2": "The company subsequently expanded its field of action with new paths in outsourced management and strategic consulting. Starting from 2021, following growing market demand, it dedicated a specific work team to the construction sector, with particular focus on process digitalization, business planning, and management control.",
-    "about_paragraph3": "In 2024, thanks to international relations and business synergies built over time, European Management added market development to its services through the \"out of office\" business unit dedicated to marketing, communication, and digital services.",
-    "about_modus_title": "Mode de fonctionnement:",
-    "about_modus_subtitle": "agility of action and flexibility are the key words that distinguish our work.",
-    "about_modus_description": "To move successfully in a continuously changing competitive market, European Management focuses on hyper-specialization. For this reason, over the years it has structured an international network of trusted professionals with unique skills who are involved, under the daily coordination of internal referents of each business unit, to make company operations scalable, thus avoiding bureaucracy, organizational heaviness, and consequent slowdowns.",
+    "about_paragraph1": "European Management was established as a company specialized in outsourced managerial management of complex projects. This is a practice mainly adopted by large companies in a phase of growth or change, who choose to entrust experienced external managers or specialized companies with turnkey project management or the achievement of specific objectives: extraordinary operations, finance, market development, public tenders/contracts, digitalization, and much more. The goal of clients is to increase efficiency and focus attention on core business.",
+    "about_paragraph4": "Consulting activities aimed at institutions and public bodies are carried out in scientific partnership with the Quaeris institute and include tailor-made digital solutions for mapping citizen sentiment, monitoring public policies, and qualitative analysis of services provided to the public.",
+    "about_paragraph5": "Since 2021, in response to growing market demand, European Management has dedicated a specific work team called 'Edilmanager' to the construction sector, with particular focus on process digitalization, business planning, and management control. In 2024, thanks to business synergies built over time, European Management added market development to its services through the 'out of office' business unit dedicated to marketing, communication, and digital services.",
+    "about_modus_title": "Mode of operation:",
+    "about_modus_subtitle": "Agility of action and flexibility are the key words that distinguish our work.",
+    "about_modus_description": "To move successfully in a continuously changing competitive market, European Management focuses on hyper-specialization. For this reason, over the years it has structured an international network of trusted professionals with unique skills who are involved, under the daily coordination of internal referents, to make company operations scalable.",
     "team_management_title": "THE MANAGEMENT TEAM",
     "team_digital_title": "THE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
@@ -272,33 +269,31 @@
       }
     },
     "public_policy": {
-      "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "title": "PUBLIC POLICY",
-      "subtitle": "Digital solutions for future policymakers",
-      "intro": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that help improve public policy planning. Specifically, our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions thanks to greater knowledge and information.",
+      "subtitle": "Digital solutions for policymakers",
+      "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
+      "intro": "Our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions and plan government strategies thanks to greater knowledge and information.",
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
-          "list": [
-            "Measure and accurately map citizen sentiment by geographic area on specific topics of interest and its evolution over time.",
-            "Thanks to the collected data, public decision-makers can make better decisions based on real intentions and interests."
-          ]
+          "intro": "This is an evolving mapping over time of citizens' sentiment on specific topics of interest, segmented into homogeneous categories and divided by geographical area. Its application can be at the municipal, provincial, regional, or national level. In the case of specific topics (e.g., transport, healthcare, public services..), the analysis will be vertical and in-depth, while if there are no specific topics of interest, the analysis starts with a general screening divided by economic sectors and services defined together with the client. Thanks to the data collected, public decision-makers can increasingly understand the real opinions, positions, and needs of citizens and consequently make better political decisions."
         },
         "quality_monitor": {
           "title": "Quality Monitor:",
-          "intro": "Thanks to innovative custom-developed software, we help large private and public companies understand their real daily impact on their users.",
-          "list": [
-            "We replace with a digital solution the work usually performed by an entire department of analysts.",
-            "We support management in understanding the actual value of delivered services by facilitating comparison of companies in the same sector through standard parameters."
-          ]
+          "intro": "Thanks to innovative custom-developed software, we help public, semi-public, and private companies understand their real daily impact on users. The system daily submits ad hoc questionnaires on satisfaction and service quality to all customers interacting with the client's offices, collecting detailed insights that automatically populate an interactive graphic dashboard. We replace with intelligent software the work usually done by an entire department of analysts. Thanks to the always up-to-date reports in real time, we support management in understanding the actual quality of the services provided, facilitating the comparison of companies in the same sector and between similar sectors using standard parameters."
         },
         "microtargeting_ai": {
           "title": "Microtargeting with Artificial Intelligence (AI)",
-          "intro": "Traditional surveys offer static numbers, while dynamic microtargeting combined with web monitoring and AI allows you to:",
+          "intro": "This is a survey system that combines data analysis, social psychology, and artificial intelligence. It segments the population into extremely precise opinion groups and customizes promotional communication messages based on real values, emotions, and needs. While traditional surveys offer static numbers, microtargeting creates dynamic profiles, processing huge amounts of data in real time. The process starts with the collection of qualitative and quantitative data through: individual interviews or focus groups, open surveys, web listening (social, forums, search engines).. AI processes this data to identify recurring patterns: motivations, fears, common languages, and value references. From these patterns, 'opinion personas' are born, i.e., synthetic but realistic profiles representing different segments of the public. Example: ",
           "list": [
-            "IDENTIFY OPINION PERSONAS on specific topics of public interest (healthcare, citizen services, infrastructure, events, welfare, etc.)",
-            "Identify OPTIMAL TOPICS AND COMMUNICATION TONES to correctly engage with each identified homogeneous group;",
-            "QUICKLY AND EFFECTIVELY ADAPT communication and awareness strategies;"
+            "'Marco, 42, pragmatic technician, distrustful of politics but sensitive to efficiency and merit.'",
+            "'Sara, 28, idealistic student, oriented towards sustainability and social justice.'"
+          ],
+          "intro1": "Once the 'opinion personas' are defined, AI microtargeting allows you to: model different messages for each group, using language, values, and symbols that resonate with each identity, automatically test the emotional and cognitive response to content, optimize the dissemination of messages on the digital channels most frequented by each 'persona', and much more.. In short, AI microtargeting allows you to:",
+          "list1": [
+            "anticipate trends and opinion changes; ",
+            "reduce communication waste (speak only to those who are potentially interested);",
+            "obtain a higher return in terms of consensus, sales, or engagement."
           ]
         }
       }
@@ -319,18 +314,34 @@
     }
   },
   "digital": {
-    "team": {
-      "title": "Sintija Birgele",
-      "role": "Software Architect",
-      "description": "Software Architect with 8+ years of experience in enterprise software engineering, specializing in web technologies and applied Artificial Intelligence. Expert in designing and building agentic AI frameworks for the insurance, automotive, and energy sectors.",
-      "links": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "conferences": "Conferences",
-        "website": "Website",
-        "website_link": "https://cofun.digital/"
+    "team": [
+      {
+        "title": "Sintija Birgele",
+        "image": "./sintija.jpg",
+        "role": "Software Architect",
+        "description": "Software Architect with over 8 years of experience in enterprise software engineering, specialized in web technologies and applied Artificial Intelligence. Expert in designing and building agentic AI frameworks for the insurance, automotive, and energy sectors.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
+          "website": "Website",
+          "website_link": "https://cofun.digital/"
+        }
+      },
+      {
+        "title": "Luca Bazzanella",
+        "role": "Managing Director",
+        "image": "./luca_profile.png",
+        "description": "Manager from Trentino, born in 1991, with a background as an advisor in the European Parliament. Specialized in outsourced business management and digitalization, with particular experience in public policy analysis and institutional relations. Always interested in finding the right balance between business efficiency and social impact.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "website": "Website",
+          "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
       }
-    },
+    ],
     "footer": {
       "contact": {
         "title": "CONTACT",

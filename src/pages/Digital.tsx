@@ -89,43 +89,61 @@ const Digital = () => {
           </div>
         </div>
       </div>
-      {/* Team Member - Sintija Birgele */}
+      {/* Team Members Section */}
       <div className="md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1">
-              <LazyLoadImage
-                src="./sintija.jpg"
-                alt="Sintija Birgele"
-                effect="blur"
-                className="w-full max-w-md mx-auto object-cover rounded-lg shadow-xl"
-              />
-            </div>
-
-            <div className="order-1 md:order-2 space-y-6 p-6 md:p-0">
-              <div>
-                <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
-                  {t('digital.team.title')}
-                </h3>
-                <p className="text-xl text-red-700 font-MN font-medium mt-2">
-                  {t('digital.team.role')}
-                </p>
+          <div className="flex flex-col md:flex-row gap-y-12 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
+            {Array.isArray(t('digital.team', { returnObjects: true }) as any[]) && (t('digital.team', { returnObjects: true }) as any[]).map((member, idx) => (
+              <div key={idx} className="flex-1 flex flex-col bg-white rounded-lg shadow-xl overflow-hidden p-6 md:p-8">
+                <div className="order-2 md:order-1">
+                  <LazyLoadImage
+                    src={member.image}
+                    alt={member.title}
+                    effect="blur"
+                    className="w-full object-cover rounded-lg shadow-xl mb-4"
+                  />
+                </div>
+                <div className="order-1 md:order-2 space-y-6 flex-1 flex flex-col">
+                  <div>
+                    <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
+                      {member.title}
+                    </h3>
+                    <p className="text-xl text-red-700 font-MN font-medium mt-2">
+                      {member.role}
+                    </p>
+                  </div>
+                  <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN flex-1">
+                    {member.description}
+                  </p>
+                  <div className="flex space-x-4 pt-4 flex-wrap">
+                    {member.links && (
+                      <>
+                        {member.links.linkedin_link && (
+                          <a
+                            href={member.links.linkedin_link}
+                            className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
+                            target="_blank" rel="noopener noreferrer"
+                          >
+                            <Linkedin className="w-5 h-5" />
+                            <span>{member.links.linkedin}</span>
+                          </a>
+                        )}
+                        {member.links.github && member.links.github_link && (
+                          <a
+                            href={member.links.github_link}
+                            className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
+                            target="_blank" rel="noopener noreferrer"
+                          >
+                            <Github className="w-5 h-5" />
+                            <span>{member.links.github}</span>
+                          </a>
+                        )}
+                      </>
+                    )}
+                  </div>
+                </div>
               </div>
-
-              <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN">
-                {t('digital.team.description')}
-              </p>
-              <div className="flex space-x-4 pt-4 flex-wrap">
-                <a
-                  href="https://de.linkedin.com/in/sintija-birgele"
-                  className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                >
-                  <Linkedin className="w-5 h-5" />
-                  <span>{t('digital.team.links.linkedin')}</span>
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
