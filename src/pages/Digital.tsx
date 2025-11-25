@@ -93,57 +93,66 @@ const Digital = () => {
       <div className="md:py-24">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-y-12 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
-            {Array.isArray(t('digital.team', { returnObjects: true }) as any[]) && (t('digital.team', { returnObjects: true }) as any[]).map((member, idx) => (
-              <div key={idx} className="flex-1 flex flex-col bg-white rounded-lg shadow-xl overflow-hidden p-6 md:p-8">
-                <div className="order-2 md:order-1">
-                  <LazyLoadImage
-                    src={member.image}
-                    alt={member.title}
-                    effect="blur"
-                    className="w-full object-cover rounded-lg shadow-xl mb-4"
-                  />
+            {(() => {
+              const team = t('digital.team', { returnObjects: true }) as any[];
+              return (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-8 items-stretch justify-between">
+                  {team.map((member, idx) => {
+                    // If there are 3 members and this is the third, center it and make it half width on desktop
+                    const isThirdOfThree = team.length === 3 && idx === 2;
+                    return (
+                      <div
+                        key={idx}
+                        className={
+                          `flex flex-col bg-white rounded-lg shadow-xl overflow-hidden p-6 md:p-8 ` +
+                          (isThirdOfThree ? 'md:col-span-1 md:mx-auto w-100%' : '')
+                        }
+                      >
+                        <div className="order-1 md:order-2 space-y-6 flex-1 flex flex-col">
+                          <div>
+                            <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
+                              {member.title}
+                            </h3>
+                            <p className="text-xl text-red-700 font-MN font-medium mt-2">
+                              {member.role}
+                            </p>
+                          </div>
+                          <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN flex-1">
+                            {member.description}
+                          </p>
+                          <div className="flex space-x-4 pt-4 flex-wrap">
+                            {member.links && (
+                              <>
+                                {member.links.linkedin_link && (
+                                  <a
+                                    href={member.links.linkedin_link}
+                                    className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
+                                    target="_blank" rel="noopener noreferrer"
+                                  >
+                                    <Linkedin className="w-5 h-5" />
+                                    <span>{member.links.linkedin}</span>
+                                  </a>
+                                )}
+                                {member.links.github && member.links.github_link && (
+                                  <a
+                                    href={member.links.github_link}
+                                    className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
+                                    target="_blank" rel="noopener noreferrer"
+                                  >
+                                    <Github className="w-5 h-5" />
+                                    <span>{member.links.github}</span>
+                                  </a>
+                                )}
+                              </>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
-                <div className="order-1 md:order-2 space-y-6 flex-1 flex flex-col">
-                  <div>
-                    <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
-                      {member.title}
-                    </h3>
-                    <p className="text-xl text-red-700 font-MN font-medium mt-2">
-                      {member.role}
-                    </p>
-                  </div>
-                  <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN flex-1">
-                    {member.description}
-                  </p>
-                  <div className="flex space-x-4 pt-4 flex-wrap">
-                    {member.links && (
-                      <>
-                        {member.links.linkedin_link && (
-                          <a
-                            href={member.links.linkedin_link}
-                            className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                            target="_blank" rel="noopener noreferrer"
-                          >
-                            <Linkedin className="w-5 h-5" />
-                            <span>{member.links.linkedin}</span>
-                          </a>
-                        )}
-                        {member.links.github && member.links.github_link && (
-                          <a
-                            href={member.links.github_link}
-                            className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors py-2"
-                            target="_blank" rel="noopener noreferrer"
-                          >
-                            <Github className="w-5 h-5" />
-                            <span>{member.links.github}</span>
-                          </a>
-                        )}
-                      </>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
+              );
+            })()}
           </div>
         </div>
       </div>

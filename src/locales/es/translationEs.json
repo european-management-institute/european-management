@@ -70,8 +70,8 @@
     },
     "future_leaders": {
       "title": "FUTUROS LÍDERES",
-      "description1": "Formación, orientación y networking dirigido a estudiantes, trabajadores y profesionales que quieren dar un giro a su carrera.",
-      "description2": "Un recorrido único en su género para descubrir y aprovechar las oportunidades relacionadas con las profesiones del futuro."
+      "description1": "Formación, orientación y networking para descubrir y aprovechar oportunidades relacionadas con las profesiones del futuro.",
+      "description2": "Un programa dirigido a estudiantes, trabajadores y profesionales que desean marcar la diferencia en sus carreras."
     },
     "professional": {
       "title": "FORMACIÓN PROFESIONAL Y SEGURIDAD LABORAL",
@@ -215,8 +215,8 @@
     "team_member_5_role": "Gerente de Marketing",
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Desarrollo de Negocio",
-    "team_member_7_name": "Andrea Graziani",
-    "team_member_7_role": "Redes Sociales y Web"
+    "team_member_7_name": "Nunzia Cocozza",
+    "team_member_7_role": "Marocco e Nord Africa"
   },
   "OutsourcedManagement": {
     "title": "GESTIÓN Y CONSULTORÍA EXTERNALIZADAS",
@@ -337,9 +337,18 @@
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",
-          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "linkedin_link": "https://www.linkedin.com/in/luca-bazzanella-b08037b7",
           "website": "Sitio web",
           "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
+      },
+      {
+        "title": "Nunzia Cocozza",
+        "role": "CEO Y Cofundadora de Revolution Group en Marruecos",
+        "description": "La Dra. Nunzia Cocozza, psicóloga laboral con amplia experiencia en gestión, trabaja como formadora en entornos corporativos y gubernamentales. Especializada en el sector hotelero, ha coordinado la organización de importantes eventos y festivales internacionales.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://www.linkedin.com/in/nunzia-c-90baa324b/"
         }
       }
     ],
