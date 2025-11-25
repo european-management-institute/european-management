@@ -46,8 +46,8 @@
     },
     "future_leaders": {
       "title": "FUTURE LEADERS",
-      "description1": "Training, guidance and networking aimed at students, workers and professionals who want to transform their career.",
-      "description2": "A unique journey to discover and seize opportunities related to future professions."
+      "description1": "Training, orientation, and networking to discover and seize opportunities related to the professions of the future.",
+      "description2": "A program aimed at students, workers, and professionals who want to make a difference in their careers."
     },
     "professional": {
       "title": "PROFESSIONAL TRAINING AND WORKPLACE SAFETY",
@@ -215,8 +215,8 @@
     "team_member_5_role": "Marketing Manager",
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Business Development",
-    "team_member_7_name": "Andrea Graziani",
-    "team_member_7_role": "Social Media and Web"
+    "team_member_7_name": "Nunzia Cocozza",
+    "team_member_7_role": "Marocco e Nord Africa"
   },
   "OutsourcedManagement": {
     "title": "OUTSOURCED MANAGEMENT & CONSULTING",
@@ -336,9 +336,18 @@
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",
-          "linkedin_link": "https://linkedin.com/in/lucabazzanella",
+          "linkedin_link": "https://www.linkedin.com/in/luca-bazzanella-b08037b7",
           "website": "Website",
           "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
+      },
+      {
+        "title": "Nunzia Cocozza",
+        "role": "CEO and Co-Founder of Revolution Group in Morocco",
+        "description": "Dr. Nunzia Cocozza, an occupational psychologist with extensive management experience, works as a trainer in corporate and government settings. Specializing in the hospitality sector, she has coordinated the organization of major international events and festivals.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://www.linkedin.com/in/nunzia-c-90baa324b/"
         }
       }
     ],
