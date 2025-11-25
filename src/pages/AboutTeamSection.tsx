@@ -59,6 +59,10 @@ const AboutTeamSection = () => {
                   name={t("AboutTeamSection.team_member_3_name")}
                   role={t("AboutTeamSection.team_member_3_role")}
                 />
+                <TeamMember
+                  name={t("AboutTeamSection.team_member_7_name")}
+                  role={t("AboutTeamSection.team_member_7_role")}
+                />
               </div>
             </div>
 
@@ -79,10 +83,6 @@ const AboutTeamSection = () => {
                 <TeamMember
                   name={t("AboutTeamSection.team_member_6_name")}
                   role={t("AboutTeamSection.team_member_6_role")}
-                />
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_7_name")}
-                  role={t("AboutTeamSection.team_member_7_role")}
                 />
               </div>
             </div>
