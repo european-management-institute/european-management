@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
+import interestGroupsImg from "../assets/fe606492-66bd-4c15-a2e9-9715edc98576-220047bb-5fc8-4a6e-b70c-c99ad1476c05.png";
 import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -13,7 +14,7 @@ const OutsourcedManagement = () => {
 
   // Unsplash images – each matched to card text
   const moduleImages = [
-    "https://images.unsplash.com/photo-1762340275877-32d64414d8aa?w=900&q=85&fit=crop", // Survey / feedback – Citizen Satisfaction e microtargeting, sentiment
+    interestGroupsImg, // Interest groups and stakeholders mapping
     "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=900&q=85&fit=crop", // Monitoring screen – Quality monitor, automated user monitoring
     "https://images.unsplash.com/photo-1767424196045-030bbde122a4?w=900&q=85&fit=crop", // Tablet with charts – Indagini di mercato, digital & AI insights
   ];
