@@ -110,10 +110,10 @@ const ServiceItem = ({ title, description, link, icon }) => {
       >
         <div className="flex items-center gap-3">
           <div>
-            <h3 className="text-lg font-semibold mb-1 group-hover:text-blue-200 transition-colors">
+            <h3 className="text-lg font-semibold mb-1 text-inherit transition-colors">
               {title}
             </h3>
-            <p className="text-sm text-blue-100 opacity-80">{description}</p>
+            <p className="text-sm text-inherit opacity-80">{description}</p>
           </div>
         </div>
         <ChevronRight
