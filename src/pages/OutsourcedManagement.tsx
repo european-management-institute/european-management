@@ -42,8 +42,11 @@ const OutsourcedManagement = () => {
               </button>
             </div>
           </div>
-          <div className="bg-[#071330] flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8">
-            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify">
+          <div className="flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
+                          bg-gradient-to-r from-[#062a55] via-[#0b5aa1]/95 to-[#34d3c8]/92
+                          backdrop-blur-sm
+                          rounded-xl">
+            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-[90%]">
               {t("servicesManagement.public_policy.description")}
             </p>
           </div>
@@ -73,10 +76,10 @@ const OutsourcedManagement = () => {
                 />
               </div>
               <div className="bg-transparent py-3 px-2 text-left">
-                <p className="font-MN font-semibold text-gray-900 text-lg md:text-lg">
+                <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
                   {mod.line1}
                 </p>
-                <p className="font-MN text-gray-700 text-lg md:text-lg mt-0.5">
+                <p className="font-MN text-gray-700 text-lg md:text-xl mt-0.5">
                   {mod.line2}
                 </p>
               </div>
