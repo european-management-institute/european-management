@@ -306,19 +306,19 @@
       "intro": "Le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di scegliere in modo consapevole e pianificare strategie di governo grazie a una maggiore conoscenza e informazione.",
       "modules": [
         {
-          "line1": "Citizen Satisfaction e microtargeting",
-          "line2": "Analisi del sentiment dei cittadini",
-          "image_alt": "Edificio moderno con bandiere"
+          "line1": "Interest groups and stakeholders mapping",
+          "line2": "Software su misura per istituzioni, gruppi politici e aziende",
+          "image_alt": "Edificio moderno"
         },
         {
           "line1": "Quality monitor",
-          "line2": "Monitoraggio automatizzato utenti",
+          "line2": "Monitoraggio automatizzato utenti e automazione report quotidiani",
           "image_alt": "Mano su dispositivo digitale"
         },
         {
-          "line1": "Indagini di mercato",
-          "line2": "Digitale e IA per insight di mercato",
-          "image_alt": "Edificio moderno"
+          "line1": "Citizen Satisfaction e microtargeting",
+          "line2": "Analisi del sentiment dei cittadini",
+          "image_alt": "Edificio moderno con bandiere"
         }
       ],
       "digital_public_policy": {
