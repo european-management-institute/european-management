@@ -19,8 +19,8 @@ const ConsulenzaDirezionale = () => {
   return (
     <section>
       {/* Top section: heading left, intro paragraph right (dark blue) */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
-        <div className="grid md:grid-cols-[2fr_3fr] gap-6 md:gap-10 items-start">
+      <div className="max-w-6xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+        <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-start">
           <div className="flex flex-col justify-start space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-black leading-tight uppercase tracking-tight">
               {t("ConsulenzaDirezionale.title").split(" & ").map((part, i) => (
@@ -34,8 +34,11 @@ const ConsulenzaDirezionale = () => {
               {t("ConsulenzaDirezionale.subtitle")}
             </p>
           </div>
-          <div className="bg-[#071330] flex items-start py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-14">
-            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify">
+          <div className="flex items-start py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
+                          bg-gradient-to-r from-[#062a55] via-[#0b5aa1]/95 to-[#34d3c8]/92
+                          backdrop-blur-sm
+                          rounded-xl">
+            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-[90%]">
               {t("ConsulenzaDirezionale.intro")}
             </p>
           </div>
@@ -43,8 +46,8 @@ const ConsulenzaDirezionale = () => {
       </div>
 
       {/* Bottom section: three modules with image + caption */}
-      <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {modules?.map((mod, index) => (
             <div key={index} className="flex flex-col">
               <div className="aspect-[4/3] w-full overflow-hidden rounded-t-lg bg-gray-200">
@@ -65,7 +68,7 @@ const ConsulenzaDirezionale = () => {
                   }}
                 />
               </div>
-              <div className="bg-transparent py-4 px-2 text-left">
+              <div className="bg-transparent py-3 px-2 text-left">
                 <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
                   {mod.line1}
                 </p>
