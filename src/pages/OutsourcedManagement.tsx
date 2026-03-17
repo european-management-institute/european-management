@@ -21,8 +21,8 @@ const OutsourcedManagement = () => {
   return (
     <section>
       {/* Hero: same design as Consulenza Direzionale – title + subtitle + button left, dark blue intro right */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
-        <div className="grid md:grid-cols-[2fr_3fr] gap-6 md:gap-10 items-stretch">
+      <div className="max-w-6xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+        <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-stretch">
           <div className="flex flex-col justify-center space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-blue-950 leading-tight uppercase tracking-tight">
               {t("servicesManagement.public_policy.title")}
@@ -41,7 +41,7 @@ const OutsourcedManagement = () => {
               </button>
             </div>
           </div>
-          <div className="bg-[#071330] flex items-center py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-14">
+          <div className="bg-[#071330] flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8">
             <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify">
               {t("servicesManagement.public_policy.description")}
             </p>
@@ -50,8 +50,8 @@ const OutsourcedManagement = () => {
       </div>
 
       {/* Three cards: same layout as screenshot – image + two-line caption */}
-      <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {modules?.map((mod, index) => (
             <div key={index} className="flex flex-col rounded-lg overflow-hidden">
               <div className="aspect-[4/3] w-full overflow-hidden bg-gray-200">
@@ -71,11 +71,11 @@ const OutsourcedManagement = () => {
                   }}
                 />
               </div>
-              <div className="bg-transparent py-4 px-3 text-left">
-                <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
+              <div className="bg-transparent py-3 px-2 text-left">
+                <p className="font-MN font-semibold text-gray-900 text-lg md:text-lg">
                   {mod.line1}
                 </p>
-                <p className="font-MN text-gray-700 text-lg md:text-xl mt-0.5">
+                <p className="font-MN text-gray-700 text-lg md:text-lg mt-0.5">
                   {mod.line2}
                 </p>
               </div>
