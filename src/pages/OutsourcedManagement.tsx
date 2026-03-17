@@ -1,69 +1,93 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import lucaImg from "../assets/luca.jpeg";
-import srcc from "../assets/11_white.png";
-import bt from "../assets/7.png";
-import ServicesSection from "../Component/ServicesSection";
 import emiLogo from "../assets/ombrato_reduced.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useNavigate } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OutsourcedManagement = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const modules = t("servicesManagement.public_policy.modules", {
+    returnObjects: true,
+  }) as { line1: string; line2: string; image_alt: string }[];
+
+  // Unsplash images – each matched to card text
+  const moduleImages = [
+    "https://images.unsplash.com/photo-1762340275877-32d64414d8aa?w=900&q=85&fit=crop", // Survey / feedback – Citizen Satisfaction e microtargeting, sentiment
+    "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=900&q=85&fit=crop", // Monitoring screen – Quality monitor, automated user monitoring
+    "https://images.unsplash.com/photo-1767424196045-030bbde122a4?w=900&q=85&fit=crop", // Tablet with charts – Indagini di mercato, digital & AI insights
+  ];
+
   return (
     <section>
-      <div className="max-w-7xl mx-auto py-8 md:py-12 lg:py-16 px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-8 text-center md:text-left px-4 md:px-6">
-            <h2 className="text-2xl text-blue-950 md:text-4xl lg:text-5xl font-MN font-medium leading-tight">
+      {/* Hero: same design as Consulenza Direzionale – title + subtitle + button left, dark blue intro right */}
+      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+        <div className="grid md:grid-cols-[2fr_3fr] gap-6 md:gap-10 items-stretch">
+          <div className="flex flex-col justify-center space-y-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-blue-950 leading-tight uppercase tracking-tight">
               {t("servicesManagement.public_policy.title")}
-            </h2>
+              <br />
+              {t("servicesManagement.public_policy.title_line2")}
+            </h1>
             <p className="text-lg md:text-xl font-MN font-bold text-gray-700 leading-tight">
               {t("servicesManagement.public_policy.subtitle")}
             </p>
-            <div className="hidden md:flex justify-center md:justify-start">
+            <div className="flex justify-center md:justify-start">
               <button
-                className="bg-cover bg-center text-white px-6 md:px-8 py-2 md:py-3 rounded-full font-MN
-                   font-semibold text-lg md:text-xl hover:opacity-90 
-                   transition-all duration-300 min-w-[200px]"
-                style={{
-                  backgroundImage: `url(${bt})`,
-                  backgroundSize: "120% 140%",
-                }}
+                className="bg-[#071330] text-white px-6 md:px-8 py-3 rounded-lg font-MN font-semibold text-base md:text-lg hover:opacity-90 transition-all duration-300 min-w-[200px]"
                 onClick={() => navigate("/chi-siamo")}
               >
-                {t("OutsourcedManagement.button")}
+                {t("servicesManagement.public_policy.hero_button")}
               </button>
             </div>
           </div>
-
-          <div className="relative -mb-24 lg:block">
-            <LazyLoadImage
-              src='./public_policy.jpg'
-              alt="Business consultant on phone"
-              className="w-screen rounded-lg shadow-xl"
-            />
+          <div className="bg-[#071330] flex items-center py-6 md:py-8 lg:py-10 px-8 md:px-10 lg:px-14">
+            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify">
+              {t("servicesManagement.public_policy.description")}
+            </p>
           </div>
         </div>
       </div>
-      <footer className="bg-[#071330] relative overflow-hidden min-w-full">
-        <div className="max-w-7xl mx-auto">
-          <div className="py-6 px-2 flex justify-end">
-            <div className=" space-y-8 text-white">
-              <div className="w-full text-center md:text-left md:pl-4 mb-8">
-                <p className="text-lg md:text-xl lg:text-lg font-MN font-medium leading-tight text-left p-8 max-w-2xl -mr-6 ">
-                  {t("servicesManagement.public_policy.description")}
+
+      {/* Three cards: same layout as screenshot – image + two-line caption */}
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          {modules?.map((mod, index) => (
+            <div key={index} className="flex flex-col rounded-lg overflow-hidden">
+              <div className="aspect-[4/3] w-full overflow-hidden bg-gray-200">
+                <LazyLoadImage
+                  src={moduleImages[index]}
+                  alt={mod.image_alt}
+                  className="w-full h-full object-cover"
+                  onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
+                    e.currentTarget.style.display = "none";
+                    const parent = e.currentTarget.parentElement;
+                    if (parent && !parent.querySelector(".placeholder")) {
+                      const div = document.createElement("div");
+                      div.className = "placeholder w-full h-full flex items-center justify-center bg-gray-300 text-gray-500 text-sm font-MN";
+                      div.textContent = mod.image_alt;
+                      parent.appendChild(div);
+                    }
+                  }}
+                />
+              </div>
+              <div className="bg-transparent py-4 px-3 text-left">
+                <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
+                  {mod.line1}
+                </p>
+                <p className="font-MN text-gray-700 text-lg md:text-xl mt-0.5">
+                  {mod.line2}
                 </p>
               </div>
             </div>
-          </div>
+          ))}
         </div>
-      </footer>
+      </div>
+
       {/* Modern Public Policy Section - Full Width */}
-      <div className="bg-gray-50 py-16 px-4 md:px-0 w-full flex items-center justify-center">
+      <div className="pb-16 pt-6 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4 w-full">
-          <div className="bg-gray-50 mx-auto md:p-8 space-y-8 max-w-7xl md:px-6">
+          <div className="mx-auto md:pt-6 md:pb-8 md:px-8 space-y-8 max-w-7xl md:px-6">
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
               {t("servicesManagement.public_policy.intro")}
             </p>
@@ -105,7 +129,7 @@ const OutsourcedManagement = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-[#071330] py-16 relative overflow-hidden">
+      <footer className="bg-[#071330] py-16 overflow-hidden">
         <div className="px-4 flex flex-col lg:flex-row justify-around items-center">
           <div className="w-full lg:w-auto mb-8 lg:mb-0 max-w-xl">
             <h2 className="text-3xl font-MN font-500 text-white mb-6 text-center lg:text-left">

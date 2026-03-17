@@ -6,7 +6,7 @@ const Tree = () => {
     <main className="">
       <nav className="w-full mx-auto px-4">
         <TreeList>
-          <TreeItem label="OUTSOURCED MANAGEMENT" link="/management" children={null} />
+          <TreeItem label="CONSULENZA DIREZIONALE" link="/consulenza-direzionale" children={null} />
           <TreeItem label="PUBLIC POLICY" link="/digital" children={null} />
           <TreeItem label="INSTITUTE" link="/e-learning" children={null} />
         </TreeList>
@@ -45,7 +45,7 @@ const TreeItem = ({ label, children, className = "", link }) => {
         href="#"
         className={`
           inline-block px-6 py-3  my-12 rounded-md
-          text-white no-underline uppercase text-xl font-medium font-MN
+          text-inherit no-underline uppercase text-xl font-medium font-MN
           transition-all duration-400 min-w-[200px]
           hover:bg-[#002952] hover:border-[primary-900] hover:text-gray-50
           group  

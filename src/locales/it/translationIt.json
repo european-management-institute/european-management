@@ -51,7 +51,7 @@
     "quote": "Trasformiamo la tua vision e i tuoi obiettivi commerciali in realtà.",
     "contact": {
       "title": "CONTATTI",
-      "description": "Per potersi interfacciare con i nostri uffici e lavorare con noi é necessaria la referenza di un'azienda giá cliente o partner."
+      "description": "Per potersi interfacciare con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner."
     },
     "company": {
       "name1": "European",
@@ -88,7 +88,7 @@
   "footer": {
     "contact": {
       "title": "CONTATTI",
-      "description": "Per potersi interfacciare con i nostri uffici e lavorare con noi é necessaria la referenza di un'azienda giá cliente o partner."
+      "description": "Per potersi interfacciare con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner."
     },
     "copyright": {
       "text": "Copyright © 2020 European Management Institute",
@@ -97,7 +97,8 @@
   },
   "navigation": {
     "about": "Chi Siamo",
-    "management": "Outsourced Management",
+    "management": "Software",
+    "consulenza_direzionale": "Consulenza Direzionale",
     "digital": "Public Policy",
     "marketing": "Marketing",
     "contacts": "Contatti",
@@ -110,7 +111,7 @@
   },
   "services": {
     "mainTitle": "LA TUA GUIDA NEL MARE IN TEMPESTA",
-    "subTitle": "DEI MERCATI GLOBALI.",
+    "subTitle": "DEI MERCATI GLOBALI",
     "management": {
       "title": "MANAGEMENT",
       "description": "Consulenza di nuova generazione"
@@ -179,7 +180,9 @@
     "leftColumn_description2": "A livello operativo si struttura in tre distinte unità di business verticali composte ognuna da un team di lavoro specializzato.",
     "leftColumn_button": "SCOPRI DI PIÚ",
     "rightColumn_title": "UN \"ADVISORY TEAM\" DI NUOVA GENERAZIONE",
+    "belowHero_paragraph": "European Management è un'azienda di consulenza specializzata nella consulenza direzionale e digitale. Offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato. Si distanzia dai modelli tradizionali di consulenza, propone un approccio \"data driven\" e accetta contratti sfidanti anche di tipo \"outcome based\" ovvero remunerati in base ad indicatori di performance concordati.",
     "rightColumn_description1": "European Management si contrappone ai modelli tradizionali di consulenza. Utilizza un approccio \"data driven\" e digitale per automatizzare processi aziendali complessi e accetta contratti sfidanti anche di tipo \"outcome based\" ovvero remunerati in base agli indicatori di performance concordati.",
+    "videoPlaceholder_caption": "VIDEO / GIF – Edilmanager CRM, OSINT, Quality Monitor, Citizen Satisfaction…",
     "boldText_managementTypes": "management esternalizzato, digitale e formazione",
     "boldText_solutions": "soluzioni ad alto valore aggiunto",
     "boldText_approach": "data driven",
@@ -194,19 +197,16 @@
   "footer_company_line3": "Institute",
   "team_digital_title": "DIGITAL TEAM",
   "AboutTeamSection": {
-    "about_section_title": "CHI SIAMO",
-    "about_paragraph1": "European Management nasce come azienda specializzata nella gestione manageriale esternalizzata di progetti complessi. Si tratta di una pratica, adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare a manager esperti esterni o aziende specializzate la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi: operazioni straordinarie, finanza, sviluppo di mercato, bandi/commesse, digitalizzazione e molto altro. L’obiettivo dei committenti è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
-    "about_paragraph4": "L’attività consulenziale rivolta a istituzioni ed enti pubblici viene svolta in partnership scientifica con l’istituto Quaeris e comprende soluzioni digitali su misura per la mappatura del sentiment dei cittadini, il monitoraggio delle politiche pubbliche e l’analisi qualitativa dei servizi erogati al pubblico.",
-    "about_paragraph5": "European Management a partire dal 2021, In seguito ad una crescente richiesta di mercato, dedica un apposito team di lavoro \"Edilmanager\" dedicato al settore delle costruzioni con particolare focus sulla digitalizzazione dei processi, pianificazione aziendale e controllo di gestione. Nel 2024, grazie alle sinergie aziendali costruite nel tempo, European Management aggiunge ai suoi servizi lo sviluppo di mercato tramite la business unit \"out of office\" dedicata al marketing, comunicazione e servizi digitali.",
-    "about_modus_title": "Modus operandi:",
-    "about_modus_subtitle": "Agilità d'azione e flessibilità sono le parole chiave che contraddistinguono il nostro operato.",
-    "about_modus_description": "Per potersi muovere con successo in un mercato competitivo in continuo cambiamento European Management punta sulla iper-specializzazione. Per questo motivo ha strutturato negli anni una rete internazionale di professionisti di fiducia con competenze uniche che coinvolge, sotto il coordinamento quotidiano dei referenti interni, per renderne scalabile l'operato aziendale.",
+    "about_section_title": "Chi siamo",
+    "about_paragraph1": "European Management è una società di consulenza strategica e direzionale che affianca imprese, enti pubblici e organizzazioni nella gestione e comunicazione di progetti complessi.",
+    "about_paragraph4": "L'azienda si specializza inoltre, con lo stesso approccio, nell'analisi delle politiche pubbliche. In collaborazione scientifica con l'istituto di ricerca Quaeris, European Management realizza e distribuisce strumenti digitali che aiutano amministrazioni e decisori pubblici ad analizzare il sentiment dei cittadini, elaborare e valorizzare grandi quantità di dati, monitorare l'efficacia delle politiche pubbliche e valutare la qualità dei servizi erogati. L'uso combinato di machine learning e strumenti digitali applicati ai dati consente alle amministrazioni di comprendere meglio i bisogni della popolazione e di orientare con maggiore consapevolezza le proprie decisioni.",
+    "about_paragraph5": "Nel 2021, in seguito alla crescente richiesta, nasce all'interno dell'azienda Edilmanager, un team di advisor esperti coordinato da Edoardo Genovesi, dedicato al settore delle infrastrutture e delle riqualificazioni. Il team lavora sulla digitalizzazione dei processi, sullo sviluppo di mercato e sul controllo di gestione. Grazie a un software sviluppato su misura e messo a disposizione dei clienti, vengono offerti servizi integrati di controllo a distanza e pianificazione operativa anche da smartphone. L'unità di business si completa con un tool dedicato all'automazione delle quotazioni tramite intelligenza artificiale e alla gestione automatizzata delle procedure commerciali di generazione e gestione dei lead.",
     "team_management_title": "IL TEAM MANAGEMENT",
     "team_digital_title": "IL TEAM DIGITAL",
     "team_member_1_name": "Luca Bazzanella",
     "team_member_1_role": "Direzione e Public Policy",
     "team_member_2_name": "Zak Edbali",
-    "team_member_2_role": "HR Management e outsourching",
+    "team_member_2_role": "HR Management e outsourcing",
     "team_member_3_name": "Paolo Decaminada",
     "team_member_3_role": "Finanza e fiscalità",
     "team_member_4_name": "Sintija Birgele",
@@ -216,15 +216,55 @@
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Business Development",
     "team_member_7_name": "Nunzia Cocozza",
-    "team_member_7_role": "Marocco e Africa"
+    "team_member_7_role": "Marocco e Africa",
+    "team_member_8_name": "Alessandro Sterni",
+    "team_member_8_role": "Consulenza Aziendale",
+    "about_paragraph2": "L'outsourcing direzionale è una pratica adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare esternamente a manager esperti la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi: operazioni straordinarie, bandi e commesse, sviluppo di mercato e digitalizzazione sono gli ambiti d'azione più frequenti.",
+    "about_paragraph3": "L'obiettivo dei committenti è aumentare l'efficienza e focalizzare l'attenzione sul core business. Si tratta di una pratica sempre più diffusa alla luce dei cambiamenti economici, sociali e tecnologici in corso, che richiedono nuove competenze e rapidità d'azione. Fattori spesso difficili da ottenere per molte aziende strutturate utilizzando esclusivamente risorse e procedure interne.",
+    "about_paragraph6": "Nel 2024 l'attività si amplia ulteriormente con la creazione della business unit Out of Office, amministrata da Isabel Tonelli, esperta di influencer marketing, focalizzata sulla comunicazione integrata d'impresa, sugli eventi e sullo sviluppo di mercato.",
+    "about_thinktank_title": "Think tank e network internazionale",
+    "about_paragraph7": "Oltre a essere un'azienda di consulenza, European Management può considerarsi anche un network internazionale di manager, decision maker ed esperti attivi in diversi settori: dall'energia alle tecnologie, dalla robotica alla cybersecurity, fino alle politiche europee, alla sicurezza e all'ambiente. Una rete di questo tipo facilita la costruzione di partenariati europei, il matching di operazioni win-win, la ricerca di investitori e la creazione di percorsi formativi executive di alto profilo."
   },
   "OutsourcedManagement": {
-    "title": "OUTSOURCHED MANAGEMENT & CONSULTING",
+    "title": "OUTSOURCED MANAGEMENT & CONSULTING",
     "subtitle": "Servizi manageriali esternalizzati ad alto valore aggiunto",
     "button": "SCOPRI DI PIÚ",
     "description": "Realizziamo strumenti digitali \"data driven\" per supportare il management nella gestione di processi e nel controllo di gestione.",
     "contact_title": "CONTATTI",
-    "contact_text": "Per potersi interfacciare con i nostri uffici e lavorare con noi é necessaria la referenza di un'azienda giá cliente o partner.",
+    "contact_text": "Per potersi interfacciare con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner.",
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "Tutti i diritti riservati n.registrazione 302022000006366"
+    }
+  },
+  "ConsulenzaDirezionale": {
+    "title": "CONSULENZA DIREZIONALE & SOFTWARE",
+    "subtitle": "Bandi e finanza, efficienza, sviluppo e digitale",
+    "intro": "L'outsourcing direzionale è una pratica adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare esternamente a manager esperti la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi: operazioni straordinarie, bandi e commesse, sviluppo di mercato e digitalizzazione sono gli ambiti d'azione più frequenti.",
+    "modules": [
+      {
+        "line1": "Bandi e gare",
+        "line2": "Strategia e partenariati",
+        "image_alt": "Edificio moderno con bandiere"
+      },
+      {
+        "line1": "Digitale e automazione",
+        "line2": "Software su misura",
+        "image_alt": "Mano che interagisce con dispositivo digitale"
+      },
+      {
+        "line1": "Operazioni straordinarie",
+        "line2": "Ricerca partner e capitali",
+        "image_alt": "Facciata di edificio moderno"
+      }
+    ],
+    "contact_title": "CONTATTI",
+    "contact_text": "Per potersi interfacciare con i nostri uffici e lavorare con noi è necessaria la referenza di un'azienda già cliente o partner.",
     "company": {
       "name1": "European",
       "name2": "Management",
@@ -240,7 +280,7 @@
     "outsourced_management": {
       "title": "OUTSOURCED MANAGEMENT",
       "intro1": "La gestione esternalizzata o “outsourched management” è una pratica adottata principalmente da grandi imprese in fase di crescita o cambiamento che scelgono di affidare esternamente a manager esperti la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi:  operazioni straordinarie, finanza, sviluppo di mercato, bandi pubblici / commesse e digitalizzazione.. L’obiettivo dei committenti è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
-      "intro": "SI tratta di una pratica sempre più diffusa alla luce dei cambiamenti economici, sociali e tecnologici epocali in corso che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere per molte aziende strutturate con il solo utilizzo di risorse e procedure interne.",
+      "intro": "Si tratta di una pratica sempre più diffusa alla luce dei cambiamenti economici, sociali e tecnologici epocali in corso che necessitano di nuove competenze e rapidità d'azione. Fattori complessi da ottenere per molte aziende strutturate con il solo utilizzo di risorse e procedure interne.",
       "digital_management": {
         "title": "Digitale per la gestione aziendale",
         "intro": "A partire dal 2021 E.M.I. ha dedicato un apposito team di lavoro al settore della digitalizzazione dei processi tramite software realizzati su misura basati sul machine learning e intelligenza artificiale. Nello specifico sono state automatizzate procedure di: sopralluogo, studio di offerta, quotazione di computi metrici, controllo di gestione, tracciabilità logistica, monitoraggio delle emissioni di co2, produzione robotizzata e molto altro.. La sfida è quella di affiancare aziende e reti d'impresa nel gestire procedure interne ed esterne in modo più efficiente ed economico raggiungendo obiettivi di crescita e scalabilità."
@@ -253,15 +293,34 @@
           "Tramite integrazione di hardware e software per la produzione robotizzata (ATI Dolomiti Grow per gara Agenzie Industrie DIfesa)",
           "Tramite integrazione di database per la ricerca informativa da fonti aperte (progetto OSINT DB)"
         ],
-        "outro": "Queste sono solo alcune delle soluzioni diglitali a supporto del management aziendale che abbiamo realizzato e messo in funzione per dare compimento alla nostra",
+        "outro": "Queste sono solo alcune delle soluzioni digitali a supporto del management aziendale che abbiamo realizzato e messo in funzione per dare compimento alla nostra",
         "outroB": " mission aziendale."
       }
     },
     "public_policy": {
       "title": "PUBLIC POLICY",
-      "subtitle": "Soluzioni digitali per policy maker",
+      "title_line2": "INNOVATION",
+      "subtitle": "Soluzioni digitali per governi e enti locali",
+      "hero_button": "SCOPRI DI PIÚ",
       "description": "Mettiamo a disposizione di enti locali, governi e pubbliche amministrazioni, strumenti statistici e informatici di nuova generazione che permettono di prendere decisioni strategiche in modo informato e consapevole.",
       "intro": "Le nostre soluzioni, realizzate in partnership scientifica con Quaeris, noto istituto italiano di ricerca, permettono ai decisori pubblici di scegliere in modo consapevole e pianificare strategie di governo grazie a una maggiore conoscenza e informazione.",
+      "modules": [
+        {
+          "line1": "Citizen Satisfaction e microtargeting",
+          "line2": "Analisi del sentiment dei cittadini",
+          "image_alt": "Edificio moderno con bandiere"
+        },
+        {
+          "line1": "Quality monitor",
+          "line2": "Monitoraggio automatizzato utenti",
+          "image_alt": "Mano su dispositivo digitale"
+        },
+        {
+          "line1": "Indagini di mercato",
+          "line2": "Digitale e IA per insight di mercato",
+          "image_alt": "Edificio moderno"
+        }
+      ],
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
@@ -331,9 +390,36 @@
         }
       },
       {
+        "title": "Edoardo Genovesi",
+        "role": "Sales Manager",
+        "description": "Sales Manager con esperienza nello sviluppo commerciale e nelle relazioni con i clienti.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/edoardo-genovesi-b32699186"
+        }
+      },
+      {
+        "title": "Matteo Scocco",
+        "role": "Energy Manager",
+        "description": "Energy Manager specializzato in efficienza energetica e gestione sostenibile.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/matteo-scocco-15428a76"
+        }
+      },
+      {
+        "title": "Alessandro Sterni",
+        "role": "Consulenza Aziendale\nResponsabile uff. Trento",
+        "description": "Responsabile dell'ufficio di Trento, specializzato in consulenza aziendale.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/alessandro-sterni-864460120"
+        }
+      },
+      {
         "title": "Nunzia Cocozza",
         "role": "Specialista in Marocco e Africa",
-        "description": "Dott.ssa Nunzia Cocozza, psicologa del lavoro con consolidata esperienza dirigenziale, opera come formatrice in contesti aziendali e governativi. Specializzata nel settore dell’ospitalità, ha coordinato l’organizzazione di eventi e festival internazionali di rilievo.",
+        "description": "Dott.ssa Nunzia Cocozza, psicologa del lavoro con consolidata esperienza dirigenziale, opera come formatrice in contesti aziendali e governativi. Specializzata nel settore dell'ospitalità, ha coordinato l'organizzazione di eventi e festival internazionali di rilievo.",
         "links": {
           "linkedin": "LinkedIn",
           "linkedin_link": "https://www.linkedin.com/in/nunzia-c-90baa324b/"
