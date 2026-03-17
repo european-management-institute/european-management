@@ -113,7 +113,7 @@ const Digital = () => {
                             <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
                               {member.title}
                             </h3>
-                            <p className="text-xl text-red-700 font-MN font-medium mt-2">
+                            <p className="text-xl text-red-700 font-MN font-medium mt-2 whitespace-pre-line">
                               {member.role}
                             </p>
                           </div>

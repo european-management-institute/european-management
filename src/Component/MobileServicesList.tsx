@@ -1,30 +1,66 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { ChevronRight } from "lucide-react";
 import Tree from "./Tree";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useTranslation } from "react-i18next";
-import yourImagePath from "../assets/2.png";
 import { useNavigate } from "react-router-dom";
+
+const lerpColor = (t: number) => {
+  const r = Math.round(255 + (25 - 255) * t);
+  const g = Math.round(255 + (25 - 255) * t);
+  const b = Math.round(255 + (25 - 255) * t);
+  return `rgb(${r},${g},${b})`;
+};
+
+// Start transition after this fraction of the video (0.35 = 35% in, then transition over the rest)
+const TRANSITION_START = 0.35;
+
 const ServicesLayout = () => {
   const { t } = useTranslation();
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [textColor, setTextColor] = useState(() => lerpColor(0));
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    video.playbackRate = 0.65;
+    const updateProgress = () => {
+      const d = video.duration;
+      if (!d || !Number.isFinite(d)) return;
+      const progress = Math.min(1, video.currentTime / d);
+      const t = progress <= TRANSITION_START ? 0 : (progress - TRANSITION_START) / (1 - TRANSITION_START);
+      setTextColor(lerpColor(t));
+    };
+    video.addEventListener("timeupdate", updateProgress);
+    video.addEventListener("loadedmetadata", updateProgress);
+    return () => {
+      video.removeEventListener("timeupdate", updateProgress);
+      video.removeEventListener("loadedmetadata", updateProgress);
+    };
+  }, []);
+
   return (
     <div className="relative min-h-80 pt-12 bg-primary-800 ">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0 w-screen  overflow-hidden">
-        <LazyLoadImage
-          src={yourImagePath}
-          alt="Background"
+      {/* Hero background video (loop, muted for autoplay) */}
+      <div className="absolute inset-0 z-0 w-screen overflow-hidden">
+        <video
+          ref={videoRef}
+          src="/hero-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
+          aria-hidden
         />
       </div>
 
-      {/* Content Container */}
-      <div className="relative z-10 ">
+      {/* Content Container — text color transitions white → dark over video length */}
+      <div className="relative z-10" style={{ color: textColor }}>
         {/* Main Title - Shown on all screens */}
-        <h1 className="text-white text-center font-medium text-2xl tracking-[.125em] leading-2 font-MN p-2">
+        <h1 className="text-center font-medium text-2xl tracking-[.125em] leading-2 font-MN p-2">
           {t("services.mainTitle")}
         </h1>
-        <h2 className="text-center text-xl text-white  font-medium tracking-[.125em] leading-2  font-MN drop-shadow-[1px_0px_0px_rgba(0,0,0,0.6)]">
+        <h2 className="text-center text-xl font-medium tracking-[.125em] leading-2 font-MN drop-shadow-[1px_0px_0px_rgba(0,0,0,0.6)]">
           {t("services.subTitle")}
         </h2>
         {/* <img src={imgUrl2} className="max-w-md mx-auto" /> */}
@@ -32,10 +68,10 @@ const ServicesLayout = () => {
         <div className="lg:hidden mt-8">
           <div className="max-w-md mx-auto space-y-4 pb-2">
             <ServiceItem
-              title=" OUTSOURCED MANAGEMENT"
+              title={t("navigation.consulenza_direzionale")}
               description={t("services.management.description")}
-              link="/management"
-              icon="🎯"
+              link="/consulenza-direzionale"
+              icon="📋"
             />
             <ServiceItem
               title="PUBLIC POLICY"
@@ -69,7 +105,7 @@ const ServiceItem = ({ title, description, link, icon }) => {
                     hover:bg-white/20 transition-all duration-300 cursor-pointer"
     >
       <a
-        className="flex items-center justify-between text-white"
+        className="flex items-center justify-between text-inherit"
         onClick={() => navigate(link)}
       >
         <div className="flex items-center gap-3">

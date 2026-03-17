@@ -2,11 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import AboutTeamSection from "./pages/AboutTeamSection.jsx";
 import Layout from "./Component/Layout.jsx";
 import OutsourcedManagement from "./pages/OutsourcedManagement.jsx";
-import Digital from "./pages/Digital.jsx";
+import ConsulenzaDirezionale from "./pages/ConsulenzaDirezionale";
 import Marketing from "./pages/Marketing.jsx";
 import LoginEducationSection from "./Component/LoginEducationSection.jsx";
 import { I18nextProvider } from "react-i18next";
@@ -20,9 +20,10 @@ createRoot(document.getElementById("root")).render(
         <Route element={<Layout />}>
           <Route index element={<App />} />
           <Route path="/chi-siamo" element={<AboutTeamSection />} />
-          <Route path="/management" element={<Digital />} />
+          <Route path="/management" element={<Navigate to="/consulenza-direzionale" replace />} />
           <Route path="/marketing" element={<Marketing />} />
           <Route path="/digital" element={<OutsourcedManagement />} />
+          <Route path="/consulenza-direzionale" element={<ConsulenzaDirezionale />} />
           <Route path="/e-learning" element={<LoginEducationSection />} />
           <Route path="/signup" element={<SignUpComponent />} />
         </Route>

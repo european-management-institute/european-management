@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Join Our Learning",
-    "subtitle": "Community"
+    "title": "Join Our",
+    "subtitle": "Learning Community"
   },
   "form": {
     "title": "Create an account",
@@ -148,7 +148,8 @@
   "navigation": {
     "about": "About Us",
     "marketing": "Marketing",
-    "management": "Outsourced Management",
+    "management": "Software",
+    "consulenza_direzionale": "Directional Consulting",
     "digital": "Public Policy",
     "institute": "Institute",
     "contacts": "Contacts"
@@ -179,7 +180,9 @@
     "leftColumn_description2": "Operationally, it is structured into three distinct vertical business units, each composed of a specialized work team.",
     "leftColumn_button": "LEARN MORE",
     "rightColumn_title": "A NEXT-GENERATION ADVISORY TEAM",
+    "belowHero_paragraph": "European Management is a consulting firm specializing in management and digital consulting. It offers selected clients high value-added solutions that are difficult to find on the market. It distances itself from traditional consulting models, proposes a \"data driven\" approach, and accepts challenging contracts, including \"outcome based\" ones, i.e. remunerated based on agreed performance indicators.",
     "rightColumn_description1": "European Management stands in contrast to traditional consulting models. It uses a data-driven and digital approach to automate complex business processes and accepts challenging contracts, including outcome-based ones, which are remunerated based on agreed performance indicators.",
+    "videoPlaceholder_caption": "VIDEO / GIF – Edilmanager CRM, OSINT, Quality Monitor, Citizen Satisfaction…",
     "boldText_managementTypes": "outsourced management, digital services, and training",
     "boldText_solutions": "high value-added solutions",
     "boldText_approach": "data driven",
@@ -193,14 +196,15 @@
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
   "AboutTeamSection": {
-    "about_paragraph6": "In 2024, thanks to business synergies built over time, European Management added market development to its services through the \"out of office\" business unit dedicated to marketing, communication, and digital services.",
-    "about_section_title": "ABOUT US",
-    "about_paragraph1": "European Management was established as a company specialized in outsourced managerial management of complex projects. This is a practice mainly adopted by large companies in a phase of growth or change, who choose to entrust experienced external managers or specialized companies with turnkey project management or the achievement of specific objectives: extraordinary operations, finance, market development, public tenders/contracts, digitalization, and much more. The goal of clients is to increase efficiency and focus attention on core business.",
-    "about_paragraph4": "Consulting activities aimed at institutions and public bodies are carried out in scientific partnership with the Quaeris institute and include tailor-made digital solutions for mapping citizen sentiment, monitoring public policies, and qualitative analysis of services provided to the public.",
-    "about_paragraph5": "Since 2021, in response to growing market demand, European Management has dedicated a specific work team called 'Edilmanager' to the construction sector, with particular focus on process digitalization, business planning, and management control. In 2024, thanks to business synergies built over time, European Management added market development to its services through the 'out of office' business unit dedicated to marketing, communication, and digital services.",
-    "about_modus_title": "Mode of operation:",
-    "about_modus_subtitle": "Agility of action and flexibility are the key words that distinguish our work.",
-    "about_modus_description": "To move successfully in a continuously changing competitive market, European Management focuses on hyper-specialization. For this reason, over the years it has structured an international network of trusted professionals with unique skills who are involved, under the daily coordination of internal referents, to make company operations scalable.",
+    "about_section_title": "About us",
+    "about_paragraph1": "European Management is a strategic and directional consulting company that supports businesses, public bodies and organisations in the management and communication of complex projects.",
+    "about_paragraph2": "Directional outsourcing is a practice mainly adopted by large companies in a phase of growth or change, which choose to entrust experienced external managers with turnkey project management or the achievement of specific objectives: extraordinary operations, tenders and contracts, market development and digitalisation are the most frequent areas of action.",
+    "about_paragraph3": "The goal of clients is to increase efficiency and focus attention on core business. It is an increasingly widespread practice in light of ongoing economic, social and technological changes, which require new skills and speed of action. Factors that are often difficult to achieve for many companies structured using exclusively internal resources and procedures.",
+    "about_paragraph4": "The company also specialises, with the same approach, in the analysis of public policies. In scientific collaboration with the Quaeris research institute, European Management develops and distributes digital tools that help administrations and public decision-makers to analyse citizen sentiment, process and leverage large amounts of data, monitor the effectiveness of public policies and evaluate the quality of services delivered. The combined use of machine learning and digital tools applied to data enables administrations to better understand the needs of the population and to guide their decisions with greater awareness.",
+    "about_paragraph5": "In 2021, following growing demand, Edilmanager was established within the company, a team of expert advisors coordinated by Edoardo Genovesi, dedicated to the infrastructure and redevelopment sector. The team works on process digitalisation, market development and management control. Thanks to custom-developed software made available to clients, integrated remote control and operational planning services are also offered from smartphones. The business unit is completed with a tool dedicated to the automation of quotations through artificial intelligence and the automated management of commercial procedures for lead generation and management.",
+    "about_paragraph6": "In 2024, activities were further expanded with the creation of the Out of Office business unit, managed by Isabel Tonelli, an expert in influencer marketing, focused on integrated corporate communication, events and market development.",
+    "about_thinktank_title": "Think tank and international network",
+    "about_paragraph7": "Besides being a consulting company, European Management can also be considered an international network of managers, decision makers and experts active in various sectors: from energy to technology, from robotics to cybersecurity, to European policies, security and the environment. Such a network facilitates the building of European partnerships, the matching of win-win operations, the search for investors and the creation of high-profile executive training programmes.",
     "team_management_title": "THE MANAGEMENT TEAM",
     "team_digital_title": "THE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
@@ -216,13 +220,48 @@
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Business Development",
     "team_member_7_name": "Nunzia Cocozza",
-    "team_member_7_role": "Marocco e Africa"
+    "team_member_7_role": "Marocco e Africa",
+    "team_member_8_name": "Alessandro Sterni",
+    "team_member_8_role": "Business Consulting"
   },
   "OutsourcedManagement": {
     "title": "OUTSOURCED MANAGEMENT & CONSULTING",
     "subtitle": "High value-added outsourced management services",
     "button": "LEARN MORE",
     "description": "We create data-driven digital tools to support management in process management and control.",
+    "contact_title": "CONTACT",
+    "contact_text": "To interact with our offices and work with us, a reference from an existing client or partner company is required.",
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "All rights reserved registration no. 302022000006366"
+    }
+  },
+  "ConsulenzaDirezionale": {
+    "title": "DIRECTIONAL CONSULTING & SOFTWARE",
+    "subtitle": "Tenders and finance, efficiency, development and digital",
+    "intro": "Directional outsourcing is a practice mainly adopted by large companies in a phase of growth or change, which choose to entrust experienced external managers with turnkey project management or the achievement of specific objectives: extraordinary operations, tenders and contracts, market development and digitalization are the most frequent areas of action.",
+    "modules": [
+      {
+        "line1": "Tenders and competitions",
+        "line2": "Strategy and partnerships",
+        "image_alt": "Modern office building with flags"
+      },
+      {
+        "line1": "Digital and automation",
+        "line2": "Custom software",
+        "image_alt": "Hand interacting with digital device"
+      },
+      {
+        "line1": "Extraordinary operations",
+        "line2": "Search for partners and capital",
+        "image_alt": "Modern building facade"
+      }
+    ],
     "contact_title": "CONTACT",
     "contact_text": "To interact with our offices and work with us, a reference from an existing client or partner company is required.",
     "company": {
@@ -270,9 +309,16 @@
     },
     "public_policy": {
       "title": "PUBLIC POLICY",
-      "subtitle": "Digital solutions for policymakers",
+      "title_line2": "INNOVATION",
+      "subtitle": "Digital solutions for governments and local authorities",
+      "hero_button": "LEARN MORE",
       "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "intro": "Our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions and plan government strategies thanks to greater knowledge and information.",
+      "modules": [
+        { "line1": "Citizen Satisfaction and microtargeting", "line2": "Analysis of citizen sentiment", "image_alt": "Modern building with flags" },
+        { "line1": "Quality monitor", "line2": "Automated user monitoring", "image_alt": "Hand on digital device" },
+        { "line1": "Market research", "line2": "Digital and AI for market insights", "image_alt": "Modern building" }
+      ],
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Citizen Satisfaction:",
@@ -339,6 +385,33 @@
           "linkedin_link": "https://www.linkedin.com/in/luca-bazzanella-b08037b7",
           "website": "Website",
           "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
+      },
+      {
+        "title": "Edoardo Genovesi",
+        "role": "Sales Manager",
+        "description": "Sales Manager with expertise in business development and client relations.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/edoardo-genovesi-b32699186"
+        }
+      },
+      {
+        "title": "Matteo Scocco",
+        "role": "Energy Manager",
+        "description": "Energy Manager specialized in energy efficiency and sustainable management.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/matteo-scocco-15428a76"
+        }
+      },
+      {
+        "title": "Alessandro Sterni",
+        "role": "Business Consulting\nHead of Trento Office",
+        "description": "Head of the Trento office, specialized in business consulting.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/alessandro-sterni-864460120"
         }
       },
       {

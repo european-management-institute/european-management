@@ -109,14 +109,11 @@ const NavBar = () => {
             <NavLink href={() => handleNavigation("/chi-siamo")}>
               {t("navigation.about")}
             </NavLink>
-            <NavLink href={() => handleNavigation("/management")}>
-              {t("navigation.management")}
+            <NavLink href={() => handleNavigation("/consulenza-direzionale")}>
+              {t("navigation.consulenza_direzionale")}
             </NavLink>
             <NavLink href={() => handleNavigation("/digital")}>
               {t("navigation.digital")}
-            </NavLink>
-            <NavLink href={() => handleNavigation("/marketing")}>
-              {t("navigation.marketing")}
             </NavLink>
             <NavLink href={() => handleNavigation("/e-learning")}>
               {t("navigation.institute")}
@@ -147,14 +144,11 @@ const NavBar = () => {
             <MobileNavLink path="/chi-siamo">
               {t("navigation.about")}
             </MobileNavLink>
-            <MobileNavLink path="/management">
-              {t("navigation.management")}
+            <MobileNavLink path="/consulenza-direzionale">
+              {t("navigation.consulenza_direzionale")}
             </MobileNavLink>
             <MobileNavLink path="/digital">
               {t("navigation.digital")}
-            </MobileNavLink>
-            <MobileNavLink path="/marketing">
-              {t("navigation.marketing")}
             </MobileNavLink>
             <MobileNavLink path="/e-learning">
               {t("navigation.institute")}

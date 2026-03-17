@@ -55,10 +55,10 @@
     }
   },
   "images": {
-    "woman_working": "Woman working",
+    "woman_working": "Femme au travail",
     "executive_education": "Formation des cadres",
     "professional_training": "Formation professionnelle",
-    "future_leaders": "Future Leaders",
+    "future_leaders": "Futurs Leaders",
     "emi_logo": "European Management Institute Logo"
   },
   "footer": {
@@ -68,7 +68,7 @@
     },
     "copyright": {
       "text": "Copyright © 2020 European Management Institute",
-      "rights": "All rights reserved registration no. 302022000006366"
+      "rights": "Tous les droits réservés n. enregistrement 302022000006366"
     }
   },
   "servicesAndClients": {
@@ -124,8 +124,8 @@
   "marketing": {
     "title": {
       "part1": "\"",
-      "part2": "Hors",
-      "part3": " Norme\"",
+      "part2": "OUT",
+      "part3": " OF OFFICE\"",
       "subtitle": "Digital Boutique"
     },
     "description": "Nous aidons les marques à raconter leur histoire, à créer de nouvelles connexions et à développer le marché.",
@@ -148,7 +148,8 @@
   "navigation": {
     "about": "À propos de nous",
     "marketing": "Marketing",
-    "management": "Outsourced Management",
+    "management": "Software",
+    "consulenza_direzionale": "Conseil Directionnel",
     "digital": "Public Policy",
     "institute": "Institute",
     "contacts": "Contacts"
@@ -159,7 +160,7 @@
     "institute": "Institute"
   },
   "services": {
-    "mainTitle": "VOTRE GUIDE DANS LA MER TEMPÉRÉE",
+    "mainTitle": "VOTRE GUIDE DANS LA MER TEMPÉTEUSE",
     "subTitle": "DES MARCHÉS MONDIAUX.",
     "management": {
       "title": "MANAGEMENT",
@@ -179,7 +180,9 @@
     "leftColumn_description2": "Opérationnellement, elle est structurée en trois unités d'affaires verticales distinctes, chacune composée d'une équipe spécialisée.",
     "leftColumn_button": "APPRENDRE PLUS",
     "rightColumn_title": "UNE ÉQUIPE CONSULTATIVE DE NOUVELLE GÉNÉRATION",
+    "belowHero_paragraph": "European Management est un cabinet de conseil spécialisé en conseil directionnel et digital. Il offre à des clients sélectionnés des solutions à haute valeur ajoutée difficiles à trouver sur le marché. Il se distancie des modèles de conseil traditionnels, propose une approche « data driven » et accepte des contrats exigeants, y compris de type « outcome based », c'est-à-dire rémunérés selon des indicateurs de performance convenus.",
     "rightColumn_description1": "European Management se distingue des modèles traditionnels de conseil. Elle utilise une approche digitale et pilotée par les données pour automatiser des processus d'entreprise complexes et accepte des contrats ambitieux, y compris ceux basés sur les résultats, rémunérés selon des indicateurs de performance convenus.",
+    "videoPlaceholder_caption": "VIDÉO / GIF – Edilmanager CRM, OSINT, Quality Monitor, Citizen Satisfaction…",
     "boldText_managementTypes": "Gestion externalisée, services numériques et formation",
     "boldText_solutions": "des solutions à forte valeur ajoutée",
     "boldText_approach": "piloté par les données",
@@ -193,13 +196,15 @@
   "footer_copyright_text": "Copyright © 2020 European Management Institute",
   "footer_copyright_rights": "All rights reserved registration no. 302022000006366",
   "AboutTeamSection": {
-    "about_section_title": "À PROPOS DE NOUS",
-    "about_paragraph1": "European Management a été créée comme une société spécialisée dans la gestion managériale externalisée de projets complexes. Il s'agit d'une pratique, adoptée principalement par de grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés ou à des sociétés spécialisées la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, finance, développement de marché, appels d'offres/contrats publics, digitalisation et bien plus encore. L'objectif des clients est d'augmenter l'efficacité et de concentrer l'attention sur le cœur de métier.",
-    "about_paragraph4": "L'activité de conseil destinée aux institutions et aux organismes publics est réalisée en partenariat scientifique avec l'institut Quaeris et comprend des solutions numériques sur mesure pour la cartographie du sentiment des citoyens, le suivi des politiques publiques et l'analyse qualitative des services fournis au public.",
-    "about_paragraph5": "Depuis 2021, en réponse à une demande croissante du marché, European Management a dédié une équipe de travail spécifique appelée 'Edilmanager' au secteur de la construction, avec une attention particulière portée à la numérisation des processus, à la planification commerciale et au contrôle de gestion. En 2024, grâce aux synergies commerciales construites au fil du temps, European Management a ajouté à ses services le développement de marché à travers la business unit 'out of office' dédiée au marketing, à la communication et aux services digitaux.",
-    "about_modus_title": "Mode de fonctionnement:",
-    "about_modus_subtitle": "Agilité d'action et flexibilité sont les maîtres mots qui distinguent notre travail.",
-    "about_modus_description": "Pour évoluer avec succès sur un marché concurrentiel en constante évolution, European Management mise sur l'hyperspécialisation. C'est pourquoi, au fil des ans, elle a structuré un réseau international de professionnels de confiance dotés de compétences uniques qui s'engagent, sous la coordination quotidienne des référents internes, à rendre les opérations de l'entreprise évolutives.",
+    "about_section_title": "Qui sommes-nous",
+    "about_paragraph1": "European Management est une société de conseil stratégique et directionnel qui accompagne les entreprises, les organismes publics et les organisations dans la gestion et la communication de projets complexes.",
+    "about_paragraph2": "L'externalisation directionnelle est une pratique adoptée principalement par les grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, appels d'offres et marchés, développement de marché et digitalisation sont les domaines d'action les plus fréquents.",
+    "about_paragraph3": "L'objectif des clients est d'augmenter l'efficacité et de concentrer l'attention sur le cœur de métier. Il s'agit d'une pratique de plus en plus répandue à la lumière des changements économiques, sociaux et technologiques en cours, qui exigent de nouvelles compétences et rapidité d'action. Des facteurs souvent difficiles à obtenir pour de nombreuses entreprises structurées en utilisant exclusivement des ressources et procédures internes.",
+    "about_paragraph4": "L'entreprise se spécialise également, avec la même approche, dans l'analyse des politiques publiques. En collaboration scientifique avec l'institut de recherche Quaeris, European Management conçoit et diffuse des outils numériques qui aident les administrations et les décideurs publics à analyser le sentiment des citoyens, à traiter et valoriser de grandes quantités de données, à suivre l'efficacité des politiques publiques et à évaluer la qualité des services fournis. L'utilisation combinée du machine learning et d'outils numériques appliqués aux données permet aux administrations de mieux comprendre les besoins de la population et d'orienter leurs décisions avec une plus grande conscience.",
+    "about_paragraph5": "En 2021, suite à une demande croissante, Edilmanager voit le jour au sein de l'entreprise, une équipe de conseillers experts coordonnée par Edoardo Genovesi, dédiée au secteur des infrastructures et de la requalification. L'équipe travaille sur la digitalisation des processus, le développement du marché et le contrôle de gestion. Grâce à un logiciel développé sur mesure et mis à disposition des clients, des services intégrés de contrôle à distance et de planification opérationnelle sont proposés, y compris depuis un smartphone. L'unité d'affaires se complète avec un outil dédié à l'automatisation des devis par intelligence artificielle et à la gestion automatisée des procédures commerciales de génération et gestion de leads.",
+    "about_paragraph6": "En 2024, l'activité s'élargit encore avec la création de la business unit Out of Office, dirigée par Isabel Tonelli, experte en marketing d'influence, centrée sur la communication d'entreprise intégrée, les événements et le développement de marché.",
+    "about_thinktank_title": "Think tank et réseau international",
+    "about_paragraph7": "Au-delà d'être une société de conseil, European Management peut également être considérée comme un réseau international de managers, de décideurs et d'experts actifs dans divers secteurs : de l'énergie aux technologies, de la robotique à la cybersécurité, jusqu'aux politiques européennes, à la sécurité et à l'environnement. Un tel réseau facilite la construction de partenariats européens, le rapprochement d'opérations gagnant-gagnant, la recherche d'investisseurs et la création de parcours de formation executive de haut niveau.",
     "team_management_title": "LE MANAGEMENT TEAM",
     "team_digital_title": "LE DIGITAL TEAM",
     "team_member_1_name": "Luca Bazzanella",
@@ -215,7 +220,9 @@
     "team_member_6_name": "Jessica Pezzelato",
     "team_member_6_role": "Business Development",
     "team_member_7_name": "Nunzia Cocozza",
-    "team_member_7_role": "Marocco e Africa"
+    "team_member_7_role": "Marocco e Africa",
+    "team_member_8_name": "Alessandro Sterni",
+    "team_member_8_role": "Conseil en entreprise"
   },
   "OutsourcedManagement": {
     "title": "GESTION EXTERNALISÉE ET CONSEIL",
@@ -235,6 +242,20 @@
       "text": "Copyright © 2020 European Management Institute",
       "rights": "All rights reserved registration no. 302022000006366"
     }
+  },
+  "ConsulenzaDirezionale": {
+    "title": "CONSEIL DIRECTIONNEL & LOGICIEL",
+    "subtitle": "Appels d'offres et finance, efficacité, développement et digital",
+    "intro": "L'externalisation directionnelle est une pratique principalement adoptée par les grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, appels d'offres et marchés, développement de marché et digitalisation sont les domaines d'action les plus fréquents.",
+    "modules": [
+      { "line1": "Appels d'offres et concours", "line2": "Stratégie et partenariats", "image_alt": "Bâtiment moderne avec drapeaux" },
+      { "line1": "Digital et automatisation", "line2": "Logiciel sur mesure", "image_alt": "Main interagissant avec un appareil numérique" },
+      { "line1": "Opérations extraordinaires", "line2": "Recherche de partenaires et capitaux", "image_alt": "Façade de bâtiment moderne" }
+    ],
+    "contact_title": "CONTACT",
+    "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
+    "company": { "name1": "European", "name2": "Management", "name3": "Institute" },
+    "copyright": { "text": "Copyright © 2020 European Management Institute", "rights": "All rights reserved registration no. 302022000006366" }
   },
   "servicesManagement": {
     "main_title": "NOS SERVICES",
@@ -270,9 +291,16 @@
     },
     "public_policy": {
       "title": "PUBLIC POLICY",
-      "subtitle": "Solutions numériques pour les décideurs politiques",
+      "title_line2": "INNOVATION",
+      "subtitle": "Solutions numériques pour les gouvernements et les collectivités locales",
+      "hero_button": "DÉCOUVRIR PLUS",
       "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "intro": "Nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées et de planifier des stratégies gouvernementales grâce à une meilleure connaissance et information.",
+      "modules": [
+        { "line1": "Citizen Satisfaction et microtargeting", "line2": "Analyse du sentiment des citoyens", "image_alt": "Bâtiment moderne avec drapeaux" },
+        { "line1": "Quality monitor", "line2": "Suivi automatisé des utilisateurs", "image_alt": "Main sur appareil numérique" },
+        { "line1": "Études de marché", "line2": "Digital et IA pour les insights marché", "image_alt": "Bâtiment moderne" }
+      ],
       "digital_public_policy": {
         "citizen_satisfaction": {
           "title": "Satisfaction des citoyens:",
@@ -339,6 +367,33 @@
           "linkedin_link": "https://www.linkedin.com/in/luca-bazzanella-b08037b7",
           "website": "Site web",
           "website_link": "https://european-management-institute.github.io/luca_bazzanella/"
+        }
+      },
+      {
+        "title": "Edoardo Genovesi",
+        "role": "Sales Manager",
+        "description": "Sales Manager spécialisé dans le développement commercial et les relations clients.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/edoardo-genovesi-b32699186"
+        }
+      },
+      {
+        "title": "Matteo Scocco",
+        "role": "Energy Manager",
+        "description": "Energy Manager spécialisé en efficacité énergétique et gestion durable.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/matteo-scocco-15428a76"
+        }
+      },
+      {
+        "title": "Alessandro Sterni",
+        "role": "Conseil en entreprise\nResponsable bureau Trento",
+        "description": "Responsable du bureau de Trento, spécialisé en conseil en entreprise.",
+        "links": {
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://it.linkedin.com/in/alessandro-sterni-864460120"
         }
       },
       {
