@@ -1,6 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
+import consulenzaDirezionaleImage1 from "../assets/consulenza-direzionale-1.png";
+import consulenzaDirezionaleImage2 from "../assets/consulenza-direzionale-2.png";
+import consulenzaDirezionaleImage3 from "../assets/consulenza-direzionale-3.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ConsulenzaDirezionale = () => {
@@ -11,9 +14,9 @@ const ConsulenzaDirezionale = () => {
 
   // High-quality Unsplash images (free to use under Unsplash License)
   const moduleImages = [
-    "https://images.unsplash.com/photo-1769697694222-016642c08125?w=900&q=85&fit=crop", // Modern office building – tenders & strategy
-    "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=900&q=85&fit=crop", // Person with tablet – digital & software
-    "https://images.unsplash.com/photo-1745015446589-7ee6f702d8c1?w=900&q=85&fit=crop",   // Glass facade corporate building – operations & partners
+    consulenzaDirezionaleImage1, // Global/world image (1st card)
+    consulenzaDirezionaleImage2, // Chart image (2nd card)
+    consulenzaDirezionaleImage3, // New 3rd photo
   ];
 
   return (

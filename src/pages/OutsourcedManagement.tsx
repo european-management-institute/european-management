@@ -20,7 +20,7 @@ const OutsourcedManagement = () => {
   return (
     <section>
       {/* Hero: same design as Consulenza Direzionale – title + subtitle + button left, dark blue intro right */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 lg:pb-6 px-4 md:px-6">
         <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-2 md:gap-1 items-stretch">
           <div className="flex flex-col justify-center space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-blue-950 leading-tight uppercase tracking-tight">
