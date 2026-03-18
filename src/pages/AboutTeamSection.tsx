@@ -9,7 +9,7 @@ const AboutTeamSection = () => {
   return (
     <div className="mx-auto">
       {/* About Section */}
-      <div className="pt-5 pb-3 px-2 md:px-6 md:py-12 md:pb-8 max-w-7xl mx-auto">
+      <div className="pt-5 pb-3 px-6 md:px-6 md:py-12 md:pb-8 max-w-7xl mx-auto">
         <h2 className="text-2xl font-MN font-medium mb-6 md:mb-12">
           {t("AboutTeamSection.about_section_title")}
         </h2>
@@ -54,7 +54,7 @@ const AboutTeamSection = () => {
 
       {/* Team Members Section */}
       <div className="pt-1 pb-6 md:pt-4 md:pb-12">
-        <div className="max-w-7xl mx-auto px-2 md:px-4 md:px-6">
+        <div className="max-w-7xl mx-auto px-6 md:px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-y-6 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
             {(() => {
               const team = t("digital.team", { returnObjects: true }) as any[];
