@@ -7,3 +7,9 @@
 .seaweed-svg {
   opacity: 0.38;
 }
+
+@media (max-width: 768px) {
+  .seaweed-svg {
+    opacity: 0.68;
+  }
+}
