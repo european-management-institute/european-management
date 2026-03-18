@@ -19,7 +19,7 @@ const ConsulenzaDirezionale = () => {
   return (
     <section>
       {/* Top section: heading left, intro paragraph right (dark blue) */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 md:pb-10 lg:py-18 px-4 md:px-6">
+      <div className="max-w-7xl mx-auto py-10 pb-2 md:py-14 md:pb-10 lg:py-18 px-4 md:px-6">
         <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-start">
           <div className="flex flex-col justify-start space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-black leading-tight uppercase tracking-tight">
@@ -34,11 +34,11 @@ const ConsulenzaDirezionale = () => {
               {t("ConsulenzaDirezionale.subtitle")}
             </p>
           </div>
-          <div className="relative flex items-start py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
+          <div className="relative flex items-stretch py-4 md:py-6 lg:py-8 md:px-6 lg:px-8
                           bg-transparent backdrop-blur-md
                           rounded-xl">
             <p
-              className="relative text-[#0b2a52] text-lg md:text-xl font-MN font-light leading-relaxed text-justify tracking-wide max-w-[90%]"
+              className="relative text-[#0b2a52] text-lg md:text-xl font-MN font-light leading-relaxed text-justify tracking-wide md:max-w-[90%]"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               {t("ConsulenzaDirezionale.intro")}
