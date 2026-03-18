@@ -249,14 +249,33 @@
     "subtitle": "Licitaciones y finanzas, eficiencia, desarrollo y digital",
     "intro": "La externalización direccional es una práctica adoptada principalmente por grandes empresas en fase de crecimiento o cambio, que eligen confiar a gerentes externos experimentados la gestión llave en mano de proyectos o el logro de objetivos específicos: operaciones extraordinarias, licitaciones y contratos, desarrollo de mercado y digitalización son los ámbitos de actuación más frecuentes.",
     "modules": [
-      { "line1": "Licitaciones y concursos", "line2": "Estrategia y alianzas", "image_alt": "Edificio moderno con banderas" },
-      { "line1": "Digital y automatización", "line2": "Software a medida", "image_alt": "Mano interactuando con dispositivo digital" },
-      { "line1": "Operaciones extraordinarias", "line2": "Búsqueda de socios y capital", "image_alt": "Fachada de edificio moderno" }
+      {
+        "line1": "Licitaciones y concursos",
+        "line2": "Estrategia y alianzas",
+        "image_alt": "Edificio moderno con banderas"
+      },
+      {
+        "line1": "Digital y automatización",
+        "line2": "Software a medida",
+        "image_alt": "Mano interactuando con dispositivo digital"
+      },
+      {
+        "line1": "Operaciones extraordinarias",
+        "line2": "Búsqueda de socios y capital",
+        "image_alt": "Fachada de edificio moderno"
+      }
     ],
     "contact_title": "CONTACTOS",
     "contact_text": "Para interactuar con nuestras oficinas y trabajar con nosotros es necesaria la referencia de una empresa ya cliente o socia.",
-    "company": { "name1": "European", "name2": "Management", "name3": "Institute" },
-    "copyright": { "text": "Copyright © 2020 European Management Institute", "rights": "Todos los derechos reservados n.registro 302022000006366" }
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "Todos los derechos reservados n.registro 302022000006366"
+    }
   },
   "servicesManagement": {
     "main_title": "NUESTROS SERVICIOS",
@@ -298,9 +317,21 @@
       "description": "Ponemos a disposición de entidades locales, gobiernos y administraciones públicas herramientas estadísticas e informáticas de nueva generación que permiten tomar decisiones estratégicas de manera informada y consciente.",
       "intro": "Nuestras soluciones, desarrolladas en colaboración científica con Quaeris, reconocido instituto italiano de investigación, permiten a los responsables públicos tomar decisiones informadas y planificar estrategias gubernamentales gracias a un mayor conocimiento e información.",
       "modules": [
-        { "line1": "Citizen Satisfaction y microtargeting", "line2": "Análisis del sentimiento de los ciudadanos", "image_alt": "Edificio moderno con banderas" },
-        { "line1": "Quality monitor", "line2": "Monitorización automatizada de usuarios", "image_alt": "Mano sobre dispositivo digital" },
-        { "line1": "Investigación de mercados", "line2": "Digital e IA para insights de mercado", "image_alt": "Edificio moderno" }
+        {
+          "line1": "Citizen Satisfaction y microtargeting",
+          "line2": "Análisis del sentimiento de los ciudadanos",
+          "image_alt": "Edificio moderno con banderas"
+        },
+        {
+          "line1": "Quality monitor",
+          "line2": "Monitorización automatizada de usuarios",
+          "image_alt": "Mano sobre dispositivo digital"
+        },
+        {
+          "line1": "Investigación de mercados",
+          "line2": "Digital e IA para insights de mercado",
+          "image_alt": "Edificio moderno"
+        }
       ],
       "digital_public_policy": {
         "citizen_satisfaction": {
@@ -348,7 +379,7 @@
         "title": "Sintija Birgele",
         "image": "./sintija.jpg",
         "role": "Arquitecta de Software",
-        "description": "Arquitecta de Software con más de 8 años de experiencia en ingeniería de software empresarial, especializada en tecnologías web e inteligencia artificial aplicada. Experta en el diseño y desarrollo de marcos de IA agentica para los sectores asegurador, automotriz y energético.",
+        "description": "Arquitecta de Software con una década de experiencia en el desarrollo de software a medida y en Inteligencia Artificial aplicada para los sectores asegurador, healthtech y energético.",
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",
