@@ -70,19 +70,19 @@ const AboutTeamSection = () => {
                           (isThirdOfThree ? "md:col-span-1 md:mx-auto w-full" : "")
                         }
                       >
-                        <div className="order-1 md:order-2 space-y-6 flex-1 flex flex-col">
+                        <div className="order-1 md:order-2 space-y-4 flex-1 flex flex-col">
                           <div>
                             <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
                               {member.title}
                             </h3>
-                            <p className="text-xl text-red-700 font-MN font-medium mt-2 whitespace-pre-line">
+                            <p className="text-xl text-red-700 font-MN font-medium mt-1 whitespace-pre-line">
                               {member.role}
                             </p>
                           </div>
                           <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN flex-1">
                             {member.description}
                           </p>
-                          <div className="flex space-x-4 pt-4 flex-wrap">
+                          <div className="flex space-x-4 flex-wrap">
                             {member.links && (
                               <>
                                 {member.links.linkedin_link && (
@@ -124,55 +124,8 @@ const AboutTeamSection = () => {
       <footer className="bg-[#071330] relative overflow-hidden min-w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 items-start bg-[#001428] p-8 rounded-lg">
-            {/* Management Team */}
-            <div className="flex flex-col">
-              <h3 className="text-white text-md font-MN font-medium mb-8">
-                {t("AboutTeamSection.team_management_title")}
-              </h3>
-              <div className="space-y-4 text-gray-300">
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_1_name")}
-                  role={t("AboutTeamSection.team_member_1_role")}
-                />
-
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_3_name")}
-                  role={t("AboutTeamSection.team_member_3_role")}
-                />
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_7_name")}
-                  role={t("AboutTeamSection.team_member_7_role")}
-                />
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_8_name")}
-                  role={t("AboutTeamSection.team_member_8_role")}
-                />
-              </div>
-            </div>
-
-            {/* Digital Team */}
-            <div className="flex flex-col">
-              <h3 className="text-white text-md font-MN font-medium mb-8">
-                {t("team_digital_title")}
-              </h3>
-              <div className="space-y-4 text-gray-300">
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_4_name")}
-                  role={t("AboutTeamSection.team_member_4_role")}
-                />
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_5_name")}
-                  role={t("AboutTeamSection.team_member_5_role")}
-                />
-                <TeamMember
-                  name={t("AboutTeamSection.team_member_6_name")}
-                  role={t("AboutTeamSection.team_member_6_role")}
-                />
-              </div>
-            </div>
-
             {/* Logo Column */}
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center md:col-span-3">
               <img src={imgUrl2} alt="EMI" className="h-48 w-auto opacity-30" />
             </div>
           </div>

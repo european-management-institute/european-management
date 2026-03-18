@@ -22,7 +22,7 @@ const OutsourcedManagement = () => {
   return (
     <section>
       {/* Hero: same design as Consulenza Direzionale – title + subtitle + button left, dark blue intro right */}
-      <div className="max-w-6xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
         <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-stretch">
           <div className="flex flex-col justify-center space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-blue-950 leading-tight uppercase tracking-tight">
@@ -56,7 +56,7 @@ const OutsourcedManagement = () => {
       </div>
 
       {/* Three cards: same layout as screenshot – image + two-line caption */}
-      <div className="max-w-6xl mx-auto px-4 md:px-6 pb-0">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {modules?.map((mod, index) => (
             <div key={index} className="flex flex-col rounded-lg overflow-hidden">
