@@ -170,6 +170,17 @@ const OutsourcedManagement = () => {
               <p className="mt-1">
                 {t("OutsourcedManagement.copyright.rights")}
               </p>
+              <p className="mt-1">
+                Sviluppato da{" "}
+                <a
+                  href="https://de.linkedin.com/in/sintija-birgele"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:opacity-80"
+                >
+                  Sintija Birgele
+                </a>
+              </p>
             </div>
           </div>
         </div>

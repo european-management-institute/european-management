@@ -90,7 +90,7 @@ const ConsulenzaDirezionale = () => {
       <div className="pt-4 md:pt-6 pb-10 md:pb-16 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4">
           <div className="mx-auto md:pt-4 md:pb-8 md:px-8 space-y-8 max-w-7xl md:px-6">
-            <h3 className="font-MN text-blue-950 font-semibold tracking-tight text-2xl text-center md:text-left">
+            <h3 className="font-MN text-blue-950 font-semibold tracking-tight text-2xl md:text-left">
               {t("ConsulenzaDirezionale.outsourced_management_section_title")}
             </h3>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
@@ -99,7 +99,7 @@ const ConsulenzaDirezionale = () => {
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.outsourced_management.intro")}
             </p>
-            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 text-center md:text-left">
+            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
               {t("servicesManagement.outsourced_management.digital_management.title")}
             </h4>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
@@ -147,6 +147,17 @@ const ConsulenzaDirezionale = () => {
             <div className="text-white text-[.59rem] text-center lg:text-right font-light">
               <p>{t("ConsulenzaDirezionale.copyright.text")}</p>
               <p className="mt-1">{t("ConsulenzaDirezionale.copyright.rights")}</p>
+              <p className="mt-1">
+                Sviluppato da{" "}
+                <a
+                  href="https://de.linkedin.com/in/sintija-birgele"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:opacity-80"
+                >
+                  Sintija Birgele
+                </a>
+              </p>
             </div>
           </div>
         </div>
