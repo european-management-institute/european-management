@@ -129,7 +129,7 @@ const ServiceItem = ({ title, description, link, icon }) => {
           </div>
         </div>
         <ChevronRight
-          className="text-blue-200 transform group-hover:translate-x-1 transition-transform"
+          className="text-inherit transform group-hover:translate-x-1 transition-transform"
           size={20}
         />
       </a>
