@@ -16,7 +16,7 @@ const Digital = () => {
     <section>
       <div className="max-w-7xl mx-auto py-8 md:py-12 lg:py-16 px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-8 text-center md:text-left px-4 md:px-6">
+          <div className="space-y-8 md:text-left px-4 md:px-6">
             <h2 className="text-2xl text-blue-950 md:text-4xl lg:text-5xl font-MN font-medium leading-tight">
               {t("OutsourcedManagement.title")}
             </h2>
@@ -80,7 +80,7 @@ const Digital = () => {
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">
               {t("servicesManagement.outsourced_management.intro")}
             </p>
-                <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto text-center md:text-left">
+                <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 max-w-4xl mx-auto md:text-left">
                   {t("servicesManagement.outsourced_management.digital_management.title")}
                 </h4>
                 <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-4xl mx-auto text-gray-700">

@@ -20,8 +20,8 @@ const OutsourcedManagement = () => {
   return (
     <section>
       {/* Hero: same design as Consulenza Direzionale – title + subtitle + button left, dark blue intro right */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
-        <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-stretch">
+      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 lg:pb-6 px-4 md:px-6">
+        <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-2 md:gap-1 items-stretch">
           <div className="flex flex-col justify-center space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-blue-950 leading-tight uppercase tracking-tight">
               {t("servicesManagement.public_policy.title")}
@@ -32,11 +32,11 @@ const OutsourcedManagement = () => {
               {t("servicesManagement.public_policy.subtitle")}
             </p>
           </div>
-          <div className="relative flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
+          <div className="relative flex items-center py-4 md:py-6 lg:py-8 md:px-6 lg:px-8
                           bg-transparent backdrop-blur-md
                           rounded-xl">
             <p
-              className="text-[#0b2a52] text-lg md:text-xl font-MN font-light leading-relaxed text-justify tracking-wide max-w-[90%]"
+              className="text-[#0b2a52] text-lg md:text-xl font-MN font-light leading-relaxed text-justify tracking-wide md:max-w-[90%]"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               {t("servicesManagement.public_policy.description")}
@@ -87,19 +87,19 @@ const OutsourcedManagement = () => {
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.public_policy.intro")}
             </p>
-            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 text-center md:text-left">
+            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.title")}
             </h4>
             <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">
               {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.intro")}
             </p>
-            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mx-auto text-center md:text-left">
+            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mx-auto md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.title")}
             </h4>
             <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.intro")}
             </p>
-            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 text-center md:text-left">
+            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.title")}
             </h4>
             <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">

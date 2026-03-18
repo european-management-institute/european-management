@@ -19,25 +19,64 @@ const ServicesLayout = () => {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [textColor, setTextColor] = useState(() => lerpColor(0));
+  const [isMobile, setIsMobile] = useState(() => {
+    // Tailwind `lg` starts at 1024px
+    if (typeof window === "undefined") return false;
+    return window.matchMedia("(max-width: 1023px)").matches;
+  });
 
   useEffect(() => {
+    const media = window.matchMedia("(max-width: 1023px)");
+    const update = () => setIsMobile(media.matches);
+
+    // Initial value
+    setIsMobile(media.matches);
+
+    // Safari < 14 compatibility
+    if (typeof media.addEventListener === "function") {
+      media.addEventListener("change", update);
+      return () => media.removeEventListener("change", update);
+    }
+    const legacy = media as unknown as {
+      addListener?: (cb: () => void) => void;
+      removeListener?: (cb: () => void) => void;
+    };
+    if (typeof legacy.addListener === "function" && typeof legacy.removeListener === "function") {
+      legacy.addListener(update);
+      return () => legacy.removeListener && legacy.removeListener(update);
+    }
+    return;
+  }, []);
+
+  useEffect(() => {
+    // On mobile we keep the hero text fixed (no video-driven transition).
+    if (isMobile) {
+      setTextColor(lerpColor(0));
+      return;
+    }
+
     const video = videoRef.current;
     if (!video) return;
     video.playbackRate = 0.65;
+
     const updateProgress = () => {
       const d = video.duration;
       if (!d || !Number.isFinite(d)) return;
       const progress = Math.min(1, video.currentTime / d);
-      const t = progress <= TRANSITION_START ? 0 : (progress - TRANSITION_START) / (1 - TRANSITION_START);
+      const t =
+        progress <= TRANSITION_START
+          ? 0
+          : (progress - TRANSITION_START) / (1 - TRANSITION_START);
       setTextColor(lerpColor(t));
     };
+
     video.addEventListener("timeupdate", updateProgress);
     video.addEventListener("loadedmetadata", updateProgress);
     return () => {
       video.removeEventListener("timeupdate", updateProgress);
       video.removeEventListener("loadedmetadata", updateProgress);
     };
-  }, []);
+  }, [isMobile]);
 
   return (
     <div className="relative min-h-80 pt-12 bg-primary-800 ">
