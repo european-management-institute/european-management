@@ -42,11 +42,13 @@ const OutsourcedManagement = () => {
               </button>
             </div>
           </div>
-          <div className="flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
-                          bg-gradient-to-r from-[#062a55] via-[#0b5aa1]/95 to-[#34d3c8]/92
+          <div className="relative flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
+                          bg-gradient-to-r from-[#05244c]/35 via-[#0b5aa1]/35 to-[#64c7ff]/32
                           backdrop-blur-sm
                           rounded-xl">
-            <p className="text-white text-lg md:text-xl font-MN font-light leading-relaxed text-justify max-w-[90%]">
+            {/* extra translucent layer for stronger glass effect */}
+            <div className="absolute inset-0 rounded-xl bg-white/25 backdrop-blur-md pointer-events-none" />
+            <p className="relative text-[#0b2a52] text-lg md:text-xl font-MN font-regular leading-relaxed text-justify max-w-[90%]">
               {t("servicesManagement.public_policy.description")}
             </p>
           </div>
