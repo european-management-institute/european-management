@@ -5,9 +5,10 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 const lerpColor = (t: number) => {
-  const r = Math.round(255 + (25 - 255) * t);
-  const g = Math.round(255 + (25 - 255) * t);
-  const b = Math.round(255 + (25 - 255) * t);
+  // Interpolate from dark (25) to light (255)
+  const r = Math.round(25 + (255 - 25) * t);
+  const g = Math.round(25 + (255 - 25) * t);
+  const b = Math.round(25 + (255 - 25) * t);
   return `rgb(${r},${g},${b})`;
 };
 
@@ -44,7 +45,7 @@ const ServicesLayout = () => {
       <div className="absolute inset-0 z-0 w-screen overflow-hidden">
         <video
           ref={videoRef}
-          src="/hero-video.mp4"
+          src="/20260318_213550613.mp4"
           autoPlay
           loop
           muted
@@ -53,8 +54,7 @@ const ServicesLayout = () => {
           aria-hidden
         />
       </div>
-
-      {/* Content Container — text color transitions white → dark over video length */}
+      {/* Content Container — text color transitions dark → white over video length */}
       <div className="relative z-10" style={{ color: textColor }}>
         {/* Main Title - Shown on all screens */}
         <h1 className="text-center font-medium text-2xl tracking-[.125em] leading-2 font-MN p-2">
