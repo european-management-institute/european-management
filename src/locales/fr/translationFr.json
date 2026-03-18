@@ -248,14 +248,33 @@
     "subtitle": "Appels d'offres et finance, efficacité, développement et digital",
     "intro": "L'externalisation directionnelle est une pratique principalement adoptée par les grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, appels d'offres et marchés, développement de marché et digitalisation sont les domaines d'action les plus fréquents.",
     "modules": [
-      { "line1": "Appels d'offres et concours", "line2": "Stratégie et partenariats", "image_alt": "Bâtiment moderne avec drapeaux" },
-      { "line1": "Digital et automatisation", "line2": "Logiciel sur mesure", "image_alt": "Main interagissant avec un appareil numérique" },
-      { "line1": "Opérations extraordinaires", "line2": "Recherche de partenaires et capitaux", "image_alt": "Façade de bâtiment moderne" }
+      {
+        "line1": "Appels d'offres et concours",
+        "line2": "Stratégie et partenariats",
+        "image_alt": "Bâtiment moderne avec drapeaux"
+      },
+      {
+        "line1": "Digital et automatisation",
+        "line2": "Logiciel sur mesure",
+        "image_alt": "Main interagissant avec un appareil numérique"
+      },
+      {
+        "line1": "Opérations extraordinaires",
+        "line2": "Recherche de partenaires et capitaux",
+        "image_alt": "Façade de bâtiment moderne"
+      }
     ],
     "contact_title": "CONTACT",
     "contact_text": "Pour interagir avec nos bureaux et travailler avec nous, une référence d'un client existant ou d'une entreprise partenaire est requise.",
-    "company": { "name1": "European", "name2": "Management", "name3": "Institute" },
-    "copyright": { "text": "Copyright © 2020 European Management Institute", "rights": "All rights reserved registration no. 302022000006366" }
+    "company": {
+      "name1": "European",
+      "name2": "Management",
+      "name3": "Institute"
+    },
+    "copyright": {
+      "text": "Copyright © 2020 European Management Institute",
+      "rights": "All rights reserved registration no. 302022000006366"
+    }
   },
   "servicesManagement": {
     "main_title": "NOS SERVICES",
@@ -297,9 +316,21 @@
       "description": "Nous mettons à disposition des collectivités locales, des gouvernements et des administrations publiques des outils statistiques et informatiques de nouvelle génération qui permettent de prendre des décisions stratégiques de manière informée et consciente.",
       "intro": "Nos solutions, développées en partenariat scientifique avec Quaeris, un institut italien de recherche renommé, permettent aux décideurs publics de prendre des décisions éclairées et de planifier des stratégies gouvernementales grâce à une meilleure connaissance et information.",
       "modules": [
-        { "line1": "Citizen Satisfaction et microtargeting", "line2": "Analyse du sentiment des citoyens", "image_alt": "Bâtiment moderne avec drapeaux" },
-        { "line1": "Quality monitor", "line2": "Suivi automatisé des utilisateurs", "image_alt": "Main sur appareil numérique" },
-        { "line1": "Études de marché", "line2": "Digital et IA pour les insights marché", "image_alt": "Bâtiment moderne" }
+        {
+          "line1": "Citizen Satisfaction et microtargeting",
+          "line2": "Analyse du sentiment des citoyens",
+          "image_alt": "Bâtiment moderne avec drapeaux"
+        },
+        {
+          "line1": "Quality monitor",
+          "line2": "Suivi automatisé des utilisateurs",
+          "image_alt": "Main sur appareil numérique"
+        },
+        {
+          "line1": "Études de marché",
+          "line2": "Digital et IA pour les insights marché",
+          "image_alt": "Bâtiment moderne"
+        }
       ],
       "digital_public_policy": {
         "citizen_satisfaction": {
@@ -347,7 +378,7 @@
         "title": "Sintija Birgele",
         "image": "./sintija.jpg",
         "role": "Architecte Logiciel",
-        "description": "Architecte Logiciel avec plus de 8 ans d'expérience en ingénierie logicielle d'entreprise, spécialisée dans les technologies web et l'intelligence artificielle appliquée. Experte dans la conception et la construction de cadres d'IA agentique pour les secteurs de l'assurance, de l'automobile et de l'énergie.",
+        "description": "Architecte Logiciel avec une décennie d'expérience dans le développement de logiciels sur mesure et l'Intelligence Artificielle appliquée pour les secteurs de l'assurance, du healthtech et de l'énergie.",
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",

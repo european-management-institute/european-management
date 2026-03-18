@@ -315,9 +315,21 @@
       "description": "We provide local authorities, governments, and public administrations with next-generation statistical and IT tools that enable strategic decisions to be made in an informed and conscious way.",
       "intro": "Our solutions, developed in scientific partnership with Quaeris, a renowned Italian research institute, enable public decision-makers to make informed decisions and plan government strategies thanks to greater knowledge and information.",
       "modules": [
-        { "line1": "Citizen Satisfaction and microtargeting", "line2": "Analysis of citizen sentiment", "image_alt": "Modern building with flags" },
-        { "line1": "Quality monitor", "line2": "Automated user monitoring", "image_alt": "Hand on digital device" },
-        { "line1": "Market research", "line2": "Digital and AI for market insights", "image_alt": "Modern building" }
+        {
+          "line1": "Citizen Satisfaction and microtargeting",
+          "line2": "Analysis of citizen sentiment",
+          "image_alt": "Modern building with flags"
+        },
+        {
+          "line1": "Quality monitor",
+          "line2": "Automated user monitoring",
+          "image_alt": "Hand on digital device"
+        },
+        {
+          "line1": "Market research",
+          "line2": "Digital and AI for market insights",
+          "image_alt": "Modern building"
+        }
       ],
       "digital_public_policy": {
         "citizen_satisfaction": {
@@ -365,7 +377,7 @@
         "title": "Sintija Birgele",
         "image": "./sintija.jpg",
         "role": "Software Architect",
-        "description": "Software Architect with over 8 years of experience in enterprise software engineering, specialized in web technologies and applied Artificial Intelligence. Expert in designing and building agentic AI frameworks for the insurance, automotive, and energy sectors.",
+        "description": "Software Architect with a decade of experience in custom software development and applied Artificial Intelligence for the insurance, healthtech, and energy sectors.",
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",

@@ -59,7 +59,7 @@ const AboutTeamSection = () => {
             {(() => {
               const team = t("digital.team", { returnObjects: true }) as any[];
               return (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-8 items-stretch justify-between w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-8 items-stretch justify-between w-full">
                   {team.map((member, idx) => {
                     const isThirdOfThree = team.length === 3 && idx === 2;
                     return (
