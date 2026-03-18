@@ -3,6 +3,7 @@ import { ChevronRight } from "lucide-react";
 import Tree from "./Tree";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import landingHeroPoster from "../assets/landing-hero-poster.png";
 
 const lerpColor = (t: number) => {
   // Interpolate from dark (25) to light (255)
@@ -20,6 +21,7 @@ const ServicesLayout = () => {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [textColor, setTextColor] = useState(() => lerpColor(0));
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -49,6 +51,17 @@ const ServicesLayout = () => {
     <div className="relative min-h-80 pt-12 bg-primary-800 ">
       {/* Hero background video (loop, muted for autoplay) */}
       <div className="absolute inset-0 z-0 w-screen overflow-hidden">
+        {/* Fast-loading fallback image while MP4 downloads */}
+        <img
+          src={landingHeroPoster}
+          alt=""
+          aria-hidden
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{
+            opacity: isVideoPlaying ? 0 : 1,
+            transition: "opacity 2900ms ease",
+          }}
+        />
         <video
           ref={videoRef}
           src="/20260318_213550613.mp4"
@@ -57,7 +70,12 @@ const ServicesLayout = () => {
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
+          style={{
+            opacity: isVideoPlaying ? 1 : 0,
+            transition: "opacity 2900ms ease",
+          }}
           aria-hidden
+          onPlaying={() => setIsVideoPlaying(true)}
         />
       </div>
       {/* Content Container */}
