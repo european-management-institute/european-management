@@ -2,12 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
 import interestGroupsImg from "../assets/fe606492-66bd-4c15-a2e9-9715edc98576-220047bb-5fc8-4a6e-b70c-c99ad1476c05.png";
-import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OutsourcedManagement = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   const modules = t("servicesManagement.public_policy.modules", {
     returnObjects: true,
   }) as { line1: string; line2: string; image_alt: string }[];
@@ -33,14 +31,6 @@ const OutsourcedManagement = () => {
             <p className="text-lg md:text-xl font-MN font-bold text-gray-700 leading-tight">
               {t("servicesManagement.public_policy.subtitle")}
             </p>
-            <div className="flex justify-center md:justify-start">
-              <button
-                className="bg-[#071330] text-white px-6 md:px-8 py-3 rounded-lg font-MN font-semibold text-base md:text-lg hover:opacity-90 transition-all duration-300 min-w-[200px]"
-                onClick={() => navigate("/chi-siamo")}
-              >
-                {t("servicesManagement.public_policy.hero_button")}
-              </button>
-            </div>
           </div>
           <div className="relative flex items-center py-4 md:py-6 lg:py-8 px-4 md:px-6 lg:px-8
                           bg-transparent backdrop-blur-md
