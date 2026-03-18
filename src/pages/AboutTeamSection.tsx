@@ -125,8 +125,23 @@ const AboutTeamSection = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 items-start bg-[#001428] p-8 rounded-lg">
             {/* Logo Column */}
-            <div className="flex justify-center items-center md:col-span-3">
+            <div className="flex flex-col justify-center items-center md:col-span-3">
               <img src={imgUrl2} alt="EMI" className="h-48 w-auto opacity-30" />
+              <div className="text-white text-[.59rem] text-center font-light mt-4">
+                <p>{t("footer_copyright_text")}</p>
+                <p className="mt-1">{t("footer_copyright_rights")}</p>
+                <p className="mt-1">
+                  Sviluppato da{" "}
+                  <a
+                    href="https://de.linkedin.com/in/sintija-birgele"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:opacity-80"
+                  >
+                    Sintija Birgele
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

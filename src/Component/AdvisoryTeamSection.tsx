@@ -25,7 +25,6 @@ const AdvisoryTeamSection = () => {
           loop
           muted
           playsInline
-          controls
         />
       </div>
     </div>

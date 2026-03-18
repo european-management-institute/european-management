@@ -183,6 +183,17 @@ const Digital = () => {
             <div className="text-white text-[.59rem] text-center lg:text-right font-light">
               <p>{t('digital.footer.copyright.text')}</p>
               <p className="mt-1">{t('digital.footer.copyright.rights')}</p>
+              <p className="mt-1">
+                Sviluppato da{" "}
+                <a
+                  href="https://de.linkedin.com/in/sintija-birgele"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:opacity-80"
+                >
+                  Sintija Birgele
+                </a>
+              </p>
             </div>
           </div>
         </div>
