@@ -1,19 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Tree = ({ borderIsDark = false }: { borderIsDark?: boolean }) => {
+const Tree = () => {
   return (
     <main className="">
       <nav className="w-full mx-auto px-4">
         <TreeList>
-          <TreeItem
-            label="CONSULENZA DIREZIONALE"
-            link="/consulenza-direzionale"
-            children={null}
-            borderIsDark={borderIsDark}
-          />
-          <TreeItem label="PUBLIC POLICY" link="/digital" children={null} borderIsDark={borderIsDark} />
-          <TreeItem label="INSTITUTE" link="/e-learning" children={null} borderIsDark={borderIsDark} />
+          <TreeItem label="CONSULENZA DIREZIONALE" link="/consulenza-direzionale" children={null} />
+          <TreeItem label="PUBLIC POLICY" link="/digital" children={null} />
+          <TreeItem label="INSTITUTE" link="/e-learning" children={null} />
         </TreeList>
       </nav>
     </main>
@@ -26,19 +21,7 @@ const TreeList = ({ children }) => {
   );
 };
 
-const TreeItem = ({
-  label,
-  children,
-  className = "",
-  link,
-  borderIsDark = false,
-}: {
-  label: string;
-  children: React.ReactNode;
-  className?: string;
-  link: string;
-  borderIsDark?: boolean;
-}) => {
+const TreeItem = ({ label, children, className = "", link }) => {
   const navigate = useNavigate();
   return (
     <li
@@ -51,9 +34,9 @@ const TreeItem = ({
           : "last:before:border-r-2 last:before:rounded-tr-md first:after:rounded-tl-md"
       }
       before:content-[''] before:absolute before:top-0 before:right-1/2 before:w-1/2 
-      before:h-24 before:border-t-2 ${borderIsDark ? "before:border-gray-700" : "before:border-gray-300"}
+      before:h-24 before:border-t-2 before:border-current
       after:content-[''] after:absolute after:top-0 after:left-1/2 after:w-1/2 
-      after:h-24 after:border-t-2 after:border-l-2 ${borderIsDark ? "after:border-gray-700" : "after:border-gray-300"}
+      after:h-24 after:border-t-2 after:border-l-2 after:border-current
       [&:only-child]:pt-0 [&:only-child]:before:hidden [&:only-child]:after:hidden
       first:before:border-0 last:after:border-0
     `}

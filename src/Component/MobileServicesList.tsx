@@ -20,7 +20,6 @@ const ServicesLayout = () => {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [textColor, setTextColor] = useState(() => lerpColor(0));
-  const [borderIsDark, setBorderIsDark] = useState(true);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -31,7 +30,6 @@ const ServicesLayout = () => {
       const d = video.duration;
       if (!d || !Number.isFinite(d)) return;
       const progress = Math.min(1, video.currentTime / d);
-      setBorderIsDark(progress <= TRANSITION_START);
       const t =
         progress <= TRANSITION_START
           ? 0
@@ -104,7 +102,7 @@ const ServicesLayout = () => {
 
         {/* Desktop View - Hidden on mobile/tablet */}
         <div className="hidden lg:block p-8" style={{ color: textColor }}>
-          <Tree borderIsDark={borderIsDark} />
+          <Tree />
         </div>
       </div>
     </div>
