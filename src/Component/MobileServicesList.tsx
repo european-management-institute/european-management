@@ -12,49 +12,17 @@ const lerpColor = (t: number) => {
   return `rgb(${r},${g},${b})`;
 };
 
-// Start transition after this fraction of the video (0.35 = 35% in, then transition over the rest)
-const TRANSITION_START = 0.35;
+// Start transition after this fraction of the video
+// (higher = transition happens over fewer seconds, so it feels quicker)
+const TRANSITION_START = 0.7;
 
 const ServicesLayout = () => {
   const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [textColor, setTextColor] = useState(() => lerpColor(0));
-  const [isMobile, setIsMobile] = useState(() => {
-    // Tailwind `lg` starts at 1024px
-    if (typeof window === "undefined") return false;
-    return window.matchMedia("(max-width: 1023px)").matches;
-  });
+  const [borderIsDark, setBorderIsDark] = useState(true);
 
   useEffect(() => {
-    const media = window.matchMedia("(max-width: 1023px)");
-    const update = () => setIsMobile(media.matches);
-
-    // Initial value
-    setIsMobile(media.matches);
-
-    // Safari < 14 compatibility
-    if (typeof media.addEventListener === "function") {
-      media.addEventListener("change", update);
-      return () => media.removeEventListener("change", update);
-    }
-    const legacy = media as unknown as {
-      addListener?: (cb: () => void) => void;
-      removeListener?: (cb: () => void) => void;
-    };
-    if (typeof legacy.addListener === "function" && typeof legacy.removeListener === "function") {
-      legacy.addListener(update);
-      return () => legacy.removeListener && legacy.removeListener(update);
-    }
-    return;
-  }, []);
-
-  useEffect(() => {
-    // On mobile we keep the hero text fixed (no video-driven transition).
-    if (isMobile) {
-      setTextColor(lerpColor(0));
-      return;
-    }
-
     const video = videoRef.current;
     if (!video) return;
     video.playbackRate = 0.65;
@@ -63,6 +31,7 @@ const ServicesLayout = () => {
       const d = video.duration;
       if (!d || !Number.isFinite(d)) return;
       const progress = Math.min(1, video.currentTime / d);
+      setBorderIsDark(progress <= TRANSITION_START);
       const t =
         progress <= TRANSITION_START
           ? 0
@@ -76,7 +45,7 @@ const ServicesLayout = () => {
       video.removeEventListener("timeupdate", updateProgress);
       video.removeEventListener("loadedmetadata", updateProgress);
     };
-  }, [isMobile]);
+  }, []);
 
   return (
     <div className="relative min-h-80 pt-12 bg-primary-800 ">
@@ -93,13 +62,19 @@ const ServicesLayout = () => {
           aria-hidden
         />
       </div>
-      {/* Content Container — text color transitions dark → white over video length */}
-      <div className="relative z-10" style={{ color: textColor }}>
+      {/* Content Container */}
+      <div className="relative z-10">
         {/* Main Title - Shown on all screens */}
-        <h1 className="text-center font-medium text-2xl tracking-[.125em] leading-2 font-MN p-2">
+        <h1
+          className="text-center font-medium text-2xl tracking-[.125em] leading-2 font-MN p-2"
+          style={{ color: textColor }}
+        >
           {t("services.mainTitle")}
         </h1>
-        <h2 className="text-center text-xl font-medium tracking-[.125em] leading-2 font-MN drop-shadow-[1px_0px_0px_rgba(0,0,0,0.6)]">
+        <h2
+          className="text-center text-xl font-medium tracking-[.125em] leading-2 font-MN drop-shadow-[1px_0px_0px_rgba(0,0,0,0.6)]"
+          style={{ color: textColor }}
+        >
           {t("services.subTitle")}
         </h2>
         {/* <img src={imgUrl2} className="max-w-md mx-auto" /> */}
@@ -128,8 +103,8 @@ const ServicesLayout = () => {
         </div>
 
         {/* Desktop View - Hidden on mobile/tablet */}
-        <div className="hidden lg:block   p-8">
-          <Tree />
+        <div className="hidden lg:block p-8" style={{ color: textColor }}>
+          <Tree borderIsDark={borderIsDark} />
         </div>
       </div>
     </div>
@@ -144,15 +119,15 @@ const ServiceItem = ({ title, description, link, icon }) => {
                     hover:bg-white/20 transition-all duration-300 cursor-pointer"
     >
       <a
-        className="flex items-center justify-between text-inherit"
+        className="flex items-center justify-between text-[#191919]"
         onClick={() => navigate(link)}
       >
         <div className="flex items-center gap-3">
           <div>
-            <h3 className="text-lg font-semibold mb-1 text-inherit transition-colors">
+            <h3 className="text-lg font-semibold mb-1 transition-colors">
               {title}
             </h3>
-            <p className="text-sm text-inherit opacity-80">{description}</p>
+            <p className="text-sm opacity-80">{description}</p>
           </div>
         </div>
         <ChevronRight
