@@ -364,23 +364,10 @@
   "digital": {
     "team": [
       {
-        "title": "Sintija Birgele",
-        "role": "Architetto Software",
-        "image": "./sintija.jpg",
-        "description": "Architetto Software con oltre 8 anni di esperienza nell'ingegneria software aziendale, specializzata in tecnologie web e Intelligenza Artificiale applicata. Esperta nella progettazione e realizzazione di framework di IA agentica per i settori assicurativo, automobilistico ed energetico.",
-        "links": {
-          "github": "GitHub",
-          "linkedin": "LinkedIn",
-          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
-          "website": "Sito web",
-          "website_link": "https://cofun.digital/"
-        }
-      },
-      {
         "title": "Luca Bazzanella",
         "role": "Managing Director",
         "image": "./luca_profile.png",
-        "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
+        "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in consulenza direzionale con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",
@@ -390,9 +377,14 @@
         }
       },
       {
+        "title": "Paolo Decaminada",
+        "role": "Finanza e fiscalità",
+        "description": "Dottore commercialista e revisore contabile con oltre 30 anni di esperienza nella consulenza societaria, fiscale e nella revisione legale. Opera a supporto di imprese e enti pubblici nella gestione economico-finanziaria, nelle operazioni straordinarie e nei processi di controllo."
+      },
+      {
         "title": "Edoardo Genovesi",
-        "role": "Sales Manager",
-        "description": "Sales Manager con esperienza nello sviluppo commerciale e nelle relazioni con i clienti.",
+        "role": "Business development",
+        "description": "Direttore commerciale con esperienza ventennale nello sviluppo di mercato con particolare focus sul mondo delle energie rinnovabili e della decarbonizzazione",
         "links": {
           "linkedin": "LinkedIn",
           "linkedin_link": "https://it.linkedin.com/in/edoardo-genovesi-b32699186"
@@ -401,16 +393,34 @@
       {
         "title": "Matteo Scocco",
         "role": "Energy Manager",
-        "description": "Energy Manager specializzato in efficienza energetica e gestione sostenibile.",
+        "description": "Ingegnere specializzato in consulenza aziendale nell'ambito dell'efficientamento di impianti industriali",
         "links": {
           "linkedin": "LinkedIn",
           "linkedin_link": "https://it.linkedin.com/in/matteo-scocco-15428a76"
         }
       },
       {
+        "title": "Sintija Birgele",
+        "role": "Architetto Software",
+        "image": "./sintija.jpg",
+        "description": "Architetto Software con un decennio di esperienza nello sviluppo software su misura e Intelligenza Artificiale applicata ai settori assicurativo, healthtech ed energetico.",
+        "links": {
+          "github": "GitHub",
+          "linkedin": "LinkedIn",
+          "linkedin_link": "https://de.linkedin.com/in/sintija-birgele",
+          "website": "Sito web",
+          "website_link": "https://cofun.digital/"
+        }
+      },
+      {
+        "title": "Isabel Tonelli",
+        "role": "Marketing Manager",
+        "description": "Amministratrice della business unit \"Out of Office\" dedicata alla comunicazione, classe 1995, specializzata in influencer marketing, organizzazione di eventi e PR"
+      },
+      {
         "title": "Alessandro Sterni",
-        "role": "Consulenza Aziendale\nResponsabile uff. Trento",
-        "description": "Responsabile dell'ufficio di Trento, specializzato in consulenza aziendale.",
+        "role": "Amministrazione e PM",
+        "description": "Junior project manager specializzato in amministrazione aziendale e gestione di processi",
         "links": {
           "linkedin": "LinkedIn",
           "linkedin_link": "https://it.linkedin.com/in/alessandro-sterni-864460120"
@@ -418,8 +428,8 @@
       },
       {
         "title": "Nunzia Cocozza",
-        "role": "Specialista in Marocco e Africa",
-        "description": "Dott.ssa Nunzia Cocozza, psicologa del lavoro con consolidata esperienza dirigenziale, opera come formatrice in contesti aziendali e governativi. Specializzata nel settore dell'ospitalità, ha coordinato l'organizzazione di eventi e festival internazionali di rilievo.",
+        "role": "Referente Marocco e Africa",
+        "description": "Psicologa del lavoro con esperienza dirigenziale, opera come formatrice in contesti aziendali e governativi.",
         "links": {
           "linkedin": "LinkedIn",
           "linkedin_link": "https://www.linkedin.com/in/nunzia-c-90baa324b/"

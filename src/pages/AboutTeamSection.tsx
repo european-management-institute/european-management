@@ -70,19 +70,19 @@ const AboutTeamSection = () => {
                           (isThirdOfThree ? "md:col-span-1 md:mx-auto w-full" : "")
                         }
                       >
-                        <div className="order-1 md:order-2 space-y-6 flex-1 flex flex-col">
+                        <div className="order-1 md:order-2 space-y-4 flex-1 flex flex-col">
                           <div>
                             <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
                               {member.title}
                             </h3>
-                            <p className="text-xl text-red-700 font-MN font-medium mt-2 whitespace-pre-line">
+                            <p className="text-xl text-red-700 font-MN font-medium mt-1 whitespace-pre-line">
                               {member.role}
                             </p>
                           </div>
                           <p className="text-lg text-justify text-gray-700 leading-relaxed font-MN flex-1">
                             {member.description}
                           </p>
-                          <div className="flex space-x-4 pt-4 flex-wrap">
+                          <div className="flex space-x-4 flex-wrap">
                             {member.links && (
                               <>
                                 {member.links.linkedin_link && (
