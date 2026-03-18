@@ -14,7 +14,7 @@ const AboutTeamSection = () => {
           {t("AboutTeamSection.about_section_title")}
         </h2>
 
-        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN md:pb-8">
+        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN">
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph1")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph2")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph3")}</p>
@@ -53,13 +53,13 @@ const AboutTeamSection = () => {
       </div>
 
       {/* Team Members Section */}
-      <div className="pt-4 md:pt-6 pb-12">
+      <div className="pt-4 pb-12">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-y-12 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
             {(() => {
               const team = t("digital.team", { returnObjects: true }) as any[];
               return (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-8 items-stretch justify-between w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-stretch justify-between w-full">
                   {team.map((member, idx) => {
                     const isThirdOfThree = team.length === 3 && idx === 2;
                     return (
