@@ -66,7 +66,7 @@ const AboutTeamSection = () => {
                       <div
                         key={idx}
                         className={
-                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-2 md:p-6 md:p-8 ` +
+                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-2 md:p-4` +
                           (isThirdOfThree ? "md:col-span-1 md:mx-auto w-full" : "")
                         }
                       >
