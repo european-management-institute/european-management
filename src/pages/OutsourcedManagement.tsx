@@ -55,6 +55,11 @@ const OutsourcedManagement = () => {
                   src={moduleImages[index]}
                   alt={mod.image_alt}
                   className="w-full h-full object-cover"
+                  style={
+                    index === 1
+                      ? { filter: "contrast(1.65) saturate(1.1)" }
+                      : undefined
+                  }
                   onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
                     e.currentTarget.style.display = "none";
                     const parent = e.currentTarget.parentElement;

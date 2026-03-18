@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 
 /**
  * Seaweed background: exact motion from loading.io HTML.
@@ -49,6 +49,31 @@ const FloatingSvgBackground = ({
   offsetLeft?: boolean;
 }) => {
   const svgRef = useRef<SVGSVGElement>(null);
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return window.matchMedia("(max-width: 768px)").matches;
+  });
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 768px)");
+    const update = () => setIsMobile(media.matches);
+
+    if (typeof media.addEventListener === "function") {
+      media.addEventListener("change", update);
+      return () => media.removeEventListener("change", update);
+    }
+
+    const legacy = media as unknown as {
+      addListener?: (cb: () => void) => void;
+      removeListener?: (cb: () => void) => void;
+    };
+    if (typeof legacy.addListener === "function") {
+      legacy.addListener(update);
+      return () => legacy.removeListener && legacy.removeListener(update);
+    }
+
+    return;
+  }, []);
 
   useEffect(() => {
     const svg = svgRef.current;
@@ -77,7 +102,7 @@ const FloatingSvgBackground = ({
 
   return (
     <div
-      className={`absolute inset-0 z-0 overflow-hidden pointer-events-none ${className}`}
+      className={`fixed inset-0 z-0 overflow-visible pointer-events-none md:absolute md:overflow-hidden ${className}`}
       aria-hidden
     >
       <svg
@@ -87,13 +112,19 @@ const FloatingSvgBackground = ({
         preserveAspectRatio="xMidYMid meet"
         className="absolute w-full h-full object-cover seaweed-svg"
         style={{
-          minWidth: "120%",
-          minHeight: "120%",
+          // Keep desktop positioning (offset/scale) so it appears consistently on smaller screens.
+          minWidth: isMobile ? "138%" : "120%",
+          minHeight: isMobile ? "138%" : "120%",
           left: offsetLeft ? "-20%" : "-20%",
-          top: offsetLeft ? "-25%" : "-25%",
+          // Move the seaweed up on mobile by using a more negative top offset.
+          top: offsetLeft ? (isMobile ? "-46%" : "-20%") : isMobile ? "-44%" : "-20%",
           transform: offsetLeft
-            ? "rotate(5deg) scale(1.25)"
-            : "rotate(5deg) scale(1.2)",
+            ? isMobile
+              ? "rotate(5deg) scale(1.45)"
+              : "rotate(5deg) scale(1.25)"
+            : isMobile
+              ? "rotate(5deg) scale(1.42)"
+              : "rotate(5deg) scale(1.2)",
           transformOrigin: offsetLeft ? "left top" : "left top",
         }}
       >

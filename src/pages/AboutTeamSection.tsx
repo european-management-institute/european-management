@@ -9,12 +9,12 @@ const AboutTeamSection = () => {
   return (
     <div className="mx-auto">
       {/* About Section */}
-      <div className="p-6 md:p-12 max-w-7xl mx-auto">
-        <h2 className="text-2xl font-MN font-medium mb-12">
+      <div className="pt-5 pb-3 px-2 md:px-6 md:py-12 md:pb-8 max-w-7xl mx-auto">
+        <h2 className="text-2xl font-MN font-medium mb-6 md:mb-12">
           {t("AboutTeamSection.about_section_title")}
         </h2>
 
-        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN">
+        <div className="space-y-6 text-lg leading-7 leading-tight text-justify font-MN">
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph1")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph2")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph3")}</p>
@@ -53,9 +53,9 @@ const AboutTeamSection = () => {
       </div>
 
       {/* Team Members Section */}
-      <div className="pt-4 pb-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="flex flex-col md:flex-row gap-y-12 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
+      <div className="pt-1 pb-6 md:pt-4 md:pb-12">
+        <div className="max-w-7xl mx-auto px-2 md:px-4 md:px-6">
+          <div className="flex flex-col md:flex-row gap-y-6 md:gap-y-0 md:gap-x-8 items-stretch justify-between">
             {(() => {
               const team = t("digital.team", { returnObjects: true }) as any[];
               return (
@@ -66,11 +66,11 @@ const AboutTeamSection = () => {
                       <div
                         key={idx}
                         className={
-                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-2 md:p-4` +
+                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-1 md:py-2 md:px-2 md:pr-6` +
                           (isThirdOfThree ? "md:col-span-1 md:mx-auto w-full" : "")
                         }
                       >
-                        <div className="order-1 md:order-2 space-y-4 flex-1 flex flex-col">
+                        <div className="order-1 md:order-2 space-y-2 md:space-y-2 flex-1 flex flex-col">
                           <div>
                             <h3 className="text-2xl md:text-3xl font-MN font-semibold text-gray-900">
                               {member.title}

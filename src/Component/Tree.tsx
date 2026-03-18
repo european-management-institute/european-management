@@ -34,9 +34,9 @@ const TreeItem = ({ label, children, className = "", link }) => {
           : "last:before:border-r-2 last:before:rounded-tr-md first:after:rounded-tl-md"
       }
       before:content-[''] before:absolute before:top-0 before:right-1/2 before:w-1/2 
-      before:h-24 before:border-t-2 before:border-gray-300
+      before:h-24 before:border-t-2 before:border-current
       after:content-[''] after:absolute after:top-0 after:left-1/2 after:w-1/2 
-      after:h-24 after:border-t-2 after:border-l-2 after:border-gray-300
+      after:h-24 after:border-t-2 after:border-l-2 after:border-current
       [&:only-child]:pt-0 [&:only-child]:before:hidden [&:only-child]:after:hidden
       first:before:border-0 last:after:border-0
     `}
