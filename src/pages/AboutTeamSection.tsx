@@ -9,12 +9,12 @@ const AboutTeamSection = () => {
   return (
     <div className="mx-auto">
       {/* About Section */}
-      <div className="p-12 max-w-7xl mx-auto">
+      <div className="p-6 md:p-12 max-w-7xl mx-auto">
         <h2 className="text-2xl font-MN font-medium mb-12">
           {t("AboutTeamSection.about_section_title")}
         </h2>
 
-        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN pb-8">
+        <div className="space-y-8 text-lg max-w-5xl leading-7 leading-tight text-justify font-MN md:pb-8">
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph1")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph2")}</p>
           <p className="font-MN leading-7">{t("AboutTeamSection.about_paragraph3")}</p>
@@ -59,14 +59,14 @@ const AboutTeamSection = () => {
             {(() => {
               const team = t("digital.team", { returnObjects: true }) as any[];
               return (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-8 items-stretch justify-between w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-8 items-stretch justify-between w-full">
                   {team.map((member, idx) => {
                     const isThirdOfThree = team.length === 3 && idx === 2;
                     return (
                       <div
                         key={idx}
                         className={
-                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-6 md:p-8 ` +
+                          `flex flex-col bg-transparent rounded-lg overflow-hidden p-2 md:p-6 md:p-8 ` +
                           (isThirdOfThree ? "md:col-span-1 md:mx-auto w-full" : "")
                         }
                       >

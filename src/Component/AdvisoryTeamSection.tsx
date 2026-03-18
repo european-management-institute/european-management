@@ -11,7 +11,7 @@ const AdvisoryTeamSection = () => {
         <h2 className="text-xl md:text-2xl font-MN font-semibold text-gray-900 uppercase tracking-tight">
           {t("advisoryTeam.rightColumn_title")}
         </h2>
-        <p className="text-lg md:text-xl leading-relaxed font-MN font-light text-gray-700">
+        <p className="text-lg md:text-xl leading-relaxed font-MN font-light text-gray-700 text-justify">
           {t("advisoryTeam.belowHero_paragraph")}
         </p>
       </div>
