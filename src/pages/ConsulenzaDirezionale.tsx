@@ -19,7 +19,7 @@ const ConsulenzaDirezionale = () => {
   return (
     <section>
       {/* Top section: heading left, intro paragraph right (dark blue) */}
-      <div className="max-w-7xl mx-auto py-10 md:py-14 lg:py-18 px-4 md:px-6">
+      <div className="max-w-7xl mx-auto py-10 md:py-14 md:pb-10 lg:py-18 px-4 md:px-6">
         <div className="grid md:grid-cols-[1.65fr_2.5fr] gap-6 md:gap-1 items-start">
           <div className="flex flex-col justify-start space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-MN font-bold text-black leading-tight uppercase tracking-tight">
@@ -87,6 +87,9 @@ const ConsulenzaDirezionale = () => {
       <div className="pt-4 md:pt-6 pb-10 md:pb-16 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4">
           <div className="mx-auto md:pt-4 md:pb-8 md:px-8 space-y-8 max-w-7xl md:px-6">
+            <h3 className="font-MN text-blue-950 font-semibold tracking-tight text-2xl text-center md:text-left">
+              {t("ConsulenzaDirezionale.outsourced_management_section_title")}
+            </h3>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.outsourced_management.intro1")}
             </p>
