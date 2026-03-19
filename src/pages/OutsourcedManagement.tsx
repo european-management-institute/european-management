@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
 import publicPolicyImg1 from "../assets/3.jpg";
 import publicPolicyImg2 from "../assets/4.jpg";
-import publicPolicyImg3 from "../assets/5.jpg";
+import publicPolicyImg3 from "../assets/5.jpeg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OutsourcedManagement = () => {
