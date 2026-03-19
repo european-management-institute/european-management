@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
-import interestGroupsImg from "../assets/fe606492-66bd-4c15-a2e9-9715edc98576-220047bb-5fc8-4a6e-b70c-c99ad1476c05.png";
+import publicPolicyImg1 from "../assets/3.jpg";
+import publicPolicyImg2 from "../assets/4.jpg";
+import publicPolicyImg3 from "../assets/5.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const OutsourcedManagement = () => {
@@ -12,9 +14,9 @@ const OutsourcedManagement = () => {
 
   // Unsplash images – each matched to card text
   const moduleImages = [
-    interestGroupsImg, // Interest groups and stakeholders mapping
-    "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=900&q=85&fit=crop", // Monitoring screen – Quality monitor, automated user monitoring
-    "https://images.unsplash.com/photo-1767424196045-030bbde122a4?w=900&q=85&fit=crop", // Tablet with charts – Indagini di mercato, digital & AI insights
+    publicPolicyImg1, // 1st public policy photo
+    publicPolicyImg2, // 2nd public policy photo
+    publicPolicyImg3, // 3rd public policy photo
   ];
 
   return (
@@ -57,7 +59,12 @@ const OutsourcedManagement = () => {
                   className="w-full h-full object-cover"
                   style={
                     index === 1
-                      ? { filter: "contrast(1.65) saturate(1.1)" }
+                      ? {
+                          filter: "contrast(1.65) saturate(1.1)",
+                          objectPosition: "left center",
+                          transform: "scale(1.25)",
+                          transformOrigin: "left center",
+                        }
                       : undefined
                   }
                   onError={(e: React.SyntheticEvent<HTMLImageElement>) => {

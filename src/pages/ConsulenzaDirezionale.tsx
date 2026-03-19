@@ -1,9 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import emiLogo from "../assets/ombrato_reduced.png";
-import consulenzaDirezionaleImage1 from "../assets/consulenza-direzionale-1.png";
-import consulenzaDirezionaleImage2 from "../assets/consulenza-direzionale-2.png";
-import consulenzaDirezionaleImage3 from "../assets/consulenza-direzionale-3.png";
+import consulenzaDirezionaleImage1 from "../assets/1.jpg";
+import consulenzaDirezionaleImage2 from "../assets/2.jpg";
+import consulenzaDirezionaleImage3 from "../assets/6.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ConsulenzaDirezionale = () => {
@@ -60,6 +60,14 @@ const ConsulenzaDirezionale = () => {
                   src={moduleImages[index]}
                   alt={mod.image_alt}
                   className="w-full h-full object-cover"
+                  style={
+                    index === 0 || index === 2
+                      ? {
+                          filter:
+                            "brightness(1) contrast(1) saturate(1.1) sepia(0.03) hue-rotate(347deg)",
+                        }
+                      : undefined
+                  }
                   onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
                     e.currentTarget.style.display = "none";
                     const parent = e.currentTarget.parentElement;

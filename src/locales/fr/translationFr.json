@@ -245,7 +245,7 @@
   },
   "ConsulenzaDirezionale": {
     "title": "CONSEIL DIRECTIONNEL & LOGICIEL",
-    "subtitle": "Appels d'offres et finance, efficacité, développement et digital",
+    "subtitle": "Outsource management",
     "intro": "L'externalisation directionnelle est une pratique principalement adoptée par les grandes entreprises en phase de croissance ou de changement, qui choisissent de confier à des managers externes expérimentés la gestion clé en main de projets ou l'atteinte d'objectifs spécifiques : opérations extraordinaires, appels d'offres et marchés, développement de marché et digitalisation sont les domaines d'action les plus fréquents.",
     "outsourced_management_section_title": "Conseil de direction",
     "modules": [
@@ -392,7 +392,7 @@
         "title": "Luca Bazzanella",
         "role": "Managing Director",
         "image": "./luca_profile.png",
-        "description": "Manager originaire du Trentin, né en 1991, avec une expérience en tant que conseiller au Parlement européen. Spécialisé en gestion d'entreprise externalisée et en digitalisation, avec une expertise particulière dans l'analyse des politiques publiques et les relations institutionnelles. Toujours passionné par la recherche du juste équilibre entre efficacité d'entreprise et impact social.",
+        "description": "Manager originaire du Trentin, avec une expérience en tant que conseiller au Parlement européen. Spécialisé en gestion d'entreprise externalisée et en digitalisation, avec une expertise particulière dans l'analyse des politiques publiques et les relations institutionnelles. Toujours passionné par la recherche du juste équilibre entre efficacité d'entreprise et impact social.",
         "links": {
           "github": "GitHub",
           "linkedin": "LinkedIn",
