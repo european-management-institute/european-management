@@ -6,6 +6,8 @@ import publicPolicyImg2 from "../assets/4.jpg";
 import publicPolicyImg3 from "../assets/5.jpeg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import { useRef } from "react";
+
 const OutsourcedManagement = () => {
   const { t } = useTranslation();
   const modules = t("servicesManagement.public_policy.modules", {
@@ -18,6 +20,25 @@ const OutsourcedManagement = () => {
     publicPolicyImg2, // 2nd public policy photo
     publicPolicyImg3, // 3rd public policy photo
   ];
+
+  // Refs for each text block (1: intro, 2: Quality Monitor, 3: Citizen Satisfaction)
+  const introRef = useRef<HTMLDivElement>(null);
+  const qualityMonitorRef = useRef<HTMLDivElement>(null);
+  const citizenSatisfactionRef = useRef<HTMLDivElement>(null);
+
+  // Scroll with offset so titles are visible
+  const scrollWithOffset = (ref: React.RefObject<HTMLDivElement>, offset = 80) => {
+    if (ref.current) {
+      const top = ref.current.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
+  };
+
+  const handlePhotoClick = (idx: number) => {
+    if (idx === 0) scrollWithOffset(introRef);
+    else if (idx === 1) scrollWithOffset(qualityMonitorRef);
+    else if (idx === 2) scrollWithOffset(citizenSatisfactionRef);
+  };
 
   return (
     <section>
@@ -51,8 +72,10 @@ const OutsourcedManagement = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {modules?.map((mod, index) => (
-            <div key={index} className="flex flex-col rounded-lg overflow-hidden">
-              <div className="aspect-[4/3] w-full overflow-hidden bg-gray-200">
+            <div key={index} className="flex flex-col rounded-lg overflow-hidden cursor-pointer group"
+              onClick={() => handlePhotoClick(index)} tabIndex={0} role="button" aria-label={`Vai a ${mod.line1}`}
+              onKeyPress={e => { if (e.key === 'Enter' || e.key === ' ') handlePhotoClick(index); }}>
+              <div className="aspect-[4/3] w-full overflow-hidden bg-gray-200 group-hover:scale-105 transition-transform duration-300">
                 <LazyLoadImage
                   src={moduleImages[index]}
                   alt={mod.image_alt}
@@ -79,7 +102,10 @@ const OutsourcedManagement = () => {
                   }}
                 />
               </div>
-              <div className="bg-transparent py-3 px-2 text-left">
+              <div className="bg-transparent py-3 px-2 text-left cursor-pointer"
+                onClick={e => { e.stopPropagation(); handlePhotoClick(index); }}
+                tabIndex={0} role="button" aria-label={`Vai a ${mod.line1} testo`}
+                onKeyPress={e => { if (e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); handlePhotoClick(index); } }}>
                 <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
                   {mod.line1}
                 </p>
@@ -96,20 +122,26 @@ const OutsourcedManagement = () => {
       <div className="pb-16 pt-6 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4 w-full">
           <div className="mx-auto md:pt-6 md:pb-8 md:px-8 space-y-8 max-w-7xl md:px-6">
+            {/* 1st text block - Interest groups and stakeholders mapping (intro) */}
+            <div ref={introRef} tabIndex={-1} />
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.public_policy.intro")}
             </p>
-            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
-              {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.title")}
-            </h4>
-            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">
-              {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.intro")}
-            </p>
+            {/* 2nd text block - Quality Monitor */}
+            <div ref={qualityMonitorRef} tabIndex={-1} />
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mx-auto md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.title")}
             </h4>
             <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">
               {t("servicesManagement.public_policy.digital_public_policy.quality_monitor.intro")}
+            </p>
+            {/* 3rd text block - Citizen Satisfaction */}
+            <div ref={citizenSatisfactionRef} tabIndex={-1} />
+            <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
+              {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.title")}
+            </h4>
+            <p className="text-lg md:text-xl font-MN font-light text-gray-700 mb-4 text-justify">
+              {t("servicesManagement.public_policy.digital_public_policy.citizen_satisfaction.intro")}
             </p>
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
               {t("servicesManagement.public_policy.digital_public_policy.microtargeting_ai.title")}

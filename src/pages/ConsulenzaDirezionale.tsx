@@ -6,6 +6,8 @@ import consulenzaDirezionaleImage2 from "../assets/2.jpg";
 import consulenzaDirezionaleImage3 from "../assets/6.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
+import { useRef } from "react";
+
 const ConsulenzaDirezionale = () => {
   const { t } = useTranslation();
   const modules = t("ConsulenzaDirezionale.modules", {
@@ -18,6 +20,21 @@ const ConsulenzaDirezionale = () => {
     consulenzaDirezionaleImage2, // Chart image (2nd card)
     consulenzaDirezionaleImage3, // New 3rd photo
   ];
+
+  // Refs for each text block
+  const textRefs = [useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null)];
+
+  // Scroll with offset so titles are visible
+  const scrollWithOffset = (ref: React.RefObject<HTMLDivElement>, offset = 80) => {
+    if (ref.current) {
+      const top = ref.current.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
+  };
+
+  const handlePhotoClick = (idx: number) => {
+    scrollWithOffset(textRefs[idx]);
+  };
 
   return (
     <section>
@@ -54,8 +71,10 @@ const ConsulenzaDirezionale = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-6 pb-0">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {modules?.map((mod, index) => (
-            <div key={index} className="flex flex-col">
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-t-lg bg-gray-200">
+            <div key={index} className="flex flex-col cursor-pointer group"
+              onClick={() => handlePhotoClick(index)} tabIndex={0} role="button" aria-label={`Vai a ${mod.line1}`}
+              onKeyPress={e => { if (e.key === 'Enter' || e.key === ' ') handlePhotoClick(index); }}>
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-t-lg bg-gray-200 group-hover:scale-105 transition-transform duration-300">
                 <LazyLoadImage
                   src={moduleImages[index]}
                   alt={mod.image_alt}
@@ -81,7 +100,10 @@ const ConsulenzaDirezionale = () => {
                   }}
                 />
               </div>
-              <div className="bg-transparent py-3 px-2 text-left">
+              <div className="bg-transparent py-3 px-2 text-left cursor-pointer"
+                onClick={e => { e.stopPropagation(); handlePhotoClick(index); }}
+                tabIndex={0} role="button" aria-label={`Vai a ${mod.line1} testo`}
+                onKeyPress={e => { if (e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); handlePhotoClick(index); } }}>
                 <p className="font-MN font-semibold text-gray-900 text-lg md:text-xl">
                   {mod.line1}
                 </p>
@@ -98,15 +120,21 @@ const ConsulenzaDirezionale = () => {
       <div className="pt-4 md:pt-6 pb-10 md:pb-16 px-4 md:px-0 w-full flex items-center justify-center">
         <div className="w-full mx-auto px-4">
           <div className="mx-auto md:pt-4 md:pb-8 md:px-8 space-y-8 max-w-7xl md:px-6">
+            {/* 1st text block - Bandi e contributi */}
+            <div ref={textRefs[0]} tabIndex={-1} />
             <h3 className="font-MN text-blue-950 font-semibold tracking-tight text-2xl md:text-left">
               {t("ConsulenzaDirezionale.outsourced_management_section_title")}
             </h3>
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.outsourced_management.intro1")}
             </p>
+            {/* 2nd text block - Digitale e automazione */}
+            <div ref={textRefs[1]} tabIndex={-1} />
             <p className="text-lg md:text-xl font-MN font-light leading-relaxed text-justify text-gray-700">
               {t("servicesManagement.outsourced_management.intro")}
             </p>
+            {/* 3rd text block - Operazioni straordinarie */}
+            <div ref={textRefs[2]} tabIndex={-1} />
             <h4 className="font-MN text-blue-950 font-semibold text-2xl tracking-tight mb-4 md:text-left">
               {t("servicesManagement.outsourced_management.digital_management.title")}
             </h4>
