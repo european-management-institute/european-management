@@ -64,7 +64,7 @@ const ConsulenzaDirezionale = () => {
                     index === 0 || index === 2
                       ? {
                           filter:
-                            "brightness(-599) contrast(1) saturate(1.1) sepia(0.03) hue-rotate(327deg)",
+                            "brightness(1) contrast(1) saturate(1.1) sepia(0.03) hue-rotate(347deg)",
                         }
                       : undefined
                   }
