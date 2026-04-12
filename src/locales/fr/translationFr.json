@@ -250,12 +250,12 @@
     "outsourced_management_section_title": "Conseil de direction",
     "modules": [
       {
-        "line1": "Appels d'offres et contributions",
-        "line2": "Stratégie, partenariat, planification, reporting",
+        "line1": "Appels d'offres et partenariats",
+        "line2": "Stratégie, partenariat, conception de projets, reporting",
         "image_alt": "Bâtiment moderne avec drapeaux"
       },
       {
-        "line1": "Digital et automatisation",
+        "line1": "Tech hub",
         "line2": "Logiciel sur mesure",
         "image_alt": "Main interagissant avec un appareil numérique"
       },
